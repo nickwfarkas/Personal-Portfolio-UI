@@ -12,6 +12,9 @@ module.exports = {
     },
     darkMode: 'class', // or 'media' or 'class'
     theme: {
+      fontSize: {
+        'full-screen': '10vw'
+      },
       extend: {
         fontFamily: {
           sans: ['MontserratSubrayada-Regular', 'sans-serif']

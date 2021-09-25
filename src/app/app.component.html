@@ -1,3 +1,31 @@
-<div>
-  <span class="whitespace-nowrap flex-shrink p-10 font-sans text-7xl">Nicholas Farkas</span>
-</div>
+<!DOCTYPE html>
+<html>
+  <head>
+
+  </head>
+  <body>
+    <div class="text-center whitespace-nowrap text-black font-sans text-full-screen">Nicholas Farkas</div>
+
+    <div class="flex flex-col justify-center items-center">
+      <table mat-table [dataSource]="dataSource" class="mat-elevation-z8">
+    
+        <!-- Language Column -->
+        <ng-container matColumnDef="language">
+          <th mat-header-cell *matHeaderCellDef> Name </th>
+          <td mat-cell *matCellDef="let experience"> {{experience.language}} </td>
+        </ng-container>
+      
+        <!-- Years of Experience Column -->
+        <ng-container matColumnDef="years-of-experience">
+          <th mat-header-cell *matHeaderCellDef> Years </th>
+          <td mat-cell *matCellDef="let experience"> {{experience.yearsOfExperience}} </td>
+        </ng-container>
+      
+        <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+        <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+      </table>
+    </div>
+  </body>
+</html>
+
+
