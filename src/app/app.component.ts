@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
-import { Profile } from 'src/models/profile.model';
-import { Skill } from 'src/models/skill.model';
+import { Profile } from 'src/app/models/profile.model';
+import { Skill } from 'src/app/models/skill.model';
 
 export interface Experience {
   language: string;
@@ -26,7 +26,4 @@ export class AppComponent {
   title = 'personal-portfolio';
   displayedColumns: string[] = ['language', 'years-of-experience'];
   dataSource = ELEMENT_DATA;
-  p = new Profile("Nicholas Farkas", "walter7236@gmail.com", "313-969-3310", ["Rocket Mortgage"], 
-    [new Skill("Typescript", "Use Typescript for Angular", 2, 2, ["Web"])],
-    "nickwfarkas.github.io","nickfarkas")
 }

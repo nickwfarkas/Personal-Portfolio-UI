@@ -1,16 +1,16 @@
 import { Skill } from "./skill.model";
-
+import { WorkExperience } from "./work-experience.model";
 export class Profile {
     private name: string;
     private email: string;
     private phoneNumber: string;
-    private workExperience: any[]; //TODO Work Experience Class
+    private workExperience: WorkExperience[]; //TODO Work Experience Class
     private skills: Skill[];
     private gitHubUrl: string;
     private instagramUrl: string;
 
     constructor(name: string, email: string, phoneNumber: string, 
-        workExperience: any[], skills: Skill[], 
+        workExperience: WorkExperience[], skills: Skill[], 
         gitHubUrl: string, instagramUrl: string){
         this.name = name;
         this.email = email;
@@ -45,19 +45,19 @@ export class Profile {
         this.phoneNumber = phoneNumber;
     }
 
-    getWorkExperience(i: number): any{
+    getWorkExperience(i: number): WorkExperience{
         return this.workExperience[i];
     }
 
-    getAllWorkExperience(): any[]{
+    getAllWorkExperience(): WorkExperience[]{
         return this.workExperience;
     }
 
-    setWorkExperience(workExperience: any[]): void{
+    setWorkExperience(workExperience: WorkExperience[]): void{
         this.workExperience = workExperience;
     }
 
-    addWorkExperience(work: any): void{
+    addWorkExperience(work: WorkExperience): void{
         this.workExperience.push(work);
     }
 
@@ -74,7 +74,7 @@ export class Profile {
     }
 
     addSkill(skill: Skill): void{
-        this.workExperience.push(skill);
+        this.skills.push(skill);
     }
 
     getGitHubUrl(): string{
