@@ -1,0 +1,241 @@
+{
+    "Profile": {
+        "_name": "Nicholas Farkas",
+        "_email": "nicholaswfarkas@gmail.com",
+        "_phoneNumber": "313-969-3310",
+        "_workExperience": [
+            {
+                "_positionName": "Software Engineer Intern",
+                "_companyName": "Quicken Loans/Rocket Mortgage",
+                "_startDate": "May, 2019",
+                "_endDate": "August, 2019",
+                "_city": "Detroit",
+                "_attributes": [
+                    "C# .Net Core backend development for many different internal applications.",
+                    "Head of UX design with a team of interns to create an internal education tool for new team members.",
+                    "Presented iteration recaps that showed our business partners and higher management what features my team have deployed and what they can be expecting to see deployed",
+                    "Created infrastructure diagrams and code documentation to show how code has been implemented and how infrastructure has been structured to support said code so there can be a seamless transition when a team or team member takes over work on an application."
+                ]
+            },
+            {
+                "_positionName": "Software Engineer Intern",
+                "_companyName": "Quicken Loans/Rocket Mortgage",
+                "_startDate": "June, 2020",
+                "_endDate": "August, 2020",
+                "_city": "Detroit",
+                "_attributes": [
+                    "Querying, modifying and creating data tables in Salesforce Marketing Cloud using SQL.",
+                    "Salesforce Marketing Cloud email testing and template creation using Postman.",
+                    "Assisted marketing team with technical challenges in Salesforce Marketing Cloud.",
+                    "Assisted in creating Salesforce Marketing Cloud Automations and MuleSoft flows."
+                ]
+            },
+            {
+                "_positionName": "Software Engineer Intern",
+                "_companyName": "Rocket Mortgage",
+                "_startDate": "May, 2021",
+                "_endDate": "August, 2021",
+                "_city": "Detroit",
+                "_attributes": [
+                    "Developed rich UI experiences using Angular and Material design to deliver a simplistic and beautiful solutions for internal business problems.",
+                    "Created backend solutions to plug into UI using C# .Net Core, Entity Framework, and SQL.",
+                    "Worked with team of interns to create a Microsoft Teams bot utilizing C# and Microsoft Developer tools."
+                ]
+            },
+            {
+                "_positionName": "Administrative Assistant",
+                "_companyName": "ATS Advisors",
+                "_startDate": "June, 2017",
+                "_endDate": "May, 2019",
+                "_city": "Allen Park",
+                "_attributes": [
+                    "Updated filing system by digitizing tax forms and bookkeeping records so the whole company has to rely less on paper filings with more secure, scalable, and reliable digital pdf format.",
+                    "Corporate QuickBooks bookkeeping throughout year-ending so I could create payroll, income, and other financial analytics for quarterly, semiannual, and annual taxes.",
+                    "Completed front desk duties such as checking in and out clients, taking payment and handling money, call reception, aid in understanding their tax return and customer service resulting in a seamless tax process for our clients."
+                ]
+            },
+            {
+                "_positionName": "Fulfillment Associate",
+                "_companyName": "Amazon",
+                "_startDate": "October, 2019",
+                "_endDate": "October, 2021",
+                "_city": "Brownstown",
+                "_attributes": [ 
+                    "Unloaded incoming trucks and properly staged inventory for processing.",
+                    "Loaded outbound trucks by hand or by pallet jacking whole pallets in a safe and efficent manner.",                   
+                    "Assisting Associate Product Check In, making sure associates have everything they need to be successful. Clearing conveyor jams and packages that are sent to the wrong location while handling damaged packages safely.",
+                    "Problem Solving if there was a damaged package or package in incorrect building, I would assess the problem and take care it. Whether I had to re-box, do spill cleanup in which I was hazmat trained, or send a request for a new product for the customer."
+                ]
+            }
+
+        ],
+        "_skills": [
+            {
+                "_skillName": "Angular",
+                "_skillDescription": "Proficent using the Angular framework with Typescript to create beautiful, immersive, and responsive UIs.",
+                "_skillRating": 3,
+                "_industryExperience": 1,
+                "_tags": [
+                    "Industry",
+                    "Front End",
+                    "Web Development"
+                ]
+            },
+            {
+                "_skillName": "TypeScript",
+                "_skillDescription": "Proficent using the TypeScript with Angular Framework to write typeable, testable, scalable code for UIs.",
+                "_skillRating": 3,
+                "_industryExperience": 1,
+                "_tags": [
+                    "Industry",
+                    "Front End",
+                    "Web Development"
+                ]
+            },
+            {
+                "_skillName": "C#",
+                "_skillDescription": "Enjoy writting C# when utilizing .Net Core to write APIs.",
+                "_skillRating": 3,
+                "_industryExperience": 2,
+                "_tags": [
+                    "Industry",
+                    "Back End",
+                    "Web Development"
+                ]
+            },
+            {
+                "_skillName": "JavaScript",
+                "_skillDescription": "Experienced writing vanilla JavaScript and JQuery to create small scale web applications.",
+                "_skillRating": 2,
+                "_industryExperience": 1,
+                "_tags": [
+                    "Industry",
+                    "Front End",
+                    "Web Development"
+                ]
+            },
+            {
+                "_skillName": "HTML",
+                "_skillDescription": "Is it a programming language? Is it not? Either way there is no escaping writing it. I am proficent using it with Angular and vanilla JavaScript.",
+                "_skillRating": 3,
+                "_industryExperience": 2,
+                "_tags": [
+                    "Industry",
+                    "Front End",
+                    "Web Development"
+                ]
+            },
+            {
+                "_skillName": "CSS",
+                "_skillDescription": "Just like HTML there is no escaping CSS. Even when I try to escape and use tailwind I always end up writing more than I would like. I am proficent using it with HTML, Angular and vanilla JavaScript.",
+                "_skillRating": 3,
+                "_industryExperience": 2,
+                "_tags": [
+                    "Industry",
+                    "Front End",
+                    "Web Development"
+                ]
+            },
+            {
+                "_skillName": "SQL",
+                "_skillDescription": "I am a big fan of the relational model and thus a fan of SQL. I have written a lot of SQL from MySQL, AWS RDS, Access, to Salesforce Marketing Cloud.",
+                "_skillRating": 3,
+                "_industryExperience": 3,
+                "_tags": [
+                    "Academic",
+                    "Industry",
+                    "Back End",
+                    "Web Development",
+                    "Database"
+                ]
+            },
+            {
+                "_skillName": "C++",
+                "_skillDescription": "Though I have never worked with C++ on a industry application. C++ is my language of choice when solving academic computer science problems from data structures, algorithms, to even a little microcontroller programming.",
+                "_skillRating": 2,
+                "_industryExperience": 0,
+                "_tags": [
+                    "Academic",
+                    "Back End"
+                ]
+            },
+            {
+                "_skillName": "Java",
+                "_skillDescription": "I have done a lot of school projects in Java and even some high school robotics but have no idustry experience yet.",
+                "_skillRating": 2,
+                "_industryExperience": 0,
+                "_tags": [
+                    "Academic",
+                    "Back End"
+                ]
+            },
+            {
+                "_skillName": "Python",
+                "_skillDescription": "Just like everyone else I have a very special place in my heart for python and have created countless scripts to working with Django to programming IoT lamndas",
+                "_skillRating": 1,
+                "_industryExperience": 0,
+                "_tags": [
+                    "Academic",
+                    "Front End",
+                    "Back End",
+                    "Web Development",
+                    "Data Science"
+                ]
+            },
+            {
+                "_skillName": "R",
+                "_skillDescription": "I have a love for statistical data analysis and how R handles matricies and large data sets with only a few lines of code.",
+                "_skillRating": 1,
+                "_industryExperience": 0,
+                "_tags": [
+                    "Academic",
+                    "Data Science"
+                ]
+            },
+            {
+                "_skillName": "Git/GitHub",
+                "_skillDescription": "I have a love for statistical data analysis and how R handles matricies and large data sets with only a few lines of code.",
+                "_skillRating": 3,
+                "_industryExperience": 3,
+                "_tags": [
+                    "Academic",
+                    "Industry",
+                    "Developer Tools"
+                ]
+            },
+            {
+                "_skillName": "Postman",
+                "_skillDescription": "Postman is a must have for testing APIs in the backend.",
+                "_skillRating": 3,
+                "_industryExperience": 3,
+                "_tags": [
+                    "Developer Tools"
+                ]
+            },
+            {
+                "_skillName": "Excel",
+                "_skillDescription": "From my first job to my last job I have been working in Excel for years. From bookkeeping to data analysis to creating CSVs I know my way around Excel. Even have earned a Microsoft Specialist Certification.",
+                "_skillRating": 2,
+                "_industryExperience": 5,
+                "_tags": [
+                    "Academic",
+                    "Industry",
+                    "Developer Tools"
+                    ]
+            },
+            {
+                "_skillName": "Agile Methodology",
+                "_skillDescription": "When I learned of the Agile way of looking at projects it changed my whole perspective. Even on my personal projects I always find time for a work board and cutting my tasks into verticle slices.",
+                "_skillRating": 2,
+                "_industryExperience": 3,
+                "_tags": [
+                    "Industry",
+                    "Developer Tools"
+                ]
+            } 
+        ],
+        "_gitHubUrl": "https://github.com/nickwfarkas",
+        "_instagramUrl": "https://www.instagram.com/nickfarkas_9/",
+        "_linkedInUrl": "https://www.linkedin.com/in/nicholas-farkas-097a6b157/"
+    }
+} 
