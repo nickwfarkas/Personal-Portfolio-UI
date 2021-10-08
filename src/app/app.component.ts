@@ -1,7 +1,8 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { Profile } from 'src/app/models/profile.model';
 import { Skill } from 'src/app/models/skill.model';
 import { WorkExperience } from './models/work-experience.model';
+import  *  as  d  from  'src/assets/Profile.json';
 
 export interface Experience {
   language: string;
@@ -18,7 +19,7 @@ const ELEMENT_DATA: Experience[] = [
   {language: "R", yearsOfExperience: 1}
 ];
 
-let pro = new Profile
+let data = new Profile
 (
   "Nicholas Farkas",
   "nicholaswfarkas.dev@gmail.com",
@@ -63,10 +64,31 @@ let pro = new Profile
       [
         ".Net Core"
       ]
+    ),
+    new Skill
+    (
+      "Java",
+      "Use Java for Application Developement",
+      2,
+      2,
+      [
+        "School"
+      ]
+    ),
+    new Skill
+    (
+      "C++",
+      "Use C++ for Application Developement",
+      2,
+      2,
+      [
+        "School"
+      ]
     )
   ],
   "nickwfarkas.github.io",
-  "nickfarkas9"
+  "nickfarkas9",
+  "nickfarkas"
 );
 
 
@@ -79,5 +101,5 @@ export class AppComponent{
   title = 'personal-portfolio';
   displayedColumns: string[] = ['language', 'years-of-experience'];
   dataSource = ELEMENT_DATA;
-  profile = pro;
+  p = data;
 }

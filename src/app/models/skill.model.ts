@@ -1,71 +1,71 @@
 export class Skill {
-    private skillName: string;
-    private skillDescription: string;
-    private skillRating: number;
-    private industryExperience: number;
-    private tags: string[];
+    private _skillName: string;
+    private _skillDescription: string;
+    private _skillRating: number;
+    private _industryExperience: number;
+    private _tags: string[];
 
     constructor(skillName: string, skillDescription: string,
         skillRating: number, industryExperience: number,
         tags: string[]){
-            this.skillName = skillName;
-            this.skillDescription = skillDescription;
-            this.industryExperience = industryExperience;
-            this.tags = tags;
-            if(skillRating <= 1) skillRating = 1;
-            else if(skillRating >= 3) skillRating = 3;
-            else skillRating = 2;
-            this.skillRating = skillRating;
+            this._skillName = skillName;
+            this._skillDescription = skillDescription;
+            this._industryExperience = industryExperience;
+            this._tags = tags;
+            if(skillRating <= 1) this._skillRating = 1;
+            else if(skillRating >= 3) this._skillRating = 3;
+            else this._skillRating = 2;
+            this._skillRating = skillRating;
     }
 
     getSkillName(): string{
-        return this.skillName;
+        return this._skillName;
     }
 
     setSkillName(skillName: string): void{
-        this.skillName = skillName;
+        this._skillName = skillName;
     }
 
     getSkillDescription(): string{
-        return this.skillDescription;
+        return this._skillDescription;
     }
 
     setSkillDescription(skillDescription: string): void{
-        this.skillDescription = skillDescription;
+        this._skillDescription = skillDescription;
     }
 
     getSkillRating(): number{
-        return this.skillRating;
+        return this._skillRating;
     }
 
     setSkillRating(skillRating: number):  void{
         if(skillRating <= 1) skillRating = 1;
         else if(skillRating >= 3) skillRating = 3;
         else skillRating = 2;
-        this.skillRating = skillRating;
+        this._skillRating = skillRating;
     }
 
     getIndustryExperience(): number{
-        return this.industryExperience;
+        return this._industryExperience;
     }
 
     setIndustryExperience(industryExperience: number){
-        this.industryExperience =industryExperience;
+        this._industryExperience =industryExperience;
     }
 
     getTag(i: number): string{
-        return this.tags[i];
+        return this._tags[i];
     }
 
     getTags(): string[]{
-        return this.tags;
+        return this._tags;
     }
 
     addTag(tag: string): void{
-        this.tags.push(tag);
+        this._tags.push(tag);
     }
 
     setTags(tags: string[]): void{
-        this.tags = tags;
+        this._tags = tags;
     }
 }

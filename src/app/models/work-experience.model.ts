@@ -1,91 +1,91 @@
 export class WorkExperience 
 {
-    private positionName: string;
-    private companyName: string;
-    private startDate: Date;
-    private endDate: Date;
-    private city: string;
-    private attributes: string[];
+    private _positionName: string;
+    private _companyName: string;
+    private _startDate: Date;
+    private _endDate: Date;
+    private _city: string;
+    private _attributes: string[];
 
     constructor(positionName: string, companyName: string, startDate: Date, 
         endDate: Date, city: string, attributes: string[]){
-            this.positionName = positionName;
-            this.companyName = companyName;
-            this.startDate = startDate;
-            this.endDate = endDate;
-            this.city = city;
-            this.attributes = attributes;
+            this._positionName = positionName;
+            this._companyName = companyName;
+            this._startDate = startDate;
+            this._endDate = endDate;
+            this._city = city;
+            this._attributes = attributes;
     }
 
     getPositionName(): string{
-        return this.positionName;
+        return this._positionName;
     }
 
     setPositionName(positionName: string): void{
-        this.positionName = positionName;
+        this._positionName = positionName;
     }
 
     getCompanyName(): string{
-        return this.companyName;
+        return this._companyName;
     }
 
     setCompanyName(companyName: string): void{
-        this.companyName = companyName;
+        this._companyName = companyName;
     }
 
     getStartDate(): Date{
-        return this.startDate;
+        return this._startDate;
     }
 
     getStartDateString(): string{
-        return (this.startDate.getMonth()+"/"+this.startDate.getFullYear())
+        return (this._startDate.getMonth()+"/"+this._startDate.getFullYear())
     }
 
     setStartDate(startDate: Date): void{
-        this.startDate = startDate;
+        this._startDate = startDate;
     }
 
     setStartDateMonthYear(year: number, month: number): void{
-        this.startDate.setFullYear(year,month-1);
+        this._startDate.setFullYear(year,month-1);
     }
 
     getEndDate(): Date{
-        return this.endDate;
+        return this._endDate;
     }
 
     getEndDateString(): string{
-        return (this.endDate.getMonth()+"/"+this.endDate.getFullYear())
+        return (this._endDate.getMonth()+"/"+this._endDate.getFullYear())
     }
 
     setEndDate(endDate: Date): void{
-        this.endDate = endDate;
+        this._endDate = endDate;
     }
 
     setEndDateMonthYear(year: number, month: number): void{
-        this.endDate.setFullYear(year,month-1);
+        this._endDate.setFullYear(year,month-1);
     }
 
     getCity(): string{
-        return this.city;
+        return this._city;
     }
 
     setCity(city: string): void{
-        this.city = city;
+        this._city = city;
     }
     
     getAttribute(i: number): string{
-        return this.attributes[i];
+        return this._attributes[i];
     }
 
     getAttributes(): string[]{
-        return this.attributes;
+        return this._attributes;
     }
 
     addAttribute(attribute: string): void{
-        this.attributes.push(attribute);
+        this._attributes.push(attribute);
     }
 
     setAttributes(attributes: string[]): void{
-        this.attributes = attributes;
+        this._attributes = attributes;
     }
 }

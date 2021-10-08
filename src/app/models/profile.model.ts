@@ -1,98 +1,107 @@
 import { Skill } from "./skill.model";
 import { WorkExperience } from "./work-experience.model";
 export class Profile {
-    private name: string;
-    private email: string;
-    private phoneNumber: string;
-    private workExperience: WorkExperience[]; //TODO Work Experience Class
-    private skills: Skill[];
-    private gitHubUrl: string;
-    private instagramUrl: string;
+    private _name: string;
+    private _email: string;
+    private _phoneNumber: string;
+    private _workExperience: WorkExperience[]; //TODO Work Experience Class
+    private _skills: Skill[];
+    private _gitHubUrl: string;
+    private _instagramUrl: string;
+    private _linkedInUrl: string;
 
     constructor(name: string, email: string, phoneNumber: string, 
         workExperience: WorkExperience[], skills: Skill[], 
-        gitHubUrl: string, instagramUrl: string){
-        this.name = name;
-        this.email = email;
-        this.phoneNumber = phoneNumber;
-        this.workExperience = workExperience;
-        this.skills = skills;
-        this.gitHubUrl = gitHubUrl;
-        this.instagramUrl = instagramUrl;
+        gitHubUrl: string, instagramUrl: string, linkedInUrl: string){
+        this._name = name;
+        this._email = email;
+        this._phoneNumber = phoneNumber;
+        this._workExperience = workExperience;
+        this._skills = skills;
+        this._gitHubUrl = gitHubUrl;
+        this._instagramUrl = instagramUrl;
+        this._linkedInUrl = linkedInUrl;
     }
 
     getName(): string{
-        return this.name;
+        return this._name;
     }
 
     setName(name: string): void{
-        this.name = name;
+        this._name = name;
     }
 
     getEmail(): string{
-        return this.email;
+        return this._email;
     }
 
     setEmail(email: string): void{
-        this.email = email;
+        this._email = email;
     }
 
     getPhoneNumber(): string{
-        return this.phoneNumber;
+        return this._phoneNumber;
     }
 
     setPhoneNumber(phoneNumber: string): void{
-        this.phoneNumber = phoneNumber;
+        this._phoneNumber = phoneNumber;
     }
 
     getWorkExperience(i: number): WorkExperience{
-        return this.workExperience[i];
+        return this._workExperience[i];
     }
 
     getAllWorkExperience(): WorkExperience[]{
-        return this.workExperience;
+        return this._workExperience;
     }
 
     setWorkExperience(workExperience: WorkExperience[]): void{
-        this.workExperience = workExperience;
+        this._workExperience = workExperience;
     }
 
     addWorkExperience(work: WorkExperience): void{
-        this.workExperience.push(work);
+        this._workExperience.push(work);
     }
 
     getSkill(i: number): Skill{
-        return this.skills[i];
+        return this._skills[i];
     }
 
     getAllSkills(): Skill[]{
-        return this.skills;
+        return this._skills;
     }
 
     setSkills(skills: Skill[]): void{
-        this.skills = skills;
+        this._skills = skills;
     }
 
     addSkill(skill: Skill): void{
-        this.skills.push(skill);
+        this._skills.push(skill);
     }
 
     getGitHubUrl(): string{
-        return this.gitHubUrl;
+        return this._gitHubUrl;
     }
 
     setGitHubUrl(gitHubUrl: string)
     {
-        this.gitHubUrl = gitHubUrl;
+        this._gitHubUrl = gitHubUrl;
     }
 
     getInstagramUrl(): string{
-        return this.instagramUrl;
+        return this._instagramUrl;
     }
 
     setInstagramUrl(instagramUrl: string): void{
-        this.instagramUrl = instagramUrl;
+        this._instagramUrl = instagramUrl;
     }
 
+    getLinkedInUrl(): string{
+        return this._linkedInUrl;
+    }
+
+    setLinkedInUrl(linkedIn: string): void{
+        this._linkedInUrl = linkedIn;
+    }
 
 }
