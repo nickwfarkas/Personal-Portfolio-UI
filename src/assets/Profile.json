@@ -3,6 +3,24 @@
         "_name": "Nicholas Farkas",
         "_email": "nicholaswfarkas@gmail.com",
         "_phoneNumber": "313-969-3310",
+        "_education": [
+            {
+                "_schoolName": "Henry Ford College",
+                "_degreeType": "Associates of Arts",
+                "_degreeName": "General Education",
+                "_startDate": "August, 2018",
+                "_graduationDate": "August, 2020",
+                "_gpa": "3.0"
+            },
+            {
+                "_schoolName": "Wayne State University",
+                "_degreeType": "Bachelor of Science",
+                "_degreeName": "Computer Science",
+                "_startDate": "September, 2020",
+                "_graduationDate": "December, 2022",
+                "_gpa": "3.58"
+            }
+        ],
         "_workExperience": [
             {
                 "_positionName": "Software Engineer Intern",

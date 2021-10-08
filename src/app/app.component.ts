@@ -1,8 +1,9 @@
 import { Component, OnInit } from '@angular/core';
 import { Profile } from 'src/app/models/profile.model';
 import { Skill } from 'src/app/models/skill.model';
+import { Education } from './models/education.model';
 import { WorkExperience } from './models/work-experience.model';
-import  *  as  d  from  'src/assets/Profile.json';
+import { ProfileDataService } from './services/profile-data-service/profile-data-service.service';
 
 export interface Experience {
   language: string;
@@ -24,6 +25,17 @@ let data = new Profile
   "Nicholas Farkas",
   "nicholaswfarkas.dev@gmail.com",
   "313-969-3310",
+  [
+    new Education
+    (
+      "",
+      "",
+      "",
+      new Date(),
+      new Date(),
+      ""
+    )
+  ],
   [
     new WorkExperience
     (
@@ -98,8 +110,11 @@ let data = new Profile
   styleUrls: ['./app.component.css']
 })
 export class AppComponent{
+  constructor(private dataService: ProfileDataService){
+  }
+
   title = 'personal-portfolio';
   displayedColumns: string[] = ['language', 'years-of-experience'];
   dataSource = ELEMENT_DATA;
-  p = data;
+  p = this.dataService.deserializeProfile();
 }

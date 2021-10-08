@@ -1,21 +1,24 @@
+import { Education } from "./education.model";
 import { Skill } from "./skill.model";
 import { WorkExperience } from "./work-experience.model";
 export class Profile {
     private _name: string;
     private _email: string;
     private _phoneNumber: string;
+    private _education: Education[];
     private _workExperience: WorkExperience[]; //TODO Work Experience Class
     private _skills: Skill[];
     private _gitHubUrl: string;
     private _instagramUrl: string;
     private _linkedInUrl: string;
 
-    constructor(name: string, email: string, phoneNumber: string, 
-        workExperience: WorkExperience[], skills: Skill[], 
+    constructor(name: string, email: string, phoneNumber: string,
+        education: Education[], workExperience: WorkExperience[], skills: Skill[], 
         gitHubUrl: string, instagramUrl: string, linkedInUrl: string){
         this._name = name;
         this._email = email;
         this._phoneNumber = phoneNumber;
+        this._education = education;
         this._workExperience = workExperience;
         this._skills = skills;
         this._gitHubUrl = gitHubUrl;
@@ -45,6 +48,14 @@ export class Profile {
 
     setPhoneNumber(phoneNumber: string): void{
         this._phoneNumber = phoneNumber;
+    }
+
+    getEducation(): Education[]{
+        return this._education;
+    }
+
+    setEducation(education: Education[]): void{
+        this._education = education;
     }
 
     getWorkExperience(i: number): WorkExperience{

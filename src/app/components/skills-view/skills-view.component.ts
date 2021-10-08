@@ -11,9 +11,8 @@ import { Skill } from 'src/app/models/skill.model';
 export class SkillsViewComponent implements OnInit{
   @Input() p!: Profile;
   displayedColumns = ['skillName', 'skillRating'];
-  dataSource!: Skill[];
+  dataSource: Skill[] = [];
   ngOnInit(): void {
     this.dataSource = this.p.getAllSkills();
   }
-
 }
