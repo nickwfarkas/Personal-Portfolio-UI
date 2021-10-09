@@ -1,19 +1,52 @@
 <div class="flex flex-col justify-center items-center">
-  <table mat-table [dataSource]="dataSource" class="mat-elevation-z8 bg-gray-500 rounded-r-lg">
-
-    <!-- Position Column -->
-    <ng-container matColumnDef="skillName">
-      <th mat-header-cell *matHeaderCellDef> Name </th>
-      <td mat-cell *matCellDef="let skill"> {{skill._skillName}} </td>
-    </ng-container>
-
-    <!-- Name Column -->
-    <ng-container matColumnDef="skillRating">
-      <th mat-header-cell *matHeaderCellDef> Rating </th>
-      <td mat-cell *matCellDef="let skill"> {{skill._skillRating}} </td>
-    </ng-container>
-
-    <tr mat-header-row *matHeaderRowDef="displayedColumns; sticky: true"></tr>
-    <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
-  </table>
+  <mat-card class="bg-gradient-to-r from-blue-400 via-blue-500 to-blue-600">
+    <a href="sfsd">
+      <img src='assets/github-logo.png' width="80vw" alt="GitHub">
+    </a>
+    <a href="sfsd">
+      <img src='assets/linkedin.png' width="80vw" alt="LinkedIn">
+    </a>
+    <a href="sfsd">
+      <img src='assets/instagram.png' width="80vw" alt="instagram">
+    </a>
+  </mat-card>
 </div>
+
+<div class="labelFont text-center whitespace-nowrap font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-blue-400 via-blue-500 to-blue-600">Education</div>
+
+<div class="flex flex-col justify-center items-center">
+  <mat-accordion multi="true">
+    <mat-expansion-panel [expanded]="true" *ngFor="let education of educationDataSource" class="text-white bg-gradient-to-r from-blue-400 via-blue-500 to-blue-600">
+      <mat-expansion-panel-header [collapsedHeight]="'18vh'" [expandedHeight]="'18vh'">
+        <mat-panel-title class="text-white fixedFont">
+          {{education.getDegreeName()}}
+        </mat-panel-title>
+        <mat-panel-description class="text-white fixedFont">
+            {{education.getStartDateString()+" - "+education.getGraduationDateString()}}
+        </mat-panel-description>
+      </mat-expansion-panel-header>
+      {{education.getDegreeType()+" at "+education.getSchoolName()}}<br>{{"GPA: "+education.getGpa()}}
+    </mat-expansion-panel>
+  </mat-accordion>
+</div>
+
+<div class="labelFont text-center whitespace-nowrap font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-blue-400 via-blue-500 to-blue-600">Skills</div>
+
+<div class="flex flex-col justify-center items-center">
+  <mat-table [dataSource]="skillDataSource" class="bg-gradient-to-r from-blue-400 via-blue-500 to-blue-600 rounded-lg fixedFont float-left">
+    <ng-container matColumnDef="skillName">
+      <mat-header-cell class="text-white" mat-header-cell *matHeaderCellDef> Name </mat-header-cell>
+      <mat-cell class="text-white" mat-cell *matCellDef="let skill"> {{skill._skillName}} </mat-cell>
+    </ng-container>
+
+    <ng-container matColumnDef="skillRating">
+      <mat-header-cell class="text-white justify-center" mat-header-cell *matHeaderCellDef> Skill Rating </mat-header-cell>
+      <mat-cell class="text-white justify-center" mat-cell *matCellDef="let skill"> {{skill._skillRating+"/3"}} </mat-cell>
+    </ng-container>
+  
+    <mat-header-row *matHeaderRowDef="displayedColumns"></mat-header-row>
+    <mat-row matRipple *matRowDef="let row; columns: displayedColumns;"></mat-row>
+  </mat-table>
+</div>
+
+

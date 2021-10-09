@@ -13,11 +13,12 @@ module.exports = {
     darkMode: 'class', // or 'media' or 'class'
     theme: {
       fontSize: {
+        'vw': '10vw',
         'full-screen': '10vw'
       },
       extend: {
         fontFamily: {
-          sans: ['MontserratSubrayada-Regular', 'sans-serif']
+          sans: ['SF-Pro-Text-Regular','SF-Pro-Text-Heavy'],
         }
       },
     },

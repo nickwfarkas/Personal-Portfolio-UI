@@ -40,12 +40,49 @@ export class Education {
         this._degreeName = degreeName;
     }
 
+    getStartDateString(): string{
+        switch(this._startDate.getMonth()){
+            case 1: return ("January/"+this._startDate.getFullYear());
+            case 2: return ("February/"+this._startDate.getFullYear());
+            case 3: return ("March/"+this._startDate.getFullYear());
+            case 4: return ("April/"+this._startDate.getFullYear());
+            case 5: return ("May/"+this._startDate.getFullYear());
+            case 6: return ("June/"+this._startDate.getFullYear());
+            case 7: return ("July/"+this._startDate.getFullYear());
+            case 8: return ("August/"+this._startDate.getFullYear());
+            case 9: return ("September/"+this._startDate.getFullYear());
+            case 10: return ("October/"+this._startDate.getFullYear());
+            case 11: return ("November/"+this._startDate.getFullYear());
+            case 12: return ("December/"+this._startDate.getFullYear()); 
+            default: return ("Current"); 
+        }
+    }
+
     getStartDate(): Date{
         return this._startDate;
     }
 
     setStartDate(startDate: Date): void{
         this._startDate = startDate;
+    }
+
+    getGraduationDateString(): string{
+        console.log(this._graduationDate.getMonth());
+        switch(this._graduationDate.getMonth()){
+            case 1: return ("January/"+this._graduationDate.getFullYear());
+            case 2: return ("February/"+this._graduationDate.getFullYear());
+            case 3: return ("March/"+this._graduationDate.getFullYear());
+            case 4: return ("April/"+this._graduationDate.getFullYear());
+            case 5: return ("May/"+this._graduationDate.getFullYear());
+            case 6: return ("June/"+this._graduationDate.getFullYear());
+            case 7: return ("July/"+this._graduationDate.getFullYear());
+            case 8: return ("August/"+this._graduationDate.getFullYear());
+            case 9: return ("September/"+this._graduationDate.getFullYear());
+            case 10: return ("October/"+this._graduationDate.getFullYear());
+            case 11: return ("November/"+this._graduationDate.getFullYear());
+            case 12: return ("December/"+this._graduationDate.getFullYear()); 
+            default: return ("Current"); 
+        }
     }
 
     getGraduationDate(): Date{

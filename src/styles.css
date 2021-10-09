@@ -6,10 +6,16 @@
 html, body { margin: 0px; height: 100%; min-height: 100%; }
 body {width: 100%; margin: 0px; font-family: Roboto, "Helvetica Neue", sans-serif; }
 *{
+    font-family: -apple-system;
     margin: 0;
 }
 
 @font-face {
-    font-family: MontserratSubrayada-Regular;
-    src: url(assets/MontserratSubrayada-Regular.ttf) format("truetype");
+    font-family: SanFrancisco;
+    src: url(assets/SF-Pro-Text-Regular.otf) format("OpenType");
+}
+
+@font-face {
+    font-family: SanFranciscoHeavy;
+    src: url(assets/SF-Pro-Text-Heavy.otf) format("OpenType");
 }

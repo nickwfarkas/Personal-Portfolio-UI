@@ -1,5 +1,17 @@
-table{
-    width: 100%;
+mat-table{
+    width: 90%;
     border-collapse:separate;
     overflow:hidden !important;
+}
+
+mat-accordion{
+    width: 90%;
+}
+
+.fixedFont{
+    font-size: 2vw;
+}
+
+.labelFont{
+    font-size: 2vw;
 }

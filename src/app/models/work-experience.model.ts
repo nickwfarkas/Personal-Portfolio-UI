@@ -38,9 +38,23 @@ export class WorkExperience
     }
 
     getStartDateString(): string{
-        return (this._startDate.getMonth()+"/"+this._startDate.getFullYear())
+        switch(this._startDate.getMonth()){
+            case 1: return ("January/"+this._startDate.getFullYear());
+            case 2: return ("February/"+this._startDate.getFullYear());
+            case 3: return ("March/"+this._startDate.getFullYear());
+            case 4: return ("April/"+this._startDate.getFullYear());
+            case 5: return ("May/"+this._startDate.getFullYear());
+            case 6: return ("June/"+this._startDate.getFullYear());
+            case 7: return ("July/"+this._startDate.getFullYear());
+            case 8: return ("August/"+this._startDate.getFullYear());
+            case 9: return ("September/"+this._startDate.getFullYear());
+            case 10: return ("October/"+this._startDate.getFullYear());
+            case 11: return ("November/"+this._startDate.getFullYear());
+            case 12: return ("December/"+this._startDate.getFullYear()); 
+            default: return ("NA/"+this._startDate.getFullYear()); 
+        }
     }
-
+    
     setStartDate(startDate: Date): void{
         this._startDate = startDate;
     }
@@ -54,7 +68,21 @@ export class WorkExperience
     }
 
     getEndDateString(): string{
-        return (this._endDate.getMonth()+"/"+this._endDate.getFullYear())
+        switch(this._endDate.getMonth()){
+            case 1: return ("January/"+this._endDate.getFullYear());
+            case 2: return ("February/"+this._endDate.getFullYear());
+            case 3: return ("March/"+this._endDate.getFullYear());
+            case 4: return ("April/"+this._endDate.getFullYear());
+            case 5: return ("May/"+this._endDate.getFullYear());
+            case 6: return ("June/"+this._endDate.getFullYear());
+            case 7: return ("July/"+this._endDate.getFullYear());
+            case 8: return ("August/"+this._endDate.getFullYear());
+            case 9: return ("September/"+this._endDate.getFullYear());
+            case 10: return ("October/"+this._endDate.getFullYear());
+            case 11: return ("November/"+this._endDate.getFullYear());
+            case 12: return ("December/"+this._endDate.getFullYear()); 
+            default: return ("Current"); 
+        }
     }
 
     setEndDate(endDate: Date): void{

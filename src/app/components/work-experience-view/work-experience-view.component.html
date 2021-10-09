@@ -1,0 +1,22 @@
+<div class="text-center whitespace-nowrap font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-blue-400 via-blue-500 to-blue-600 labelFont">Education</div>
+
+<mat-accordion multi="true">
+    <mat-expansion-panel [expanded]="true" *ngFor="let workExperience of dataSource" class="bg-gradient-to-r from-blue-600 via-blue-500 to-blue-400">
+      <mat-expansion-panel-header [expandedHeight]="'7vh'">
+        <mat-panel-title class="text-white fixedFontLarger">
+          {{workExperience.getPositionName()}}
+        </mat-panel-title>
+        <mat-panel-description class="text-white fixedFont">
+            {{workExperience.getStartDateString()+" - "+workExperience.getEndDateString()}}
+        </mat-panel-description>
+      </mat-expansion-panel-header>
+      <mat-list>
+        <div *ngFor="let attribute of workExperience.getAttributes()">
+            <mat-list-item class="white my-3 flex-grow fixedFont">
+                {{attribute}}
+            </mat-list-item>
+            <mat-divider></mat-divider>
+        </div>  
+      </mat-list>
+    </mat-expansion-panel>
+  </mat-accordion>

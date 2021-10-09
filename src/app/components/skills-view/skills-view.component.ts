@@ -1,5 +1,6 @@
 import { DataSource } from '@angular/cdk/collections';
 import { Component, Input, OnInit } from '@angular/core';
+import { Education } from 'src/app/models/education.model';
 import { Profile } from 'src/app/models/profile.model';
 import { Skill } from 'src/app/models/skill.model';
 
@@ -11,8 +12,10 @@ import { Skill } from 'src/app/models/skill.model';
 export class SkillsViewComponent implements OnInit{
   @Input() p!: Profile;
   displayedColumns = ['skillName', 'skillRating'];
-  dataSource: Skill[] = [];
+  skillDataSource: Skill[] = [];
+  educationDataSource: Education[] = [];
   ngOnInit(): void {
-    this.dataSource = this.p.getAllSkills();
+    this.skillDataSource = this.p.getAllSkills();
+    this.educationDataSource = this.p.getEducation();
   }
 }

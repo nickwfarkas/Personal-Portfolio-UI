@@ -8,16 +8,16 @@
                 "_schoolName": "Henry Ford College",
                 "_degreeType": "Associates of Arts",
                 "_degreeName": "General Education",
-                "_startDate": "August, 2018",
-                "_graduationDate": "August, 2020",
+                "_startDate": "2018-08-01",
+                "_graduationDate": "2020-08-01",
                 "_gpa": "3.0"
             },
             {
                 "_schoolName": "Wayne State University",
                 "_degreeType": "Bachelor of Science",
                 "_degreeName": "Computer Science",
-                "_startDate": "September, 2020",
-                "_graduationDate": "December, 2022",
+                "_startDate": "2020-09-01",
+                "_graduationDate": "2022-12-01",
                 "_gpa": "3.58"
             }
         ],
@@ -25,8 +25,8 @@
             {
                 "_positionName": "Software Engineer Intern",
                 "_companyName": "Quicken Loans/Rocket Mortgage",
-                "_startDate": "May, 2019",
-                "_endDate": "August, 2019",
+                "_startDate": "2019-05-01",
+                "_endDate": "2019-08-01",
                 "_city": "Detroit",
                 "_attributes": [
                     "C# .Net Core backend development for many different internal applications.",
@@ -38,8 +38,8 @@
             {
                 "_positionName": "Software Engineer Intern",
                 "_companyName": "Quicken Loans/Rocket Mortgage",
-                "_startDate": "June, 2020",
-                "_endDate": "August, 2020",
+                "_startDate": "2020-06-01",
+                "_endDate": "2020-08-01",
                 "_city": "Detroit",
                 "_attributes": [
                     "Querying, modifying and creating data tables in Salesforce Marketing Cloud using SQL.",
@@ -51,8 +51,8 @@
             {
                 "_positionName": "Software Engineer Intern",
                 "_companyName": "Rocket Mortgage",
-                "_startDate": "May, 2021",
-                "_endDate": "August, 2021",
+                "_startDate": "2021-05-01",
+                "_endDate": "2021-08-01",
                 "_city": "Detroit",
                 "_attributes": [
                     "Developed rich UI experiences using Angular and Material design to deliver a simplistic and beautiful solutions for internal business problems.",
@@ -63,8 +63,8 @@
             {
                 "_positionName": "Administrative Assistant",
                 "_companyName": "ATS Advisors",
-                "_startDate": "June, 2017",
-                "_endDate": "May, 2019",
+                "_startDate": "2017-06-01",
+                "_endDate": "2019-05-01",
                 "_city": "Allen Park",
                 "_attributes": [
                     "Updated filing system by digitizing tax forms and bookkeeping records so the whole company has to rely less on paper filings with more secure, scalable, and reliable digital pdf format.",
@@ -75,8 +75,8 @@
             {
                 "_positionName": "Fulfillment Associate",
                 "_companyName": "Amazon",
-                "_startDate": "October, 2019",
-                "_endDate": "October, 2021",
+                "_startDate": "2019-10-01",
+                "_endDate": "",
                 "_city": "Brownstown",
                 "_attributes": [ 
                     "Unloaded incoming trucks and properly staged inventory for processing.",
