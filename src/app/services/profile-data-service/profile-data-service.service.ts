@@ -19,7 +19,6 @@ export class ProfileDataService{
         {
             skillArray.push(new Skill(this.data.Profile._skills[i]._skillName,this.data.Profile._skills[i]._skillDescription,this.data.Profile._skills[i]._skillRating,this.data.Profile._skills[i]._industryExperience,this.data.Profile._skills[i]._tags));
         }
-        console.log(skillArray);
         
         return skillArray;
     }
