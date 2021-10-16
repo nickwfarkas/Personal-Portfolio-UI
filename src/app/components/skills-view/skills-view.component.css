@@ -4,8 +4,24 @@ mat-table{
     overflow:hidden !important;
 }
 
+mat-cell{
+    font-size: 1.5vw;
+}
+
+mat-header-cell{
+    font-size: 2vw;
+}
+
 mat-accordion{
     width: 90%;
+}
+
+mat-card{
+    width: 90%;
+}
+
+.skillFont{
+    font-size: 1vh;
 }
 
 .fixedFont{
@@ -14,4 +30,8 @@ mat-accordion{
 
 .labelFont{
     font-size: 2vw;
+}
+
+.smallerFont{
+    font-size: 1.5vw;
 }

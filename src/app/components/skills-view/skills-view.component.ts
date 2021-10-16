@@ -3,6 +3,7 @@ import { Component, Input, OnInit } from '@angular/core';
 import { Education } from 'src/app/models/education.model';
 import { Profile } from 'src/app/models/profile.model';
 import { Skill } from 'src/app/models/skill.model';
+import { SkillSortingService } from 'src/app/services/skill-sorting.service';
 
 @Component({
   selector: 'skills-view',
@@ -10,12 +11,23 @@ import { Skill } from 'src/app/models/skill.model';
   styleUrls: ['./skills-view.component.css']
 })
 export class SkillsViewComponent implements OnInit{
+  constructor(private sortingService: SkillSortingService) {
+    
+  }
   @Input() p!: Profile;
   displayedColumns = ['skillName', 'skillRating'];
   skillDataSource: Skill[] = [];
   educationDataSource: Education[] = [];
+  gitHubUrl: string = "";
+  linkedInUrl: string = "";
+  instagramUrl: string = "";
+  
   ngOnInit(): void {
-    this.skillDataSource = this.p.getAllSkills();
+    // this.skillDataSource = this.p.getAllSkills();
+    this.skillDataSource = this.sortingService.sortSkills(this.p.getAllSkills());
     this.educationDataSource = this.p.getEducation();
+    this.gitHubUrl = this.p.getGitHubUrl();
+    this.linkedInUrl = this.p.getLinkedInUrl();
+    this.instagramUrl = this.p.getInstagramUrl();
   }
 }

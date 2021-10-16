@@ -2,8 +2,10 @@
     font-size: 1.4vw;
 }
 
-.fixedFontLarger{
-    font-size: 2vw;
+.flexFont{
+    white-space: normal;
+    font-size:calc(8px + .55vw);
+    /* font-size: 8px; */
 }
 
 .white{
@@ -12,4 +14,21 @@
 
 .labelFont{
     font-size: 2vw;
+}
+
+mat-expansion-panel{
+    width: 90%;
+}
+
+mat-icon.bullet{
+    font-size: 1vw;
+}
+
+mat-card{
+    vertical-align: middle;
+    padding: 0pt;
+}
+
+.work-card-container{
+    vertical-align: middle;
 }
