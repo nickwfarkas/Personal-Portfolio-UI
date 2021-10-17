@@ -6,10 +6,14 @@
   <body>
     <div class="bg-gray-800">
       <div class="text-center whitespace-nowrap text-full-screen font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-blue-400 via-blue-500 to-blue-600">Nicholas Farkas</div>
-      <div class="mb-10 headerTxt text-center whitespace-nowrap font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-400 via-blue-500 to-blue-600">nicholaswfarkas@gmail.com | (313) 969-3310</div>
-      <div class="grid grid-cols-3">
+      <div class="mb-10 headerTxt text-center whitespace-nowrap font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-400 via-blue-500 to-blue-600">
+        <a href="mailto:{{p.getEmail()}}">{{p.getEmail()}}</a> | <a href="tel:+1-{{p.getPhoneNumber()}}">{{p.getPhoneNumber()}}</a>
+      </div>
+      <div class="grid grid-cols-4">
         <skills-view class="skills col-span-1" [p]='p'></skills-view>
-        <work-experience-view class="col-span-2" [p]='p'></work-experience-view>
+        <div class="col-span-3">
+          <work-experience-view  [p]='p'></work-experience-view>
+        </div>
       </div>
     </div>
 

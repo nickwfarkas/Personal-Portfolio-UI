@@ -13,12 +13,15 @@ import { MatGridListModule } from '@angular/material/grid-list';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatIconModule } from '@angular/material/icon';
 import { MatCardModule } from '@angular/material/card';
+import { EducationViewComponent } from './components/education-view/education-view.component';
+import { MatSelectModule } from '@angular/material/select';
 
 @NgModule({
   declarations: [
     AppComponent,
     SkillsViewComponent,
-    WorkExperienceViewComponent
+    WorkExperienceViewComponent,
+    EducationViewComponent
   ],
   imports: [
     BrowserModule,
@@ -31,7 +34,8 @@ import { MatCardModule } from '@angular/material/card';
     MatGridListModule,
     MatToolbarModule,
     MatIconModule,
-    MatCardModule
+    MatCardModule,
+    MatSelectModule
   ],
   providers: [],
   bootstrap: [AppComponent]
