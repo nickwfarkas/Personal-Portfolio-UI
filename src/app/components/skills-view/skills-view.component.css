@@ -20,12 +20,24 @@ mat-card{
     width: 90%;
 }
 
+.not-empty-select.mat-selected {
+    color: white !important;
+}
+
+.not-empty-select.mat-selected {
+    color: white !important;
+}
+  
+:host /deep/ .mat-select-value-text {
+    color: white !important;
+}
 .skillFont{
     font-size: 1vh;
 }
 
-.fixedFont{
-    font-size: 2vw;
+.flex-font{
+    white-space: normal;
+    font-size:calc(8px + .55vw);
 }
 
 .labelFont{
@@ -34,4 +46,8 @@ mat-card{
 
 .smallerFont{
     font-size: 1.5vw;
+}
+
+.mat-form-field-wrapper {
+    margin-bottom: -1.25em;
 }

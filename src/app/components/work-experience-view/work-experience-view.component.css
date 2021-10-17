@@ -16,16 +16,11 @@
     font-size: 2vw;
 }
 
-mat-expansion-panel{
-    width: 90%;
-}
-
 mat-icon.bullet{
     font-size: 1vw;
 }
 
 mat-card{
-    vertical-align: middle;
     padding: 0pt;
 }
 

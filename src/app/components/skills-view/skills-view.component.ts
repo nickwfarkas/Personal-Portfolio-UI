@@ -17,15 +17,14 @@ export class SkillsViewComponent implements OnInit{
   @Input() p!: Profile;
   displayedColumns = ['skillName', 'skillRating'];
   skillDataSource: Skill[] = [];
-  educationDataSource: Education[] = [];
   gitHubUrl: string = "";
   linkedInUrl: string = "";
   instagramUrl: string = "";
+  selected = 'None';
   
   ngOnInit(): void {
     // this.skillDataSource = this.p.getAllSkills();
     this.skillDataSource = this.sortingService.sortSkills(this.p.getAllSkills());
-    this.educationDataSource = this.p.getEducation();
     this.gitHubUrl = this.p.getGitHubUrl();
     this.linkedInUrl = this.p.getLinkedInUrl();
     this.instagramUrl = this.p.getInstagramUrl();

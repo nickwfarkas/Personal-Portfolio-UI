@@ -1,41 +1,42 @@
-<div class="bg-grey-800">
-  <div class="flex flex-col justify-center items-center">
-    <mat-card class="flex space-x-4 text-center bg-gradient-to-r from-blue-400 via-blue-500 to-blue-600">
-      <a href={{gitHubUrl}} target="_blank" class="inline-flex">
-        <img src='./assets/github-logo.png' width="80vw" alt="GitHub">
-      </a>
-      <a href={{linkedInUrl}} target="_blank" class="inline-flex">
-        <img src='./assets/linkedin.png' width="80vw" alt="LinkedIn">
-      </a>
-      <a href={{instagramUrl}} target="_blank" class="inline-flex">
-        <img src='./assets/instagram.png' width="80vw" alt="instagram">
-      </a>
-    </mat-card>
+<div class="bg-grey-800 flex flex-col justify-center items-center">
+  <div class="mb-5 labelFont text-center whitespace-nowrap font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-blue-400 via-blue-500 to-blue-600">Lets Connect</div>
+
+  <div class="w-11/12 mb-5 flex flex-row space-x-4 justify-center items-center">
+    <a href={{gitHubUrl}} target="_blank" class="inline-flex">
+      <img src='./assets/github-logo.png' width="80vw" alt="GitHub">
+    </a>
+    <a href={{linkedInUrl}} target="_blank" class="inline-flex">
+      <img src='./assets/linkedin.png' width="80vw" alt="LinkedIn">
+    </a>
+    <a href={{instagramUrl}} target="_blank" class="inline-flex">
+      <img src='./assets/instagram.png' width="80vw" alt="instagram">
+    </a>
   </div>
-  
-  <div class="labelFont text-center whitespace-nowrap font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-blue-400 via-blue-500 to-blue-600">Education</div>
-  
-  <div class="flex flex-col justify-center items-center">
-    <mat-accordion multi="true">
-      <mat-expansion-panel [expanded]="true" *ngFor="let education of educationDataSource" class="text-white bg-gradient-to-r from-blue-400 via-blue-500 to-blue-600">
-        <mat-expansion-panel-header [collapsedHeight]="'19vh'" [expandedHeight]="'19vh'">
-          <mat-panel-title class="text-white fixedFont">
-            {{education.getDegreeName()}}
-          </mat-panel-title>
-          <mat-panel-description class="text-white fixedFont">
-              {{education.getStartDateString()+" - "+education.getGraduationDateString()}}
-          </mat-panel-description>
-        </mat-expansion-panel-header>
-        <div class="smallerFont">
-          {{education.getDegreeType()+" at "+education.getSchoolName()}}<br>{{"GPA: "+education.getGpa()}}
-        </div>
-      </mat-expansion-panel>
-    </mat-accordion>
-  </div>
-  
+
   <div class="labelFont text-center whitespace-nowrap font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-blue-400 via-blue-500 to-blue-600">Skills</div>
+
+  <mat-form-field appearance="fill" class="w-11/12 bg-transparent border-t-1 border-gray-900 rounded-lg">
+    <mat-label class="text-white">Sort</mat-label>
+    <mat-select [(value)]="selected">
+      <mat-option>None</mat-option>
+      <mat-option value="option1">Option 1</mat-option>
+      <mat-option value="option2">Option 2</mat-option>
+      <mat-option value="option3">Option 3</mat-option>
+    </mat-select>
+  </mat-form-field>
+
+
+  <mat-list *ngFor="let skill of skillDataSource" class="w-full">
+    <mat-list-item class="">
+      <div class="inline-grid grid-cols-2 w-full justify-items-center">
+        <span class="flex text-gray-50 text-center flex-font">{{skill.getSkillName()}}</span>
+        <span class="flex text-gray-50 text-center flex-font">{{skill.getSkillRating()+"/3"}}</span>
+      </div>
+    </mat-list-item>
+    <mat-divider></mat-divider>
+  </mat-list>
   
-  <div class="flex flex-col justify-center items-center">
+  <!-- <div class="flex flex-col justify-center items-center">
     <mat-table [dataSource]="skillDataSource" class="bg-gradient-to-r from-blue-400 via-blue-500 to-blue-600 rounded-lg fixedFont float-left">
       <ng-container matColumnDef="skillName">
         <mat-header-cell class="text-white" mat-header-cell *matHeaderCellDef> Name </mat-header-cell>
@@ -50,7 +51,7 @@
       <mat-header-row *matHeaderRowDef="displayedColumns"></mat-header-row>
       <mat-row matRipple *matRowDef="let row; columns: displayedColumns;"></mat-row>
     </mat-table>
-  </div>
+  </div> -->
 </div>
 
 
