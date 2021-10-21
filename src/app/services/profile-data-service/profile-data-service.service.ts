@@ -64,6 +64,7 @@ export class ProfileDataService{
             this.data.Profile._phoneNumber,
             this.deserializeEducation(),
             this.deserializeWorkExperience(),
+            this.data.Profile._skillCategories,
             this.deserializeSkills(),
             this.data.Profile._gitHubUrl,
             this.data.Profile._instagramUrl,

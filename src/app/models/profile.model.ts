@@ -6,20 +6,22 @@ export class Profile {
     private _email: string;
     private _phoneNumber: string;
     private _education: Education[];
-    private _workExperience: WorkExperience[]; //TODO Work Experience Class
+    private _workExperience: WorkExperience[];
+    private _skillCategories: string[];
     private _skills: Skill[];
     private _gitHubUrl: string;
     private _instagramUrl: string;
     private _linkedInUrl: string;
 
     constructor(name: string, email: string, phoneNumber: string,
-        education: Education[], workExperience: WorkExperience[], skills: Skill[], 
+        education: Education[], workExperience: WorkExperience[], skillCategories: string[], skills: Skill[], 
         gitHubUrl: string, instagramUrl: string, linkedInUrl: string){
         this._name = name;
         this._email = email;
         this._phoneNumber = phoneNumber;
         this._education = education;
         this._workExperience = workExperience;
+        this._skillCategories = skillCategories;
         this._skills = skills;
         this._gitHubUrl = gitHubUrl;
         this._instagramUrl = instagramUrl;
@@ -72,6 +74,14 @@ export class Profile {
 
     addWorkExperience(work: WorkExperience): void{
         this._workExperience.push(work);
+    }
+
+    getSkillCategories(): string[]{
+        return this._skillCategories;
+    }
+
+    setSkillCategories(skillCategories: string[]): void{
+        this._skillCategories = skillCategories;
     }
 
     getSkill(i: number): Skill{

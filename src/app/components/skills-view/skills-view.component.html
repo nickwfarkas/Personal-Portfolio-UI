@@ -1,5 +1,5 @@
 <div class="bg-grey-800 flex flex-col justify-center items-center">
-  <div class="mb-5 labelFont text-center whitespace-nowrap font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-blue-400 via-blue-500 to-blue-600">Lets Connect</div>
+  <div class="mb-5 labelFont text-center whitespace-pre-wrap font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-blue-400 via-blue-500 to-blue-600">Lets Connect</div>
 
   <div class="w-11/12 mb-5 flex flex-row space-x-4 justify-center items-center">
     <a href={{gitHubUrl}} target="_blank" class="inline-flex">
@@ -15,18 +15,19 @@
 
   <div class="labelFont text-center whitespace-nowrap font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-blue-400 via-blue-500 to-blue-600">Skills</div>
 
+<form [formGroup]="select">
   <mat-form-field appearance="fill" class="w-11/12 bg-transparent border-t-1 border-gray-900 rounded-lg">
     <mat-label class="text-white">Sort</mat-label>
-    <mat-select [(value)]="selected">
-      <mat-option>None</mat-option>
-      <mat-option value="option1">Option 1</mat-option>
-      <mat-option value="option2">Option 2</mat-option>
-      <mat-option value="option3">Option 3</mat-option>
+    <mat-select [formControl]="selectedControl">
+      <mat-option value="None">None</mat-option>
+      <div *ngFor="let category of p.getSkillCategories()">
+        <mat-option value="{{category}}">{{category}}</mat-option>
+      </div>
     </mat-select>
   </mat-form-field>
+</form>
 
-
-  <mat-list *ngFor="let skill of skillDataSource" class="w-full">
+  <mat-list *ngFor="let skill of getSortedSkills(selectedControl.value)" class="w-full">
     <mat-list-item class="">
       <div class="inline-grid grid-cols-2 w-full justify-items-center">
         <span class="flex text-gray-50 text-center flex-font">{{skill.getSkillName()}}</span>

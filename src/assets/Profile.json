@@ -87,6 +87,15 @@
             }
 
         ],
+        "_skillCategories":[
+            "Industry Experience", 
+            "Academic Experience",
+            "Front End",
+            "Web Development", 
+            "Back End",
+            "Data Science",
+            "Developer Tools"
+        ],
         "_skills": [
             {
                 "_skillName": "Angular",
@@ -94,7 +103,7 @@
                 "_skillRating": 3,
                 "_industryExperience": 1,
                 "_tags": [
-                    "Industry",
+                    "Industry Experience",
                     "Front End",
                     "Web Development"
                 ]
@@ -105,7 +114,7 @@
                 "_skillRating": 3,
                 "_industryExperience": 1,
                 "_tags": [
-                    "Industry",
+                    "Industry Experience",
                     "Front End",
                     "Web Development"
                 ]
@@ -116,7 +125,7 @@
                 "_skillRating": 3,
                 "_industryExperience": 2,
                 "_tags": [
-                    "Industry",
+                    "Industry Experience",
                     "Back End",
                     "Web Development"
                 ]
@@ -127,7 +136,7 @@
                 "_skillRating": 2,
                 "_industryExperience": 1,
                 "_tags": [
-                    "Industry",
+                    "Industry Experience",
                     "Front End",
                     "Web Development"
                 ]
@@ -138,7 +147,7 @@
                 "_skillRating": 3,
                 "_industryExperience": 2,
                 "_tags": [
-                    "Industry",
+                    "Industry Experience",
                     "Front End",
                     "Web Development"
                 ]
@@ -149,7 +158,7 @@
                 "_skillRating": 3,
                 "_industryExperience": 2,
                 "_tags": [
-                    "Industry",
+                    "Industry Experience",
                     "Front End",
                     "Web Development"
                 ]
@@ -160,8 +169,8 @@
                 "_skillRating": 3,
                 "_industryExperience": 3,
                 "_tags": [
-                    "Academic",
-                    "Industry",
+                    "Academic Experience",
+                    "Industry Experience ",
                     "Back End",
                     "Web Development",
                     "Database"
@@ -173,7 +182,7 @@
                 "_skillRating": 2,
                 "_industryExperience": 0,
                 "_tags": [
-                    "Academic",
+                    "Academic Experience",
                     "Back End"
                 ]
             },
@@ -183,7 +192,7 @@
                 "_skillRating": 2,
                 "_industryExperience": 0,
                 "_tags": [
-                    "Academic",
+                    "Academic Experience",
                     "Back End"
                 ]
             },
@@ -193,8 +202,7 @@
                 "_skillRating": 1,
                 "_industryExperience": 0,
                 "_tags": [
-                    "Academic",
-                    "Front End",
+                    "Academic Experience",
                     "Back End",
                     "Web Development",
                     "Data Science"
@@ -206,7 +214,7 @@
                 "_skillRating": 1,
                 "_industryExperience": 0,
                 "_tags": [
-                    "Academic",
+                    "Academic Experience",
                     "Data Science"
                 ]
             },
@@ -216,8 +224,8 @@
                 "_skillRating": 3,
                 "_industryExperience": 3,
                 "_tags": [
-                    "Academic",
-                    "Industry",
+                    "Academic Experience",
+                    "Industry Experience",
                     "Developer Tools"
                 ]
             },
@@ -227,6 +235,7 @@
                 "_skillRating": 3,
                 "_industryExperience": 3,
                 "_tags": [
+                    "Industry Experience",
                     "Developer Tools"
                 ]
             },
@@ -236,8 +245,8 @@
                 "_skillRating": 2,
                 "_industryExperience": 5,
                 "_tags": [
-                    "Academic",
-                    "Industry",
+                    "Academic Experience",
+                    "Industry Experience",
                     "Developer Tools"
                     ]
             },
@@ -247,7 +256,7 @@
                 "_skillRating": 2,
                 "_industryExperience": 3,
                 "_tags": [
-                    "Industry",
+                    "Industry Experience",
                     "Developer Tools"
                 ]
             } 
