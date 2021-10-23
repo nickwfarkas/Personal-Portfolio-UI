@@ -15,11 +15,11 @@
 
   <div class="labelFont text-center whitespace-nowrap font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-blue-400 via-blue-500 to-blue-600">Skills</div>
 
-<form [formGroup]="select">
+<form [formGroup]="select" class="w-full text-center">
   <mat-form-field appearance="fill" class="w-11/12 bg-transparent border-t-1 border-gray-900 rounded-lg">
     <mat-label class="text-white">Sort</mat-label>
     <mat-select [formControl]="selectedControl">
-      <mat-option value="None">None</mat-option>
+      <mat-option value="None">All</mat-option>
       <div *ngFor="let category of p.getSkillCategories()">
         <mat-option value="{{category}}">{{category}}</mat-option>
       </div>

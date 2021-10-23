@@ -247,8 +247,9 @@
                 "_tags": [
                     "Academic Experience",
                     "Industry Experience",
-                    "Developer Tools"
-                    ]
+                    "Developer Tools",
+                    "Data Science"
+                ]
             },
             {
                 "_skillName": "Agile Methodology",
@@ -257,9 +258,43 @@
                 "_industryExperience": 3,
                 "_tags": [
                     "Industry Experience",
+                    "Developer Tools",
+                    "Soft Skill"
+                ]
+            }, 
+            {
+                "_skillName": "Data Structures",
+                "_skillDescription": "There was a lot of sweat and even more tears when learning to master Linked Lists, Stacks, Queues, Binary Search Trees, AVL Trees, Hash Tables, Heaps, and Graphs",
+                "_skillRating": 2,
+                "_industryExperience": 2,
+                "_tags": [
+                    "Industry Experience",
+                    "Academic Experience",
+                    "Soft Skill"
+                ]
+            },
+            {
+                "_skillName": "Algorithms",
+                "_skillDescription": "I understand that the definition of algorithm is just a process or a set of rules which is fair but I have spent a lot of time learning and implementing complex algorithms academicly and in the industry. So I would like to think it's more complicated.",
+                "_skillRating": 2,
+                "_industryExperience": 4,
+                "_tags": [
+                    "Industry Experience",
+                    "Academic Experience",
+                    "Soft Skill"
+                ]
+            },
+            {
+                "_skillName": "Infrastructure Diagramming",
+                "_skillDescription": "I love creating software and implementing my thoughts but I have always loved seeing my big picture thoughts on paper in the form of Flowcharts, Class Diagrams, Entity Relationship Diagrams, UML, or Network Diagrams.",
+                "_skillRating": 3,
+                "_industryExperience": 3,
+                "_tags": [
+                    "Industry Experience",
+                    "Academic Experience",
                     "Developer Tools"
                 ]
-            } 
+            }
         ],
         "_gitHubUrl": "https://github.com/nickwfarkas",
         "_instagramUrl": "https://www.instagram.com/nickfarkas_9/",
