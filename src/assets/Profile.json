@@ -1,8 +1,8 @@
 {
     "Profile": {
-        "_name": "Nicholas Farkas",
-        "_email": "nicholaswfarkas@gmail.com",
-        "_phoneNumber": "313-969-3310",
+        "_name": "Skyler Voran",
+        "_email": "skyler.voran@gmail.com",
+        "_phoneNumber": "313-588-0093",
         "_education": [
             {
                 "_schoolName": "Henry Ford College",
@@ -10,85 +10,76 @@
                 "_degreeName": "Liberal Arts",
                 "_startDate": "2018/08/01",
                 "_graduationDate": "2020/08/01",
-                "_gpa": "0"
+                "_gpa": "3.75"
             },
             {
-                "_schoolName": "Wayne State University",
+                "_schoolName": "University of Michigan Dearborn",
                 "_degreeType": "Bachelor of Science",
                 "_degreeName": "Computer Science",
                 "_startDate": "2020/09/01",
                 "_graduationDate": "2022/12/01",
-                "_gpa": "3.58"
+                "_gpa": "3.52"
+            },
+            {
+                "_schoolName": "University of Michigan Dearborn",
+                "_degreeType": "Associates of Science",
+                "_degreeName": "CIS Math",
+                "_startDate": "2020/09/01",
+                "_graduationDate": "2022/12/01",
+                "_gpa": "3.52"
             }
         ],
         "_workExperience": [
             {
-                "_positionName": "Software Engineer Intern",
-                "_companyName": "Quicken Loans/Rocket Mortgage",
-                "_startDate": "2019/05/01",
-                "_endDate": "2019/08/01",
-                "_city": "Detroit",
-                "_attributes": [
-                    "C# .Net Core backend development for many different internal applications.",
-                    "Head of UX design with a team of interns to create an internal education tool for new team members.",
-                    "Presented iteration recaps that showed our business partners and higher management what features my team have deployed and what they can be expecting to see deployed",
-                    "Created infrastructure diagrams and code documentation to show how code has been implemented and how infrastructure has been structured to support said code so there can be a seamless transition when a team or team member takes over work on an application."
-                ]
-            },
-            {
-                "_positionName": "Software Engineer Intern",
-                "_companyName": "Quicken Loans/Rocket Mortgage",
-                "_startDate": "2020/06/01",
-                "_endDate": "2020/08/01",
-                "_city": "Detroit",
-                "_attributes": [
-                    "Querying, modifying and creating data tables in Salesforce Marketing Cloud using SQL.",
-                    "Salesforce Marketing Cloud email testing and template creation using Postman.",
-                    "Assisted marketing team with technical challenges in Salesforce Marketing Cloud.",
-                    "Assisted in creating Salesforce Marketing Cloud Automations and MuleSoft flows."
-                ]
-            },
-            {
-                "_positionName": "Software Engineer Intern",
-                "_companyName": "Rocket Mortgage",
+                "_positionName": "Assistant Manager",
+                "_companyName": "MJR Southgate Digital Cinema 20",
                 "_startDate": "2021/05/01",
-                "_endDate": "2021/08/01",
-                "_city": "Detroit",
-                "_attributes": [
-                    "Developed rich UI experiences using Angular and Material design to deliver a simplistic and beautiful solutions for internal business problems.",
-                    "Created backend solutions to plug into UI using C# .Net Core, Entity Framework, and SQL.",
-                    "Worked with team of interns to create a Microsoft Teams bot utilizing C# and Microsoft Developer tools."
-                ]
-            },
-            {
-                "_positionName": "Administrative Assistant",
-                "_companyName": "ATS Advisors",
-                "_startDate": "2017/06/01",
-                "_endDate": "2019/05/01",
-                "_city": "Allen Park",
-                "_attributes": [
-                    "Updated filing system by digitizing tax forms and bookkeeping records so the whole company has to rely less on paper filings with more secure, scalable, and reliable digital pdf format.",
-                    "Corporate QuickBooks bookkeeping throughout year/ending so I could create payroll, income, and other financial analytics for quarterly, semiannual, and annual taxes.",
-                    "Completed front desk duties such as checking in and out clients, taking payment and handling money, call reception, aid in understanding their tax return and customer service resulting in a seamless tax process for our clients."
-                ]
-            },
-            {
-                "_positionName": "Fulfillment Associate",
-                "_companyName": "Amazon",
-                "_startDate": "2019/10/01",
                 "_endDate": "",
-                "_city": "Brownstown",
+                "_city": "Southgate",
                 "_attributes": [ 
-                    "Unloaded incoming trucks and properly staged inventory for processing.",
-                    "Loaded outbound trucks by hand or by pallet jacking whole pallets in a safe and efficent manner.",                   
-                    "Assisting Associate Product Check In, making sure associates have everything they need to be successful. Clearing conveyor jams and packages that are sent to the wrong location while handling damaged packages safely.",
-                    "Problem Solving if there was a damaged package or package in incorrect building, I would assess the problem and take care it. Whether I had to re/box, do spill cleanup in which I was hazmat trained, or send a request for a new product for the customer."
+                    "Placed coin orders, counted cash drawers and made a deposit each day / night.",
+                    "Oversaw the day-to-day running of the theatre in order to run efficiently and to meet profit and patron expectations",                   
+                    "Wrote memos regarding new changes / updates to our employee expectations and job descriptions.",
+                    "Set box office and usher departmental objectives, polices, and procedures.",
+		    "Opened and closed the theatre as a key holder.",
+		    "Conducted interviews of new applicants to pass on to final interviews.",
+		    "Assisted patrons with issues such as seating, age policy, disturbances, and loyalty issues.",
+		    "Processed refunds of all types to patrons.",
+		    "Fixed projector, sound, and other building maintenance issues on a daily basis."
+                ]
+            },
+            {
+                "_positionName": "Usher Supervisor",
+                "_companyName": "MJR Southgate Digital Cinema 20",
+                "_startDate": "2020/10/01",
+                "_endDate": "2021/05/01",
+                "_city": "Southgate",
+                "_attributes": [
+                    "Trained new staff members on usher and company policies.",
+                    "Managed daily usher staff to ensure jobs were being completed in a timely fashion.",
+                    "Scheduled usher staff to theaters to manage time and efficiency.",
+		    "Cleaned lobby, hallways, and theaters between shows.",
+		    "Checked ticket stubs to confirm patrons were at their correct show and directed them to their theatre.",
+		    "Showed patrons to their seats to eliminate any seating issues.",
+		    "Checked theaters during shows to confirm they were working properly and solve and issues with patrons"
+                ]
+            },
+            {
+                "_positionName": "Box Office Employee",
+                "_companyName": "MJR Southgate Digital Cinema 20",
+                "_startDate": "2018/08/01",
+                "_endDate": "2021/05/01",
+                "_city": "Southgate",
+                "_attributes": [
+                    "Trained new staff members on how to use the ticket sales system and explained all company rules and procedures",
+                    "Explained the new seating system to patrons and sold them tickets to their desired showtime",
+                    "Processed refunds to patrons and performed swaps of tickets",
+                    "Assisted customers with ticket issues, managing rewards points, and other issues",
+		    "Cleaned and sanitized video games, front doors, and box office areas daily"
                 ]
             }
-
         ],
-        "_skillCategories":[
-            "Industry Experience", 
+        "_skillCategories":[ 
             "Academic Experience",
             "Front End",
             "Web Development", 
@@ -98,30 +89,8 @@
         ],
         "_skills": [
             {
-                "_skillName": "Angular",
-                "_skillDescription": "Proficent using the Angular framework with Typescript to create beautiful, immersive, and responsive UIs.",
-                "_skillRating": 3,
-                "_industryExperience": 1,
-                "_tags": [
-                    "Industry Experience",
-                    "Front End",
-                    "Web Development"
-                ]
-            },
-            {
-                "_skillName": "TypeScript",
-                "_skillDescription": "Proficent using the TypeScript with Angular Framework to write typeable, testable, scalable code for UIs.",
-                "_skillRating": 3,
-                "_industryExperience": 1,
-                "_tags": [
-                    "Industry Experience",
-                    "Front End",
-                    "Web Development"
-                ]
-            },
-            {
                 "_skillName": "C#",
-                "_skillDescription": "Enjoy writting C# when utilizing .Net Core to write APIs.",
+                "_skillDescription": "Enjoy writing C# when utilizing .Net Core to write APIs.",
                 "_skillRating": 3,
                 "_industryExperience": 2,
                 "_tags": [
@@ -131,31 +100,9 @@
                 ]
             },
             {
-                "_skillName": "JavaScript",
-                "_skillDescription": "Experienced writing vanilla JavaScript and JQuery to create small scale web applications.",
-                "_skillRating": 2,
-                "_industryExperience": 1,
-                "_tags": [
-                    "Industry Experience",
-                    "Front End",
-                    "Web Development"
-                ]
-            },
-            {
                 "_skillName": "HTML",
-                "_skillDescription": "Is it a programming language? Is it not? Either way there is no escaping writing it. I am proficent using it with Angular and vanilla JavaScript.",
-                "_skillRating": 3,
-                "_industryExperience": 2,
-                "_tags": [
-                    "Industry Experience",
-                    "Front End",
-                    "Web Development"
-                ]
-            },
-            {
-                "_skillName": "CSS",
-                "_skillDescription": "Just like HTML there is no escaping CSS. Even when I try to escape and use tailwind I always end up writing more than I would like. I am proficent using it with HTML, Angular and vanilla JavaScript.",
-                "_skillRating": 3,
+                "_skillDescription": "Is it a programming language? Is it not? Either way there is no escaping writing it. I am proficient using it with Angular and vanilla JavaScript.",
+                "_skillRating": 2,
                 "_industryExperience": 2,
                 "_tags": [
                     "Industry Experience",
@@ -199,7 +146,7 @@
             {
                 "_skillName": "Python",
                 "_skillDescription": "Just like everyone else I have a very special place in my heart for python and have created countless scripts to working with Django to programming IoT lamndas",
-                "_skillRating": 1,
+                "_skillRating": 2,
                 "_industryExperience": 0,
                 "_tags": [
                     "Academic Experience",
@@ -210,7 +157,7 @@
             },
             {
                 "_skillName": "R",
-                "_skillDescription": "I have a love for statistical data analysis and how R handles matricies and large data sets with only a few lines of code.",
+                "_skillDescription": "I have a love for statistical data analysis and how R handles matrices and large data sets with only a few lines of code.",
                 "_skillRating": 1,
                 "_industryExperience": 0,
                 "_tags": [
@@ -219,22 +166,23 @@
                 ]
             },
             {
+                "_skillName": "Django",
+                "_skillDescription": "Django is the backend framework that this page is servicing from so depending on how many 500's you're getting is the measure of my skill.",
+                "_skillRating": 1,
+                "_industryExperience": 0,
+                "_tags": [
+                    "Academic Experience",
+                    "Web Development",
+                    "Back End"
+                ]
+            },
+            {
                 "_skillName": "Git/GitHub",
-                "_skillDescription": "I have a love for statistical data analysis and how R handles matricies and large data sets with only a few lines of code.",
+                "_skillDescription": "I have a love for statistical data analysis and how R handles matrices and large data sets with only a few lines of code.",
                 "_skillRating": 3,
                 "_industryExperience": 3,
                 "_tags": [
                     "Academic Experience",
-                    "Industry Experience",
-                    "Developer Tools"
-                ]
-            },
-            {
-                "_skillName": "Postman",
-                "_skillDescription": "Postman is a must have for testing APIs in the backend.",
-                "_skillRating": 3,
-                "_industryExperience": 3,
-                "_tags": [
                     "Industry Experience",
                     "Developer Tools"
                 ]
@@ -250,17 +198,6 @@
                     "Developer Tools",
                     "Data Science"
                 ]
-            },
-            {
-                "_skillName": "Agile Methodology",
-                "_skillDescription": "When I learned of the Agile way of looking at projects it changed my whole perspective. Even on my personal projects I always find time for a work board and cutting my tasks into verticle slices.",
-                "_skillRating": 2,
-                "_industryExperience": 3,
-                "_tags": [
-                    "Industry Experience",
-                    "Developer Tools",
-                    "Soft Skill"
-                ]
             }, 
             {
                 "_skillName": "Data Structures",
@@ -275,7 +212,7 @@
             },
             {
                 "_skillName": "Algorithms",
-                "_skillDescription": "I understand that the definition of algorithm is just a process or a set of rules which is fair but I have spent a lot of time learning and implementing complex algorithms academicly and in the industry. So I would like to think it's more complicated.",
+                "_skillDescription": "I understand that the definition of algorithm is just a process or a set of rules which is fair but I have spent a lot of time learning and implementing complex algorithms academically and in the industry. So I would like to think it's more complicated.",
                 "_skillRating": 2,
                 "_industryExperience": 4,
                 "_tags": [
@@ -296,8 +233,8 @@
                 ]
             }
         ],
-        "_gitHubUrl": "https://github.com/nickwfarkas",
-        "_instagramUrl": "https://www.instagram.com/nickfarkas_9/",
-        "_linkedInUrl": "https://www.linkedin.com/in/nicholas/farkas/097a6b157/"
+        "_gitHubUrl": "https://github.com/svoranumd",
+        "_instagramUrl": "https://www.instagram.com/skyler_voran/",
+        "_linkedInUrl": "https://www.linkedin.com/in/skyler-voran-927147206/"
     }
 } 
