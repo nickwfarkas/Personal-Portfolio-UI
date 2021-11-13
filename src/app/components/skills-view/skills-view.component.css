@@ -40,7 +40,7 @@ mat-card{
     font-size:calc(8px + .55vw);
 }
 
-.labelFont{
+.title-font{
     font-size: 4vw;
 }
 
@@ -50,4 +50,8 @@ mat-card{
 
 .mat-form-field-wrapper {
     margin-bottom: -1.25em;
+}
+
+form{
+    font-size: medium;
 }

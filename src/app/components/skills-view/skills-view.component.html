@@ -13,7 +13,7 @@
     </a>
   </div>
 
-  <div class="labelFont text-center whitespace-nowrap font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-blue-400 via-blue-500 to-blue-600">Skills</div>
+  <div class="title-font text-center whitespace-nowrap font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-blue-400 via-blue-500 to-blue-600">Skills</div>
 
 <form [formGroup]="select" class="w-full text-center">
   <mat-form-field appearance="fill" class="w-11/12 bg-transparent border-t-1 border-gray-900 rounded-lg">
@@ -27,32 +27,14 @@
   </mat-form-field>
 </form>
 
-  <mat-list *ngFor="let skill of getSortedSkills(selectedControl.value)" class="w-full">
-    <mat-list-item class="">
-      <div class="inline-grid grid-cols-2 w-full justify-items-center">
-        <span class="flex text-gray-50 text-center flex-font">{{skill.getSkillName()}}</span>
-        <span class="flex text-gray-50 text-center flex-font">{{skill.getSkillRating()+"/3"}}</span>
+  <mat-action-list #skillSelection class="w-full">
+    <button mat-list-item *ngFor="let skill of getSortedSkills(selectedControl.value)" (click)="sendToDrawer(skill.getSkillId())" class="w-full">
+      <div class="w-full">
+        <span class="flex text-gray-50 flex-font">{{skill.getSkillName()}}</span>
       </div>
-    </mat-list-item>
-    <mat-divider></mat-divider>
-  </mat-list>
-  
-  <!-- <div class="flex flex-col justify-center items-center">
-    <mat-table [dataSource]="skillDataSource" class="bg-gradient-to-r from-blue-400 via-blue-500 to-blue-600 rounded-lg fixedFont float-left">
-      <ng-container matColumnDef="skillName">
-        <mat-header-cell class="text-white" mat-header-cell *matHeaderCellDef> Name </mat-header-cell>
-        <mat-cell class="text-white" mat-cell *matCellDef="let skill"> {{skill._skillName}} </mat-cell>
-      </ng-container>
-  
-      <ng-container matColumnDef="skillRating">
-        <mat-header-cell class="text-white justify-center" mat-header-cell *matHeaderCellDef> Skill Rating </mat-header-cell>
-        <mat-cell class="text-white justify-center" mat-cell *matCellDef="let skill"> {{skill._skillRating+"/3"}} </mat-cell>
-      </ng-container>
-    
-      <mat-header-row *matHeaderRowDef="displayedColumns"></mat-header-row>
-      <mat-row matRipple *matRowDef="let row; columns: displayedColumns;"></mat-row>
-    </mat-table>
-  </div> -->
+      <mat-divider></mat-divider>
+    </button>
+  </mat-action-list>
 </div>
 
 

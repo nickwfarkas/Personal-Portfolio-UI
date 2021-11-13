@@ -17,13 +17,20 @@ import { EducationViewComponent } from './components/education-view/education-vi
 import { MatSelectModule } from '@angular/material/select';
 import { MatFormField } from '@angular/material/form-field';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { SkillsDrawerComponent } from './components/skills-drawer/skills-drawer.component';
+import { MatSidenavModule } from '@angular/material/sidenav';
+import { DrawerService } from './services/drawer.service';
+import { ScrollingModule } from '@angular/cdk/scrolling';
+import { MatProgressSpinnerModule } from '@angular/material/progress-spinner';
+
 
 @NgModule({
   declarations: [
     AppComponent,
     SkillsViewComponent,
     WorkExperienceViewComponent,
-    EducationViewComponent
+    EducationViewComponent,
+    SkillsDrawerComponent
   ],
   imports: [
     BrowserModule,
@@ -40,9 +47,14 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
     MatSelectModule,
     BrowserModule,
     FormsModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    MatSidenavModule,
+    ScrollingModule,
+    MatProgressSpinnerModule
   ],
-  providers: [],
+  providers: [
+    DrawerService
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

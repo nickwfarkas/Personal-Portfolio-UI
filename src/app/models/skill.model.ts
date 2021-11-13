@@ -1,13 +1,15 @@
 export class Skill {
+    private _skillId: number;
     private _skillName: string;
     private _skillDescription: string;
     private _skillRating: number;
     private _industryExperience: number;
     private _tags: string[];
 
-    constructor(skillName: string, skillDescription: string,
+    constructor(skillId: number, skillName: string, skillDescription: string,
         skillRating: number, industryExperience: number,
         tags: string[]){
+            this._skillId = skillId;
             this._skillName = skillName;
             this._skillDescription = skillDescription;
             this._industryExperience = industryExperience;
@@ -16,6 +18,14 @@ export class Skill {
             else if(skillRating >= 3) this._skillRating = 3;
             else this._skillRating = 2;
             this._skillRating = skillRating;
+    }
+
+    getSkillId(): number{
+        return this._skillId;
+    }
+
+    setSkillId(skillId: number){
+        this._skillId = skillId;
     }
 
     getSkillName(): string{

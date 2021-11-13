@@ -12,8 +12,12 @@
     color: white;
 }
 
-.labelFont{
+.title-font{
     font-size: 4vw;
+}
+
+.subtitle-font{
+    font-size: calc(5px + .75vw);
 }
 
 mat-icon.bullet{

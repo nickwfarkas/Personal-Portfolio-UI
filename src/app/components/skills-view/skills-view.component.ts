@@ -1,5 +1,5 @@
 import { DataSource } from '@angular/cdk/collections';
-import { Component, Input, OnInit } from '@angular/core';
+import { Component, EventEmitter, Input, OnInit, Output } from '@angular/core';
 import { Education } from 'src/app/models/education.model';
 import { Profile } from 'src/app/models/profile.model';
 import { Skill } from 'src/app/models/skill.model';
@@ -13,7 +13,7 @@ import { FormBuilder, FormControl, FormGroup} from '@angular/forms';
 })
 export class SkillsViewComponent implements OnInit{
   @Input() p!: Profile;
-  displayedColumns = ['skillName', 'skillRating'];
+  @Output() selectedSkill: EventEmitter<number> = new EventEmitter();
   sortedDataSource: Skill[] = [];
   gitHubUrl: string = "";
   linkedInUrl: string = "";
@@ -36,5 +36,9 @@ export class SkillsViewComponent implements OnInit{
 
   getSortedSkills(category: string): Skill[]{
     return this.sortingService.sortSkillsByCategory(this.skillDataSource,category);
+  }
+
+  sendToDrawer(id: number): void{
+    this.selectedSkill.emit(id);
   }
 }

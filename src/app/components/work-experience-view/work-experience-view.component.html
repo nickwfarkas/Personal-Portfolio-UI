@@ -2,12 +2,12 @@
   
   <education-view [p]='p' class="w-full"></education-view><br>
   
-  <div class="labelFont text-center whitespace-nowrap font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-blue-400 via-blue-500 to-blue-600 labelFont">Industry Experience</div>
+  <div class="title-font text-center whitespace-nowrap font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-blue-400 via-blue-500 to-blue-600 labelFont">Industry Experience</div>
 
   <div *ngFor="let workExperience of dataSource" class="w-11/12 text-center">
     <mat-card class="p-0 bg-gradient-to-r from-blue-400 via-blue-500 to-blue-600">
-      <mat-card-title>{{workExperience.getPositionName()}}</mat-card-title>
-      <mat-card-subtitle>{{workExperience.getCompanyName()+" from "+workExperience.getStartDateString()+" to "+workExperience.getEndDateString()}}</mat-card-subtitle>
+      <mat-card-title class="">{{workExperience.getPositionName()}}</mat-card-title>
+      <mat-card-subtitle class="subtitle-font">{{workExperience.getCompanyName()+" from "+workExperience.getStartDateString()+" to "+workExperience.getEndDateString()}}</mat-card-subtitle>
       <mat-card-content>
         <mat-list role="list">
           <div class="whitespace-normal" *ngFor="let attribute of workExperience.getAttributes()">

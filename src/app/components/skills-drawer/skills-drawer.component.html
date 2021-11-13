@@ -1,0 +1,19 @@
+<mat-drawer-container class="bg-gray-800 text-justify" [hasBackdrop]="false">
+    <mat-drawer #drawer mode="over" position="end" class="text-white p-5 bg-gray-800 border-l-8 border-gray-900">
+        <div class="labelFont text-center whitespace-normal">
+            {{skillName}}
+        </div>
+        <br>
+        <div class="size whitespace-normal">
+            {{skillDescription}}
+        </div>
+
+    </mat-drawer>
+    <div class="grid grid-cols-4">
+        <skills-view [p]='p' (selectedSkill)="selectedSkillChangedHandler($event)"></skills-view>
+
+        <div class="col-span-3">
+            <work-experience-view [p]='p'></work-experience-view>
+        </div>
+    </div>
+</mat-drawer-container>

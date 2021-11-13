@@ -1,6 +1,8 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, EventEmitter, OnInit, Output, ViewChild } from '@angular/core';
 import { ProfileDataService } from './services/profile-data-service/profile-data-service.service';
 import { DateConversionService } from './services/date-conversion.service';
+import { MatSidenav } from '@angular/material/sidenav';
+import { DrawerService } from './services/drawer.service';
 
 @Component({
   selector: 'app-root',
@@ -8,9 +10,11 @@ import { DateConversionService } from './services/date-conversion.service';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent{
-  constructor(private dataService: ProfileDataService, private dateService: DateConversionService){
+  constructor(private dataService: ProfileDataService, private drawerService: DrawerService){
   }
-  title = 'personal-portfolio';
-  displayedColumns: string[] = ['language', 'years-of-experience'];
+  skillId = -1;
+  title = 'Resume';
+  @ViewChild('drawer') drawer!: MatSidenav;
+
   p = this.dataService.deserializeProfile();
 }

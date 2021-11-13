@@ -1,0 +1,11 @@
+.size{
+    font-size: 2vw;
+}
+
+.labelFont{
+    font-size: 5vw;
+}
+
+mat-drawer {
+    width: 35%;
+  }
