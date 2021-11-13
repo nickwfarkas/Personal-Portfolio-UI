@@ -22,7 +22,8 @@ import { MatSidenavModule } from '@angular/material/sidenav';
 import { DrawerService } from './services/drawer.service';
 import { ScrollingModule } from '@angular/cdk/scrolling';
 import { MatProgressSpinnerModule } from '@angular/material/progress-spinner';
-
+import { GaugeModule } from 'angular-gauge';
+import { NgxGaugeModule } from 'ngx-gauge';
 
 @NgModule({
   declarations: [
@@ -50,7 +51,9 @@ import { MatProgressSpinnerModule } from '@angular/material/progress-spinner';
     ReactiveFormsModule,
     MatSidenavModule,
     ScrollingModule,
-    MatProgressSpinnerModule
+    MatProgressSpinnerModule,
+    GaugeModule.forRoot(),
+    NgxGaugeModule
   ],
   providers: [
     DrawerService

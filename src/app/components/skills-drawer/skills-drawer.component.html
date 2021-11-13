@@ -7,6 +7,22 @@
         <div class="size whitespace-normal">
             {{skillDescription}}
         </div>
+        <br>
+        <div class="text-center gaugeLabelFont">Skill Rating</div>
+        <div class="text-center">
+            <ngx-gauge [type]= "'arch'"
+            [foregroundColor]="'rgba(255,255,255, 0.9)'"
+            [value]="getRate()" 
+            [max]="10"
+            [size]="getGuageSize()"
+            [thick]="10"
+            [append]="'/10'">
+            </ngx-gauge>
+        </div>
+        <br>
+        <div class="text-center">
+            <button mat-stroked-button (click)="drawer.close()" class="bg-gray-700 rounded-md closeFont p-3">Close Skill</button>
+        </div>
 
     </mat-drawer>
     <div class="grid grid-cols-4">

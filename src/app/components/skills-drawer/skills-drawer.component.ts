@@ -1,3 +1,4 @@
+import { TOUCH_BUFFER_MS } from '@angular/cdk/a11y/input-modality/input-modality-detector';
 import { Component, Input, OnInit, ViewChild } from '@angular/core';
 import { MatSidenav } from '@angular/material/sidenav';
 import { Profile } from 'src/app/models/profile.model';
@@ -14,8 +15,10 @@ export class SkillsDrawerComponent implements OnInit {
   @ViewChild('drawer') drawer!: MatSidenav;
   skillName = "";
   skillDescription = "";
-  skillRating = 80;
+  skillRating = 0;
   skillIndustryExperience = 0;
+  currentId = -1;
+
   constructor() { }
 
   ngOnInit(): void {
@@ -23,13 +26,34 @@ export class SkillsDrawerComponent implements OnInit {
 
   selectedSkillChangedHandler(id: number): void {
     this.getSkillById(id);
-    this.drawer.open();
+    if(this.currentId == id){
+      this.currentId = -1;
+      this.drawer.close();
+    }
+    else{
+      window.scrollTo(0,200);
+      this.drawer.open()
+      this.currentId = id;
+    }
+  }
+
+  getRate(){
+    return this.skillRating;
+  }
+
+  getGuageSize(){
+    console.log(window.innerWidth)
+    if(window.innerWidth < 800){
+      return 100;
+    }
+    else{
+      return 200;
+    }
   }
 
   getSkillById(id: number):void{
     let skills = this.p.getAllSkills();
-    for (let i = 0; i < skills.length; i++)
-    {
+    for (let i = 0; i < skills.length; i++){
       if (skills[i].getSkillId() == id) {
         this.skillName = skills[i].getSkillName();
         this.skillDescription = skills[i].getSkillDescription();

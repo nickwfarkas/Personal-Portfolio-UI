@@ -6,6 +6,18 @@
     font-size: 5vw;
 }
 
+.gaugeLabelFont{
+    font-size: 3.5vw;
+}
+
+.closeFont{
+    font-size: 1.75vw;
+}
+
 mat-drawer {
     width: 35%;
-  }
+}
+
+html{
+    scroll-behavior: smooth;
+}
