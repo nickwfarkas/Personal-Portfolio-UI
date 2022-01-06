@@ -5,7 +5,7 @@ export class Profile {
     private _name: string;
     private _email: string;
     private _phoneNumber: string;
-    private _education: Education[];
+    private _education: Education;
     private _workExperience: WorkExperience[];
     private _skillCategories: string[];
     private _skills: Skill[];
@@ -14,7 +14,7 @@ export class Profile {
     private _linkedInUrl: string;
 
     constructor(name: string, email: string, phoneNumber: string,
-        education: Education[], workExperience: WorkExperience[], skillCategories: string[], skills: Skill[], 
+        education: Education, workExperience: WorkExperience[], skillCategories: string[], skills: Skill[], 
         gitHubUrl: string, instagramUrl: string, linkedInUrl: string){
         this._name = name;
         this._email = email;
@@ -52,11 +52,11 @@ export class Profile {
         this._phoneNumber = phoneNumber;
     }
 
-    getEducation(): Education[]{
+    getEducation(): Education{
         return this._education;
     }
 
-    setEducation(education: Education[]): void{
+    setEducation(education: Education): void{
         this._education = education;
     }
 
