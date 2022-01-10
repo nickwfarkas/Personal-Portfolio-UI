@@ -6,8 +6,13 @@
     font-size: 4vw;
 }
 
+.buttonFont{
+    font-size: 970;
+}
+
 .flexFont{
     white-space: normal;
     font-size:calc(8px + .55vw);
     /* font-size: 8px; */
 }
+

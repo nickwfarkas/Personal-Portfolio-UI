@@ -1,6 +1,58 @@
-<div class="labelFont text-center whitespace-nowrap font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-blue-400 via-blue-500 to-blue-600">Education</div>
-  
-<div class="flex flex-col justify-center items-center">
+<div class="text-white w-11/12 text-right mb-3">
+  <button mat-stroked-button (click)="accordion.openAll()">Expand All</button>
+  <button mat-stroked-button (click)="accordion.closeAll()">Collapse All</button>
+</div>
+
+<div class="flex flex-wrap">
+  <div class="w-11/12" *ngFor="let school of p.getEducation().getSummary()">  
+    <mat-card>
+      <mat-card-title-group>
+        <mat-card-title>{{school.getDegreeType()}}</mat-card-title>
+        <mat-card-subtitle>{{school.getDegreeName()}}</mat-card-subtitle>
+        <img mat-card-sm-image src="https://material.angular.io/assets/img/examples/shiba2.jpg" >
+      </mat-card-title-group>
+      <mat-card-content>
+        <h1>{{school.getSchoolName()}}</h1>
+        <h2>{{school.getStartDateString()+" to "+school.getGraduationDateString()}}</h2>
+        <p><strong>GPA: </strong>{{school.getGpa()}}</p>
+      </mat-card-content>
+    </mat-card>
+  </div>
+</div>
+
+<div class="flex flex-col text-center items-center">
+  <mat-accordion class="w-11/12" multi="True">
+    <div *ngFor="let term of p.getEducation().getCollegeTerm()" class="whitespace-normal">
+      <mat-expansion-panel class="text-gray-200 bg-gray-700" [expanded]="true">
+        <mat-expansion-panel-header>
+          <mat-panel-title class="text-gray-200">
+            {{term.getName()+" "+term.getYear()}}
+          </mat-panel-title>
+        </mat-expansion-panel-header>
+        <div *ngIf="term.getStanding() != 'Regular'">
+          {{"Class Standing: "+term.getStanding()}}
+        </div>
+        <div *ngIf="term.getGPA() != '0'">
+          {{"Semester GPA: "+term.getGPA()}}
+        </div>
+        <div class="w-full flex flex-wrap space-x-1">
+          <div class="flex h-full" *ngFor="let c of term.getcollegeClasses()">
+            <mat-card button mat-ripple (click)="openClassDialog(c)" class="{{backgroundColor(c.getSubject())}} hover:scale-105 m-2 text-center">
+              <div class="text-left">
+                <mat-card-title class="text-white">{{c.getName()}}</mat-card-title>
+                <mat-card-subtitle class="text-white">{{c.getCode()}}</mat-card-subtitle>
+              </div>
+            </mat-card>
+          </div>
+        </div>
+      </mat-expansion-panel>
+    </div>
+  </mat-accordion>
+</div>
+
+
+
+<!-- <div class="bg-black border-gray-900 flex flex-col justify-center items-center">
   <mat-card class="w-11/12 p-0 bg-gradient-to-r from-blue-400 via-blue-500 to-blue-600">
     <mat-card-content>
       <mat-list role="list">
@@ -19,4 +71,4 @@
       </mat-list>
     </mat-card-content>
   </mat-card>
-</div>
+</div> -->

@@ -17,7 +17,7 @@
 
 <form [formGroup]="select" class="w-full text-center">
   <mat-form-field appearance="fill" class="w-11/12 bg-transparent border-t-1 border-gray-900 rounded-lg">
-    <mat-label class="text-white">Sort</mat-label>
+    <mat-label class="text-white">Filter</mat-label>
     <mat-select [formControl]="selectedControl">
       <mat-option value="None">All</mat-option>
       <div *ngFor="let category of p.getSkillCategories()">

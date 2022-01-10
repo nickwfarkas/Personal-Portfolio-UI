@@ -24,6 +24,10 @@ import { ScrollingModule } from '@angular/cdk/scrolling';
 import { MatProgressSpinnerModule } from '@angular/material/progress-spinner';
 import { GaugeModule } from 'angular-gauge';
 import { NgxGaugeModule } from 'ngx-gauge';
+import { MatTabsModule } from '@angular/material/tabs';
+import { MatDialogModule } from '@angular/material/dialog';
+import { ClassDialogComponent } from './components/class-dialog/class-dialog.component';
+import { MatButtonModule } from '@angular/material/button';
 
 @NgModule({
   declarations: [
@@ -31,7 +35,8 @@ import { NgxGaugeModule } from 'ngx-gauge';
     SkillsViewComponent,
     WorkExperienceViewComponent,
     EducationViewComponent,
-    SkillsDrawerComponent
+    SkillsDrawerComponent,
+    ClassDialogComponent
   ],
   imports: [
     BrowserModule,
@@ -53,7 +58,10 @@ import { NgxGaugeModule } from 'ngx-gauge';
     ScrollingModule,
     MatProgressSpinnerModule,
     GaugeModule.forRoot(),
-    NgxGaugeModule
+    NgxGaugeModule,
+    MatTabsModule,
+    MatDialogModule,
+    MatButtonModule
   ],
   providers: [
     DrawerService

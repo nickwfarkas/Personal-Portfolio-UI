@@ -1,19 +1,17 @@
-<div class="flex flex-col items-center work-card-container text-center bg-black border-l-8 border-t-8 border-gray-900">
-  
-  <education-view [p]='p' class="w-full"></education-view><br>
-  
-  <div class="title-font text-center whitespace-nowrap font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-blue-400 via-blue-500 to-blue-600 labelFont">Industry Experience</div>
-
-  <div *ngFor="let workExperience of dataSource" class="w-11/12 text-center">
-    <mat-card class="p-0 bg-gradient-to-r from-blue-400 via-blue-500 to-blue-600">
-      <mat-card-title class="">{{workExperience.getPositionName()}}</mat-card-title>
-      <mat-card-subtitle class="subtitle-font">{{workExperience.getCompanyName()+" from "+workExperience.getStartDateString()+" to "+workExperience.getEndDateString()}}</mat-card-subtitle>
+<div class="flex flex-col items-center work-card-container text-center bg-black">
+  <br>
+  <div *ngFor="let workExperience of dataSource" class="w-11/12">
+    <mat-card class="p-0 bg-gray-800">
+      <mat-card-title class="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 via-blue-500 to-blue-600">{{workExperience.getPositionName()}}</mat-card-title>
+      <mat-card-subtitle class="subtitle-font text-gray-200">{{workExperience.getCompanyName()+" from "+workExperience.getStartDateString()+" to "+workExperience.getEndDateString()}}</mat-card-subtitle>
       <mat-card-content>
         <mat-list role="list">
           <div class="whitespace-normal" *ngFor="let attribute of workExperience.getAttributes()">
             <mat-list-item role="listitem" class="self-baseline text-left flexFont leading-tight mt-1 mb-1 flex">
               <mat-icon class="bullet pl-1">lens</mat-icon>
-              {{attribute}}
+              <div class="text-gray-200">
+                {{attribute}}
+              </div>
             </mat-list-item>
             <br>
           </div>

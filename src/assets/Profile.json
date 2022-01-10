@@ -1,34 +1,600 @@
 {
     "Profile": {
-        "_name": "Nicholas Farkas",
+        "profileName": "Nicholas Farkas",
         "_email": "nicholaswfarkas@gmail.com",
         "_phoneNumber": "313-969-3310",
-        "_education": [
-            {
-                "_schoolName": "Henry Ford College",
-                "_degreeType": "Associates of Arts",
-                "_degreeName": "Liberal Arts",
-                "_startDate": "2018/08/01",
-                "_graduationDate": "2020/08/01",
-                "_gpa": "0"
-            },
-            {
-                "_schoolName": "Wayne State University",
-                "_degreeType": "Bachelor of Science",
-                "_degreeName": "Computer Science",
-                "_startDate": "2020/09/01",
-                "_graduationDate": "2022/12/01",
-                "_gpa": "3.72"
-            },
-            {
-                "_schoolName": "Wayne State University",
-                "_degreeType": "Minor",
-                "_degreeName": "Mathematical Statistics",
-                "_startDate": "2020/09/01",
-                "_graduationDate": "2022/12/01",
-                "_gpa": "3.72"
-            }
-        ],
+        "_education": {
+            "_summary": [
+                {
+                    "_schoolName": "Henry Ford College",
+                    "_degreeType": "Associates of Arts",
+                    "_degreeName": "Liberal Arts",
+                    "_startDate": "2018/08/01",
+                    "_graduationDate": "2020/08/01",
+                    "_gpa": "0"
+                },
+                {
+                    "_schoolName": "Wayne State University",
+                    "_degreeType": "Bachelor of Science",
+                    "_degreeName": "Computer Science",
+                    "_startDate": "2020/09/01",
+                    "_graduationDate": "2022/12/01",
+                    "_gpa": "3.72"
+                },
+                {
+                    "_schoolName": "Wayne State University",
+                    "_degreeType": "Minor",
+                    "_degreeName": "Mathematical Statistics",
+                    "_startDate": "2020/09/01",
+                    "_graduationDate": "2022/12/01",
+                    "_gpa": "3.72"
+                }
+            ],
+            "_history": [
+                {
+                    "ID": "1",
+                    "name": "Fall",
+                    "year": "2018",
+                    "GPA": "0",
+                    "standing": "Regular",
+                    "classes": [
+                        {
+                            "code": "ENG 131",
+                            "name": "Introduction to College Writing",
+                            "description": "ENG-131 is the first college-level composition course in a two-semester sequence. Students will be introduced to writing, reading, critical thinking, and using information at the college level. In particular, the course will help students develop writing that reveals rhetorical and academic flexibility.",
+                            "grade": "0",
+                            "takenAt": "Henry Ford College",
+                            "image": "",
+                            "professorName": "Kroll, M",
+                            "rateMyProfessorLink": "https://www.ratemyprofessors.com/ShowRatings.jsp?tid=1591766",
+                            "personalNote": "",
+                            "githubLink": "",
+                            "subject": "English",
+                            "rating": "8"
+                        },
+                        {
+                            "code": "PSY 131",
+                            "name": "Introduction to Psychology",
+                            "description": "Introduces elementary concepts and principles related to the scientific study of behavior and of the mental processes of cognition and affective states. Variables examined include the history of psychology, the scientific method, theory, biological foundations, psychological processes related to cognition and affective states, developmental changes over time, and applications related to healthy and unhealthy personalities.",
+                            "grade": "0",
+                            "takenAt": "Henry Ford College",
+                            "image": "",
+                            "professorName": "Sepulveda, M",
+                            "rateMyProfessorLink": "https://www.ratemyprofessors.com/ShowRatings.jsp?tid=1432282",
+                            "personalNote": "",
+                            "githubLink": "",
+                            "subject": "Social Science",
+                            "rating": "2"
+                        },
+                        {
+                            "code": "CIS 100",
+                            "name": "Introduction to Information Technology",
+                            "description": "Survey the field of computer technology and information management. Covers computer hardware, the use of the Internet for communication, e-commerce, information retrieval, the social impact of technology, computer security, networking, and industry-related careers. Introduces students to operating systems; Internet browsers; e-mail; and word processing, spreadsheet, and presentation software. This course satisfies the HFC's General Education Computer Technology requirement.",
+                            "grade": "0",
+                            "takenAt": "Henry Ford College",
+                            "image": "",
+                            "professorName": "Trohimczyk, M",
+                            "rateMyProfessorLink": "https://www.ratemyprofessors.com/ShowRatings.jsp?tid=2274387",
+                            "personalNote": "",
+                            "githubLink": "https://github.com/nickwfarkas/Undergraduate-Coursework/tree/main/CIS-100_Microsoft_Access_Database",
+                            "subject": "Computer Science",
+                            "rating": "3"
+                        },
+                        {
+                            "code": "MATH 175",
+                            "name": "Precalculus",
+                            "description": "Topics include algebraic, graphical and numerical representations of functions, including composition and inverses of functions. Focuses on the study of rational functions, exponential and logarithmic functions, and trigonometric functions of real numbers and angles. Also includes analytic trigonometry and solutions of triangles. Techniques of problem solving and applications are included throughout the course requiring the frequent usage of graphing calculators. Requires a graphing calculator, with the TI-84 Plus series recommended. Also requires access to an online homework management system.",
+                            "grade": "0",
+                            "takenAt": "Henry Ford College",
+                            "image": "",
+                            "professorName": "Rayhall, M",
+                            "rateMyProfessorLink": "https://www.ratemyprofessors.com/ShowRatings.jsp?tid=378045",
+                            "personalNote": "",
+                            "githubLink": "",
+                            "subject": "Math",
+                            "rating": "7"
+                        },
+                        {
+                            "code": "SOC 131",
+                            "name": "Intro to Sociology",
+                            "description": "Introduces the sociological approach to understanding culture and society. Examines human behavior in a group context, focusing on the prominent influence of culture and social structure on individuals. Connections between individuals and a variety of social institutions, such as the economy, government, and mass media, are examined and compared in U.S. society and on a global scale. Focuses on cultural diversity and social inequalities, such as those related to class, race, ethnicity and gender.",
+                            "grade": "0",
+                            "takenAt": "Henry Ford College",
+                            "image": "",
+                            "professorName": "Norris, W",
+                            "rateMyProfessorLink": "https://www.ratemyprofessors.com/ShowRatings.jsp?tid=2392980",
+                            "personalNote": "",
+                            "githubLink": "",
+                            "subject": "Social Science",
+                            "rating": "9"
+                        }
+                    ]
+                },
+                {
+                    "ID": "2",
+                    "name": "Winter",
+                    "year": "2019",
+                    "GPA": "0",
+                    "standing": "Regular",
+                    "classes": [
+                        {
+                            "code": "CIS 125",
+                            "name": "Principles of Programming Logic",
+                            "description": "An introductory-level course presenting programming logic concepts and skills. Emphasizes structured methods of programming. Covers input, output, selection/decisions, loops, arrays, data validation, functions, and modules. A computer lab is used for debugging, compilation and testing.",
+                            "grade": "0",
+                            "takenAt": "Henry Ford College",
+                            "image": "",
+                            "professorName": "Conner, M",
+                            "rateMyProfessorLink": "https://www.ratemyprofessors.com/ShowRatings.jsp?tid=1561325",
+                            "personalNote": "",
+                            "githubLink": "",
+                            "subject": "Computer Science",
+                            "rating": "7"
+                        },
+                        {
+                            "code": "WR 130",
+                            "name": "Intro to the Study of Religion",
+                            "description": "",
+                            "grade": "0",
+                            "takenAt": "Henry Ford College",
+                            "image": "",
+                            "professorName": "Geffen, J",
+                            "rateMyProfessorLink": "https://www.ratemyprofessors.com/ShowRatings.jsp?tid=1784769",
+                            "personalNote": "",
+                            "githubLink": "",
+                            "subject": "Social Science",
+                            "rating": "9"
+                        },
+                        {
+                            "code": "MATH 180",
+                            "name": "Calculus I",
+                            "description": "For students planning to pursue a course of study involving a concentration in mathematics. Topics include limits, continuity, the derivative, differentiation of algebraic, exponential, logarithmic, trigonometric and inverse trigonometric functions, applications of the derivative, antidifferentiation, and the definite integral. Numerical, graphical and algebraic approaches are used whenever possible. Credit cannot be earned for both MATH 153 and 180. Requires a graphing calculator, with the TI-84 Plus series recommended. Also requires access to an online homework management system.",
+                            "grade": "0",
+                            "takenAt": "Henry Ford College",
+                            "image": "",
+                            "professorName": "Dubaisi, H",
+                            "rateMyProfessorLink": "https://www.ratemyprofessors.com/ShowRatings.jsp?tid=1799151",
+                            "personalNote": "",
+                            "githubLink": "",
+                            "subject": "Math",
+                            "rating": "8"
+                        }
+                    ]
+                },
+                {
+                    "ID": "3",
+                    "name": "Fall",
+                    "year": "2019",
+                    "GPA": "0",
+                    "standing": "Regular",
+                    "classes": [
+                        {
+                            "code": "CIS 111",
+                            "name": "SQL for Database Development",
+                            "description": "An intermediate-level course familiarizing the student with the SQL language used to retrieve and modify tables and data within a SQL Server database management system. Covers outer joins, summary queries, and subqueries. Also discusses using normalization techniques to design and create database structures, views, scripts, stored procedures, scalar functions, and triggers.",
+                            "grade": "0",
+                            "takenAt": "Henry Ford College",
+                            "image": "",
+                            "professorName": "Conti, A",
+                            "rateMyProfessorLink": "https://www.ratemyprofessors.com/ShowRatings.jsp?tid=426459",
+                            "personalNote": "",
+                            "githubLink": "https://github.com/nickwfarkas/Undergraduate-Coursework/tree/main/CIS-111-SQL",
+                            "subject": "Computer Science",
+                            "rating": "8"
+                        },
+                        {
+                            "code": "CIS 170",
+                            "name": "C Programming",
+                            "description": "An intermediate-level course which familiarizes the student with the C programming language. Covers designing, coding, testing, and debugging programs. Emphasizes program and coding efficiency.",
+                            "grade": "0",
+                            "takenAt": "Henry Ford College",
+                            "image": "",
+                            "professorName": "Morgan, R",
+                            "rateMyProfessorLink": "https://www.ratemyprofessors.com/ShowRatings.jsp?tid=2230577",
+                            "personalNote": "",
+                            "githubLink": "https://github.com/nickwfarkas/Undergraduate-Coursework/tree/main/CIS-170-C",
+                            "subject": "Computer Science",
+                            "rating": "8"
+                        },
+                        {
+                            "code": "PHYS 231",
+                            "name": "Engineering Physics I",
+                            "description": "Designed to meet the requirements of engineering students and physics majors. Emphasizes relating physical principles to mathematical techniques in problem solving. Covers mechanics, wave motion, and thermodynamics. Four hours of lecture and three hours of laboratory activities per week. NOTE: Recommended co-requisite is MATH-183.",
+                            "grade": "0",
+                            "takenAt": "Henry Ford College",
+                            "image": "",
+                            "professorName": "Smith, J",
+                            "rateMyProfessorLink": "https://www.ratemyprofessors.com/ShowRatings.jsp?tid=1799151",
+                            "personalNote": "",
+                            "githubLink": "",
+                            "subject": "Physical Science",
+                            "rating": "8"
+                        }
+                    ]
+                },
+                {
+                    "ID": "4",
+                    "name": "Winter",
+                    "year": "2020",
+                    "GPA": "0",
+                    "standing": "Regular",
+                    "classes": [
+                        {
+                            "code": "ASTR 131",
+                            "name": "Descriptive Astronomy",
+                            "description": "Consists of a non-mathematical introduction to elements of the astronomical universe by means of lecture and planetarium demonstrations. Covers the major units of the universe and their interrelation. Scientific background not necessary.",
+                            "grade": "0",
+                            "takenAt": "Henry Ford College",
+                            "image": "",
+                            "professorName": "Wullaert, G",
+                            "rateMyProfessorLink": "https://www.ratemyprofessors.com/ShowRatings.jsp?tid=2453256",
+                            "personalNote": "",
+                            "githubLink": "",
+                            "subject": "Physical Science",
+                            "rating": "5"
+                        },
+                        {
+                            "code": "CIS 230",
+                            "name": "C++ Programming",
+                            "description": "An advanced-level course expanding upon arrays, pointers, structures, templates, and file I/O. Test Driven Development (TDD), refactoring, and UML diagrams concepts are applied. Covers theory and application in areas such as the standard template libraries including vectors, lists, stacks, queues, sets, and maps. Object oriented principles of classes, data, inheritance and dynamic binding are covered.",
+                            "grade": "0",
+                            "takenAt": "Henry Ford College",
+                            "image": "",
+                            "professorName": "Moscardelli, K",
+                            "rateMyProfessorLink": "https://www.ratemyprofessors.com/ShowRatings.jsp?tid=116235",
+                            "personalNote": "",
+                            "githubLink": "https://github.com/nickwfarkas/Undergraduate-Coursework/tree/main/CIS-230-C%2B%2B:Computer_Science_1",
+                            "subject": "Computer Science",
+                            "rating": "8"
+                        },
+                        {
+                            "code": "ENG 135",
+                            "name": "Bus & Tech Writing & Research",
+                            "description": "Designed for students interested in developing professional workplace communication and critical thinking skills, ENG-135 focuses on the Critical Thinking & Information Literacy and the Written Communication Institutional Learning Outcomes. Students design documents such as resumes, letters, memos, instructions, proposals, and an extensive, research-based documented report for the kinds of readers they will address as professionals. This course should be especially valuable for students pursuing careers in business, computer science, automotive technology, allied health, and other technical fields.",
+                            "grade": "0",
+                            "takenAt": "Henry Ford College",
+                            "image": "",
+                            "professorName": "Cohn, E",
+                            "rateMyProfessorLink": "https://www.ratemyprofessors.com/ShowRatings.jsp?tid=2276550",
+                            "personalNote": "",
+                            "githubLink": "",
+                            "subject": "English",
+                            "rating": "6"
+                        },
+                        {
+                            "code": "MATH 275",
+                            "name": "Discrete Mathematics",
+                            "description": "For students in a computer engineering or computer science program. Covers logic, methods of proof, set theory, algorithms, recursion, correctness, relations, partial orderings, graphs, trees, Boolean algebra, grammars, and finite-state machines. Includes various applications throughout the course. Requires a graphing calculator, with the TI-84 Plus series recommended.",
+                            "grade": "0",
+                            "takenAt": "Henry Ford College",
+                            "image": "",
+                            "professorName": "Zalzali, M",
+                            "rateMyProfessorLink": "https://www.ratemyprofessors.com/ShowRatings.jsp?tid=1917569",
+                            "personalNote": "",
+                            "githubLink": "",
+                            "subject": "Math",
+                            "rating": "7"
+                        },
+                        {
+                            "code": "WR 131",
+                            "name": "Religious Traditions in the World",
+                            "description": "Introduces the beliefs, practices, and experiences of the major world religious traditions. In addition to examining the particulars of each faith, this course emphasizes current perspectives in religious studies that serve to clarify the nature and functions of religion as a force shaping, and being shaped by, the increasingly pluralistic contemporary world. Religion will be treated seriously as an important part of people's identity and a crucial prerequisite for understanding and appreciating others and selves.",
+                            "grade": "0",
+                            "takenAt": "Henry Ford College",
+                            "image": "",
+                            "professorName": "Geffen, J",
+                            "rateMyProfessorLink": "https://www.ratemyprofessors.com/ShowRatings.jsp?tid=1784769",
+                            "personalNote": "",
+                            "githubLink": "",
+                            "subject": "Social Science",
+                            "rating": "8"
+                        }
+                    ]
+                },
+                {
+                    "ID": "5",
+                    "name": "Fall",
+                    "year": "2020",
+                    "GPA": "3.82",
+                    "standing": "Dean's List",
+                    "classes": [
+                        {
+                            "code": "BE 1200",
+                            "name": "Arduino Microcontroller",
+                            "description": "Core principles of engineering practice: design, teamwork, professional ethics.",
+                            "grade": "A",
+                            "takenAt": "Wayne State University",
+                            "image": "",
+                            "professorName": "Alazzawi, L",
+                            "rateMyProfessorLink": "https://www.ratemyprofessors.com/ShowRatings.jsp?tid=1909190",
+                            "personalNote": "",
+                            "githubLink": "https://github.com/nickwfarkas/Undergraduate-Coursework/tree/main/BE-1200-Arduino",
+                            "subject": "Computer Science",
+                            "rating": "8"
+                        },
+                        {
+                            "code": "BE 1600",
+                            "name": "Python Programming and Computation",
+                            "description": "An introduction to programming using Python for students with no programming experience. Basic control structures (sequence, selection, repetition) and all core data types using objects. Practice on core data structures (string, list, tuple, dictionary, and set). Design, implementation and testing of programs to solve problems with an emphasis on data manipulation using real world, practical examples.",
+                            "grade": "A",
+                            "takenAt": "Wayne State University",
+                            "image": "",
+                            "professorName": "Jiang, S",
+                            "rateMyProfessorLink": "",
+                            "personalNote": "",
+                            "githubLink": "https://github.com/nickwfarkas/Undergraduate-Coursework/tree/main/BE-1600-Python_Scripting",
+                            "subject": "Computer Science",
+                            "rating": "6"
+                        },
+                        {
+                            "code": "CSC 3020",
+                            "name": "Java Programming",
+                            "description": "Introduction to the fundamentals of programming using Java. Topics include: object-oriented programming, classes, constructors, flow control statements, data types, methods, inheritance, data hiding, abstraction, exceptions, file I/O, Java GUI, and Java packages.",
+                            "grade": "A-",
+                            "takenAt": "Wayne State University",
+                            "image": "",
+                            "professorName": "Jayyousi, T",
+                            "rateMyProfessorLink": "https://www.ratemyprofessors.com/ShowRatings.jsp?tid=1833036",
+                            "personalNote": "",
+                            "githubLink": "",
+                            "subject": "Computer Science",
+                            "rating": "8"
+                        },
+                        {
+                            "code": "MATH 2020",
+                            "name": "Calculus II",
+                            "description": "Review definition of definite integral and fundamental theorem of calculus. Techniques of integration; approximate integration; improper integrals; applications of integration. Sequences and series. Approximating functions by polynomials and Taylor series. Students in the Emerging Scholars Program must also enroll in the accompanying problem-solving workshop: MAT 2120, for a total of six credits. Prerequisites are subject to specific conditions. Refer to the Mathematics Placement Information page referenced at the top of the Mathematics course listings in the University Bulletin.",
+                            "grade": "A-",
+                            "takenAt": "Wayne State University",
+                            "image": "",
+                            "professorName": "Wang, P",
+                            "rateMyProfessorLink": "https://www.ratemyprofessors.com/ShowRatings.jsp?tid=584758",
+                            "personalNote": "",
+                            "githubLink": "",
+                            "subject": "Math",
+                            "rating": "8"
+                        }
+                    ]
+                },
+                {
+                    "ID": "6",
+                    "name": "Winter",
+                    "year": "2021",
+                    "GPA": "3.6",
+                    "standing": "Regular",
+                    "classes": [
+                        {
+                            "code": "BE 2100",
+                            "name": "Probability and Statistics",
+                            "description": "Core principles of engineering practice: design, teamwork, professional ethics.",
+                            "grade": "PASS",
+                            "takenAt": "Wayne State University",
+                            "image": "",
+                            "professorName": "Trewn, J",
+                            "rateMyProfessorLink": "https://www.ratemyprofessors.com/ShowRatings.jsp?tid=2149935",
+                            "personalNote": "",
+                            "githubLink": "",
+                            "subject": "Math",
+                            "rating": "3"
+                        },
+                        {
+                            "code": "CSC 2200",
+                            "name": "Computer Science II",
+                            "description": "Design and implementation of fundamental abstract data types of computer science (such as stacks, queues, trees, lists, hashing, and graphs), using an object-oriented language. Programming requirements include the implementation of abstract data types using arrays and dynamic links; recursion; sorting and searching; hashing; and string processing. Introduction to algorithm analysis.",
+                            "grade": "B",
+                            "takenAt": "Wayne State University",
+                            "image": "",
+                            "professorName": "Grosu, D",
+                            "rateMyProfessorLink": "https://www.ratemyprofessors.com/ShowRatings.jsp?tid=602317",
+                            "personalNote": "",
+                            "githubLink": "https://github.com/nickwfarkas/Undergraduate-Coursework/tree/main/CSC-2200-Computer_Science_2",
+                            "subject": "Computer Science",
+                            "rating": "7"
+                        },
+                        {
+                            "code": "PHIL 1100",
+                            "name": "Contemporary Moral Issues",
+                            "description": "Critical discussion of contemporary moral issues including pornography, adultery, same-sex marriage, abortion, preferential treatment, obligations to the poor, capital punishment, terrorism, and others.",
+                            "grade": "A-",
+                            "takenAt": "Wayne State University",
+                            "image": "",
+                            "professorName": "Briggs, R",
+                            "rateMyProfessorLink": "https://www.ratemyprofessors.com/ShowRatings.jsp?tid=2623306",
+                            "personalNote": "",
+                            "githubLink": "",
+                            "subject": "Social Science",
+                            "rating": "7"
+                        },
+                        {
+                            "code": "CSC 3010",
+                            "name": "Ethics in Computer Science",
+                            "description": "Students will study the ethical and legal issues that arise with the usage and development of computing technology. Students will learn the responsibilities of the computer professionals and how to make appropriate decisions when faced with legal and ethical issues in computing.",
+                            "grade": "A",
+                            "takenAt": "Wayne State University",
+                            "image": "",
+                            "professorName": "Myers, J",
+                            "rateMyProfessorLink": "https://www.ratemyprofessors.com/ShowRatings.jsp?tid=2393605",
+                            "personalNote": "",
+                            "githubLink": "",
+                            "subject": "Computer Science",
+                            "rating": "4"
+                        },
+                        {
+                            "code": "ENGR 5995",
+                            "name": "Data Science Life Cycle",
+                            "description": "State of the art research, development and practice topics from across the fields of engineering; emphasis on interdisciplinary topics.",
+                            "grade": "A",
+                            "takenAt": "Wayne State University",
+                            "image": "",
+                            "professorName": "Raad, N",
+                            "rateMyProfessorLink": "",
+                            "personalNote": "",
+                            "githubLink": "",
+                            "subject": "Computer Science",
+                            "rating": "7"
+                        }
+                    ]
+                },
+                {
+                    "ID": "7",
+                    "name": "Fall",
+                    "year": "2021",
+                    "GPA": "3.6",
+                    "standing": "Dean's List",
+                    "classes": [
+                        {
+                            "code": "CSC 3110",
+                            "name": "Algorithm Design and Analysis",
+                            "description": "Formal techniques to support design and analysis of algorithms: underlying mathematical theory and practical considerations of efficiency. Topics include asymptotic complexity bounds, techniques of analysis, algorithmic strategies, advanced data and file structures, and introduction to automata theory and its application to language translation.",
+                            "grade": "B+",
+                            "takenAt": "Wayne State University",
+                            "image": "",
+                            "professorName": "Castro, A",
+                            "rateMyProfessorLink": "https://www.ratemyprofessors.com/ShowRatings.jsp?tid=2728291",
+                            "personalNote": "",
+                            "githubLink": "",
+                            "subject": "Computer Science",
+                            "rating": "5"
+                        },
+                        {
+                            "code": "CSC 4710",
+                            "name": "Introduction to Database Management Systems",
+                            "description": "Topics include: database concepts, ER modeling, schemas and constraints, SQL and relational algebra, web-based database applications, triggers and views, physical organization and indexing, query processing, query optimization, NoSQL databases.",
+                            "grade": "A",
+                            "takenAt": "Wayne State University",
+                            "image": "",
+                            "professorName": "Castro, A",
+                            "rateMyProfessorLink": "https://www.ratemyprofessors.com/ShowRatings.jsp?tid=2728291",
+                            "personalNote": "",
+                            "githubLink": "https://github.com/nickwfarkas/Undergraduate-Coursework/tree/main/CSC-4710_Database_Systems",
+                            "subject": "Computer Science",
+                            "rating": "8"
+                        },
+                        {
+                            "code": "CSC 4500",
+                            "name": "Introduction to Theoretical Computer Science",
+                            "description": "Finite automata and regular expressions; context-free grammars; pushdown automata; Turing machines; hierarchy of formal languages and automata; computability and decidability.",
+                            "grade": "A",
+                            "takenAt": "Wayne State University",
+                            "image": "",
+                            "professorName": "Goel, N",
+                            "rateMyProfessorLink": "https://www.ratemyprofessors.com/ShowRatings.jsp?tid=534959",
+                            "personalNote": "",
+                            "githubLink": "",
+                            "subject": "Computer Science",
+                            "rating": "5"
+                        },
+                        {
+                            "code": "STA 5030",
+                            "name": "Statistical Computing and Data Analysis",
+                            "description": "Computational aspect of statistics and data analysis for advanced undergraduate and beginning graduate students. Topics include descriptive statistics, probability distributions, hypothesis testing, ANOVA, linear regression and logistic regression. Data analysis by use of statistical packages such as R, SAS, Python, SPSS or Minitab.",
+                            "grade": "A",
+                            "takenAt": "Wayne State University",
+                            "image": "",
+                            "professorName": "Shinki, K",
+                            "rateMyProfessorLink": "https://www.ratemyprofessors.com/ShowRatings.jsp?tid=1344025",
+                            "personalNote": "",
+                            "githubLink": "https://github.com/nickwfarkas/Undergraduate-Coursework/tree/main/STA_5030_Statistical_Computation",
+                            "subject": "Math",
+                            "rating": "8"
+                        },
+                        {
+                            "code": "ENG 3060",
+                            "name": "Technical Communication II: Presentations",
+                            "description": "Instruction in basic technical presentation skills. Requirements include informative presentations, oral briefings, needs assessments, progress reports, and formal proposals. Topics include collaborative teamwork, audience and purpose analysis, textual and visual aspects of presentation design, and formatting.",
+                            "grade": "B+",
+                            "takenAt": "Wayne State University",
+                            "image": "",
+                            "professorName": "Mayer, D",
+                            "rateMyProfessorLink": "https://www.ratemyprofessors.com/ShowRatings.jsp?tid=1594948",
+                            "personalNote": "This class was very group based meaning that the final grade very much depended on your group not your own individual contributions.",
+                            "githubLink": "",
+                            "subject": "English",
+                            "rating": "4"
+                        }
+                    ]
+                },
+                {
+                    "ID": "8",
+                    "name": "Winter",
+                    "year": "2022",
+                    "GPA": "0",
+                    "standing": "In Progress",
+                    "classes": [
+                        {
+                            "code": "CSC 3100",
+                            "name": "Computer Architecture and Organization",
+                            "description": "Organization and architecture of computer systems. Topics include: digital logic and digital systems; machine-level representation of data and programs; assembly level machine organization and programming; register-level description of computer execution and the functional organization of a computer; role and function of programming languages, libraries and operating systems; performance evaluation; systems programming.",
+                            "grade": "0",
+                            "takenAt": "Wayne State University",
+                            "image": "",
+                            "professorName": "Brocanelli, M",
+                            "rateMyProfessorLink": "",
+                            "personalNote": "",
+                            "githubLink": "",
+                            "subject": "Computer Science",
+                            "rating": "0"
+                        },
+                        {
+                            "code": "CSC 6580",
+                            "name": "Design and Analysis of Algorithms",
+                            "description": "Best case, worst case, and expected case complexity analysis; asymptotic approximations; solutions of recurrence equations; probabilistic techniques; divide-and-conquer; the greedy approach; dynamic programming; branch and bound; NP-completeness; parallel algorithms.",
+                            "grade": "0",
+                            "takenAt": "Wayne State University",
+                            "image": "",
+                            "professorName": "Xu, L",
+                            "rateMyProfessorLink": "https://www.ratemyprofessors.com/ShowRatings.jsp?tid=1413527",
+                            "personalNote": "",
+                            "githubLink": "",
+                            "subject": "Computer Science",
+                            "rating": "0"
+                        },
+                        {
+                            "code": "STA 5820",
+                            "name": "Introduction to Data Science",
+                            "description": "An applied statistical learning course designed for upper level undergraduate students and graduate students in mathematics and other quantitative fields. Topics include: bias-variance trade-off, regression, classification, cross-validation, bootstrap, model selection, regularization, splines, generalized additive models, tree-based methods, support vector machines, principal component analysis and clustering. Computer implementation will be discussed for each of the methods, and students will run their own data analysis projects.",
+                            "grade": "0",
+                            "takenAt": "Wayne State University",
+                            "image": "",
+                            "professorName": "Shinki, K",
+                            "rateMyProfessorLink": "https://www.ratemyprofessors.com/ShowRatings.jsp?tid=1344025",
+                            "personalNote": "",
+                            "githubLink": "",
+                            "subject": "Math",
+                            "rating": "0"
+                        },
+                        {
+                            "code": "CSC 4110",
+                            "name": "Software Engineering",
+                            "description": "Software life cycle; software requirement analysis; software system design; software implementation and testing; software maintenance; team programming; ethics and programmers.",
+                            "grade": "0",
+                            "takenAt": "Wayne State University",
+                            "image": "",
+                            "professorName": "Myers, Jason",
+                            "rateMyProfessorLink": "https://www.ratemyprofessors.com/ShowRatings.jsp?tid=1344025",
+                            "personalNote": "",
+                            "githubLink": "",
+                            "subject": "Math",
+                            "rating": "0"
+                        },
+                        {
+                            "code": "PHYS 2230",
+                            "name": "Analytical Physics 2",
+                            "description": "The second in a two-semester sequence of calculus-based physics courses for physical science and engineering students covering calculus-based electromagnetism, electromagnetic waves, and physical and geometrical optics. The student will also perform integrated experiments dealing with the physics of electromagnetism, electromagnetic waves, and physical and geometrical optics.",
+                            "grade": "0",
+                            "takenAt": "Macomb Community College",
+                            "image": "",
+                            "professorName": "Fey, F",
+                            "rateMyProfessorLink": "https://www.ratemyprofessors.com/ShowRatings.jsp?tid=259473",
+                            "personalNote": "",
+                            "githubLink": "",
+                            "subject": "Physical Science",
+                            "rating": "0"
+                        }
+                    ]
+                }
+            ]
+        },
         "_workExperience": [
             {
                 "_positionName": "Software Engineer Intern",

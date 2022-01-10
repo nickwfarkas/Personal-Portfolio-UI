@@ -1,0 +1,29 @@
+<div class="">
+    <h1 mat-dialog-title>{{data.getCode()+": "+data.getName()}}</h1>
+    <mat-divider></mat-divider><br>
+    <div mat-dialog-content>
+        <p *ngIf="data.getGrade() != '0'">
+            <strong>Grade: </strong>{{data.getGrade()}}
+        </p>
+        <p>
+            <strong>Instructor: </strong>{{data.getprofessorName()}}
+        </p>
+        <a *ngIf="data.getGitHubLink() != ''" href={{data.getGitHubLink()}} target="_blank" class="inline-flex items-center m-2">
+            <img src="./assets/github-black.png" width="50vw" alt="GitHub">
+        </a>
+        <a *ngIf="data.getRateMyProfessorLink() != ''" href={{data.getRateMyProfessorLink()}} target="_blank" class="inline-flex items-center m-2">
+            <img src="./assets/rmp.jpg" width="50vw" alt="Rate My Professor">
+        </a>
+        <br><br>
+        <p>
+            <strong>Course Descirption: </strong>{{data.getDescription()}}
+        </p>
+        <p *ngIf="data.getPersonalNote() != ''">
+            <br>
+            <strong>Comments: </strong>{{data.getPersonalNote()}}
+        </p>
+    </div>
+    <div mat-dialog-actions>
+        <button cdkFocusInitial mat-button (click)="onNoClick()">Close</button>
+    </div>
+</div>

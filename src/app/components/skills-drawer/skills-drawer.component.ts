@@ -31,7 +31,6 @@ export class SkillsDrawerComponent implements OnInit {
       this.drawer.close();
     }
     else{
-      window.scrollTo(0,200);
       this.drawer.open()
       this.currentId = id;
     }
@@ -42,7 +41,6 @@ export class SkillsDrawerComponent implements OnInit {
   }
 
   getGuageSize(){
-    console.log(window.innerWidth)
     if(window.innerWidth < 800){
       return 100;
     }

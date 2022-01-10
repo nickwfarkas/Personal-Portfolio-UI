@@ -1,5 +1,8 @@
 import { WritePropExpr } from '@angular/compiler';
 import { Injectable, OnInit } from '@angular/core';
+import { CollegeClass } from 'src/app/models/college-class.model';
+import { CollegeTerm } from 'src/app/models/college-term.model';
+import { EducationSummary } from 'src/app/models/education-summary.model';
 import { Education } from 'src/app/models/education.model';
 import { Profile } from 'src/app/models/profile.model';
 import { Skill } from 'src/app/models/skill.model';
@@ -25,21 +28,52 @@ export class ProfileDataService{
         return skillArray;
     }
 
-    deserializeEducation(): Education[]{
-        var educationArray: Education[] = [];
-        for (let i = 0; i < this.data.Profile._education.length; i++) 
+    deserializeEducation(): Education{
+        var summary: EducationSummary[] = [];
+        var collegeTerm: CollegeTerm[] = [];
+        var collegeClasses: CollegeClass[] = [];
+        for (let i = 0; i < this.data.Profile._education._summary.length; i++) 
         {
-            educationArray.push(
-                new Education(
-                    this.data.Profile._education[i]._schoolName,
-                    this.data.Profile._education[i]._degreeType,
-                    this.data.Profile._education[i]._degreeName,
-                    new Date(this.data.Profile._education[i]._startDate),
-                    new Date(this.data.Profile._education[i]._graduationDate),
-                    this.data.Profile._education[i]._gpa
-                ));
+            summary.push(new EducationSummary(
+                this.data.Profile._education._summary[i]._schoolName,
+                this.data.Profile._education._summary[i]._degreeType,
+                this.data.Profile._education._summary[i]._degreeName,
+                new Date(this.data.Profile._education._summary[i]._startDate),
+                new Date(this.data.Profile._education._summary[i]._graduationDate),
+                this.data.Profile._education._summary[i]._gpa));
         }
-        return educationArray;
+
+        for (let i = 0; i < this.data.Profile._education._history.length; i++)
+        {
+            collegeClasses = [];
+            for (let j = 0; j < this.data.Profile._education._history[i].classes.length; j++) 
+            {
+                collegeClasses.push(new CollegeClass(
+                    this.data.Profile._education._history[i].classes[j].code,
+                    this.data.Profile._education._history[i].classes[j].name,
+                    this.data.Profile._education._history[i].classes[j].description,
+                    this.data.Profile._education._history[i].classes[j].grade,
+                    this.data.Profile._education._history[i].classes[j].takenAt,
+                    this.data.Profile._education._history[i].classes[j].image,
+                    this.data.Profile._education._history[i].classes[j].professorName,
+                    this.data.Profile._education._history[i].classes[j].rateMyProfessorLink,
+                    this.data.Profile._education._history[i].classes[j].personalNote,
+                    this.data.Profile._education._history[i].classes[j].githubLink,
+                    this.data.Profile._education._history[i].classes[j].subject,
+                    this.data.Profile._education._history[i].classes[j].rating
+                ))
+            }
+
+            collegeTerm.push(new CollegeTerm(
+                collegeClasses,
+                this.data.Profile._education._history[i].ID,
+                this.data.Profile._education._history[i].name,
+                this.data.Profile._education._history[i].year,
+                this.data.Profile._education._history[i].GPA,
+                this.data.Profile._education._history[i].standing
+            ))
+        }
+        return new Education(summary,collegeTerm);
     }
 
     deserializeWorkExperience(): WorkExperience[]{
@@ -61,7 +95,7 @@ export class ProfileDataService{
 
     deserializeProfile(): Profile{
         return new Profile(
-            this.data.Profile._name,
+            this.data.Profile.profileName,
             this.data.Profile._email,
             this.data.Profile._phoneNumber,
             this.deserializeEducation(),
