@@ -101,6 +101,7 @@ export class ProfileDataService{
             this.deserializeEducation(),
             this.deserializeWorkExperience(),
             this.data.Profile._skillCategories,
+            this.data.Profile._education._classCategories,
             this.deserializeSkills(),
             this.data.Profile._gitHubUrl,
             this.data.Profile._instagramUrl,

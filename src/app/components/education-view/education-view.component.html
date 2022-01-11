@@ -1,29 +1,57 @@
-<div class="text-white w-11/12 text-right mb-3">
-  <button mat-stroked-button (click)="accordion.openAll()">Expand All</button>
-  <button mat-stroked-button (click)="accordion.closeAll()">Collapse All</button>
-</div>
-
-<div class="flex flex-wrap">
-  <div class="w-11/12" *ngFor="let school of p.getEducation().getSummary()">  
-    <mat-card>
-      <mat-card-title-group>
-        <mat-card-title>{{school.getDegreeType()}}</mat-card-title>
-        <mat-card-subtitle>{{school.getDegreeName()}}</mat-card-subtitle>
-        <img mat-card-sm-image src="https://material.angular.io/assets/img/examples/shiba2.jpg" >
-      </mat-card-title-group>
-      <mat-card-content>
-        <h1>{{school.getSchoolName()}}</h1>
-        <h2>{{school.getStartDateString()+" to "+school.getGraduationDateString()}}</h2>
-        <p><strong>GPA: </strong>{{school.getGpa()}}</p>
-      </mat-card-content>
-    </mat-card>
+<br>
+<div class="flex justify-center items-center">
+  <div class="w-11/12 flex flex-wrap items-center justify-around">
+    <div class="" *ngFor="let school of p.getEducation().getSummary()">
+      <mat-card class="bg-gray-700 text-gray-200 text-left">
+        <div class="">
+          <div>
+            <mat-card-title-group>
+              <mat-card-title>{{school.getDegreeType()}}</mat-card-title>
+              <mat-card-subtitle class="text-gray-200">{{school.getDegreeName()}}</mat-card-subtitle>
+            </mat-card-title-group>
+            <mat-card-content>
+              <h2>{{school.getSchoolName()}}</h2>
+              <h5>{{school.getStartDateString()+" to "+school.getGraduationDateString()}}</h5>
+              <div *ngIf="school.getGpa() != '0'">
+                <p><strong>GPA: </strong>{{school.getGpa()}}</p>
+              </div>
+            </mat-card-content>
+          </div>
+        </div>
+      </mat-card>
+      <br>
+    </div>
   </div>
 </div>
 
+<div class="text-white grid grid-cols-2 w-11/12">
+  <div class="text-left">
+    <form [formGroup]="select" class="w-full text-center">
+      <mat-form-field appearance="fill" class="bg-transparent border-t-1 border-gray-900 rounded-lg">
+        <mat-label class="text-white">Filter</mat-label>
+        <mat-select (selectionChange)="getSortedEducation()" [formControl]="selectedControl">
+          <mat-option value="None">All</mat-option>
+          <div *ngFor="let category of p.getClassCategories()">
+            <mat-option value="{{category}}">{{category}}</mat-option>
+          </div>
+        </mat-select>
+      </mat-form-field>
+    </form>
+  </div>
+  
+  <div class="">
+    <div class="flex flex-wrap justify-end">
+      <button mat-stroked-button (click)="a.openAll()">Expand All</button>
+      <button mat-stroked-button (click)="a.closeAll()">Collapse All</button>
+    </div>
+  </div>
+</div>
+
+
 <div class="flex flex-col text-center items-center">
-  <mat-accordion class="w-11/12" multi="True">
-    <div *ngFor="let term of p.getEducation().getCollegeTerm()" class="whitespace-normal">
-      <mat-expansion-panel class="text-gray-200 bg-gray-700" [expanded]="true">
+  <mat-accordion #a="matAccordion" class="w-11/12" multi="True">
+    <div *ngFor="let term of educationDataSource" class="whitespace-normal">
+      <mat-expansion-panel class="text-gray-200 bg-gray-700">
         <mat-expansion-panel-header>
           <mat-panel-title class="text-gray-200">
             {{term.getName()+" "+term.getYear()}}
@@ -35,9 +63,10 @@
         <div *ngIf="term.getGPA() != '0'">
           {{"Semester GPA: "+term.getGPA()}}
         </div>
-        <div class="w-full flex flex-wrap space-x-1">
+
+        <div class="w-full flex flex-wrap">
           <div class="flex h-full" *ngFor="let c of term.getcollegeClasses()">
-            <mat-card button mat-ripple (click)="openClassDialog(c)" class="{{backgroundColor(c.getSubject())}} hover:scale-105 m-2 text-center">
+            <mat-card button mat-ripple (click)="openClassDialog(c)" class="{{backgroundColor(c.getSubject())}} hover:scale-105 m-2 text-center cursor-pointer">
               <div class="text-left">
                 <mat-card-title class="text-white">{{c.getName()}}</mat-card-title>
                 <mat-card-subtitle class="text-white">{{c.getCode()}}</mat-card-subtitle>
@@ -49,6 +78,7 @@
     </div>
   </mat-accordion>
 </div>
+<br>
 
 
 

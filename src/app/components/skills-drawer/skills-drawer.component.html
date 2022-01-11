@@ -1,10 +1,11 @@
 <mat-drawer-container class="bg-gray-800 text-justify" [hasBackdrop]="false">
     <mat-drawer #drawer mode="over" position="end" class="text-white p-5 bg-gray-800 border-l-8 border-gray-900">
-        <div class="labelFont text-center whitespace-normal">
+        <div cdkFocus class="labelFont text-center whitespace-normal">
             {{skillName}}
+            <mat-divider></mat-divider>
         </div>
         <br>
-        <div class="size whitespace-normal">
+        <div class="size text-left whitespace-normal">
             {{skillDescription}}
         </div>
         <br>
@@ -21,7 +22,7 @@
         </div>
         <br>
         <div class="text-center">
-            <button mat-stroked-button (click)="drawer.close()" class="bg-gray-700 rounded-md closeFont p-3">Close Skill</button>
+            <button tabindex="-1" mat-stroked-button (click)="drawer.close()" class="bg-gray-700 rounded-md closeFont p-3">Close Skill</button>
         </div>
 
     </mat-drawer>

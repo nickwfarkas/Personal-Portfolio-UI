@@ -16,3 +16,22 @@
     /* font-size: 8px; */
 }
 
+.not-empty-select.mat-selected {
+    color: white !important;
+}
+
+.not-empty-select.mat-selected {
+    color: white !important;
+}
+  
+:host /deep/ .mat-select-value-text {
+    color: white !important;
+}
+
+form{
+    font-size: medium;
+}
+
+.point{
+    cursor: pointer;
+}

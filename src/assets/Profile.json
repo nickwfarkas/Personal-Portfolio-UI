@@ -4,6 +4,13 @@
         "_email": "nicholaswfarkas@gmail.com",
         "_phoneNumber": "313-969-3310",
         "_education": {
+            "_classCategories":[
+                "Math", 
+                "Computer Science",
+                "English",
+                "Physical Science",
+                "Social Science"
+            ],
             "_summary": [
                 {
                     "_schoolName": "Henry Ford College",
@@ -11,7 +18,7 @@
                     "_degreeName": "Liberal Arts",
                     "_startDate": "2018/08/01",
                     "_graduationDate": "2020/08/01",
-                    "_gpa": "0"
+                    "_gpa": "3"
                 },
                 {
                     "_schoolName": "Wayne State University",
@@ -27,7 +34,7 @@
                     "_degreeName": "Mathematical Statistics",
                     "_startDate": "2020/09/01",
                     "_graduationDate": "2022/12/01",
-                    "_gpa": "3.72"
+                    "_gpa": "3.83"
                 }
             ],
             "_history": [
@@ -61,7 +68,7 @@
                             "image": "",
                             "professorName": "Sepulveda, M",
                             "rateMyProfessorLink": "https://www.ratemyprofessors.com/ShowRatings.jsp?tid=1432282",
-                            "personalNote": "",
+                            "personalNote": "This class was my first ever college level course. It was very intense, the grading was tough and the exams were very high level. I made it out passing but I'm glad most classes aren't like this.",
                             "githubLink": "",
                             "subject": "Social Science",
                             "rating": "2"
@@ -69,13 +76,13 @@
                         {
                             "code": "CIS 100",
                             "name": "Introduction to Information Technology",
-                            "description": "Survey the field of computer technology and information management. Covers computer hardware, the use of the Internet for communication, e-commerce, information retrieval, the social impact of technology, computer security, networking, and industry-related careers. Introduces students to operating systems; Internet browsers; e-mail; and word processing, spreadsheet, and presentation software. This course satisfies the HFC's General Education Computer Technology requirement.",
+                            "description": "Survey the field of computer technology and information management.",
                             "grade": "0",
                             "takenAt": "Henry Ford College",
                             "image": "",
                             "professorName": "Trohimczyk, M",
                             "rateMyProfessorLink": "https://www.ratemyprofessors.com/ShowRatings.jsp?tid=2274387",
-                            "personalNote": "",
+                            "personalNote": "This class was a bit of a sore spot for me. The professor graded everything on the last day grades were do and never responded to my emails. Content wise the course was simple, Word, Excel, PowerPoint, and my first intro into databases",
                             "githubLink": "https://github.com/nickwfarkas/Undergraduate-Coursework/tree/main/CIS-100_Microsoft_Access_Database",
                             "subject": "Computer Science",
                             "rating": "3"
@@ -83,7 +90,7 @@
                         {
                             "code": "MATH 175",
                             "name": "Precalculus",
-                            "description": "Topics include algebraic, graphical and numerical representations of functions, including composition and inverses of functions. Focuses on the study of rational functions, exponential and logarithmic functions, and trigonometric functions of real numbers and angles. Also includes analytic trigonometry and solutions of triangles. Techniques of problem solving and applications are included throughout the course requiring the frequent usage of graphing calculators. Requires a graphing calculator, with the TI-84 Plus series recommended. Also requires access to an online homework management system.",
+                            "description": "Topics include algebraic, graphical and numerical representations of functions, including composition and inverses of functions. Focuses on the study of rational functions, exponential and logarithmic functions, and trigonometric functions of real numbers and angles. Also includes analytic trigonometry and solutions of triangles. Techniques of problem solving and applications are included throughout the course requiring the frequent usage of graphing calculators.",
                             "grade": "0",
                             "takenAt": "Henry Ford College",
                             "image": "",
@@ -103,7 +110,7 @@
                             "image": "",
                             "professorName": "Norris, W",
                             "rateMyProfessorLink": "https://www.ratemyprofessors.com/ShowRatings.jsp?tid=2392980",
-                            "personalNote": "",
+                            "personalNote": "This is one of my favorite courses I have ever taken. It almost convinced me to change my major from computer science to sociology. I realised I could do more good being a computer science major with a basic knowledge of sociology than a sociology major with a basic knowledge of computer science. I hope to see my skills work in the sociology study space.",
                             "githubLink": "",
                             "subject": "Social Science",
                             "rating": "9"
@@ -126,7 +133,7 @@
                             "image": "",
                             "professorName": "Conner, M",
                             "rateMyProfessorLink": "https://www.ratemyprofessors.com/ShowRatings.jsp?tid=1561325",
-                            "personalNote": "",
+                            "personalNote": "This course was very basic. I had a background in everything that was taught due to some high school computer science classes. Was offered to skip the class but had scheduling conflictions.",
                             "githubLink": "",
                             "subject": "Computer Science",
                             "rating": "7"
@@ -148,7 +155,7 @@
                         {
                             "code": "MATH 180",
                             "name": "Calculus I",
-                            "description": "For students planning to pursue a course of study involving a concentration in mathematics. Topics include limits, continuity, the derivative, differentiation of algebraic, exponential, logarithmic, trigonometric and inverse trigonometric functions, applications of the derivative, antidifferentiation, and the definite integral. Numerical, graphical and algebraic approaches are used whenever possible. Credit cannot be earned for both MATH 153 and 180. Requires a graphing calculator, with the TI-84 Plus series recommended. Also requires access to an online homework management system.",
+                            "description": "Topics include limits, continuity, the derivative, differentiation of algebraic, exponential, logarithmic, trigonometric and inverse trigonometric functions, applications of the derivative, antidifferentiation, and the definite integral. Numerical, graphical and algebraic approaches are used whenever possible.",
                             "grade": "0",
                             "takenAt": "Henry Ford College",
                             "image": "",
@@ -177,7 +184,7 @@
                             "image": "",
                             "professorName": "Conti, A",
                             "rateMyProfessorLink": "https://www.ratemyprofessors.com/ShowRatings.jsp?tid=426459",
-                            "personalNote": "",
+                            "personalNote": "For a 100 level CIS course this was very in depth. This class made my 4000 level university course feel like review. This course also gave me a lot of SQL knowledge which has been very prevalent in my internship experience",
                             "githubLink": "https://github.com/nickwfarkas/Undergraduate-Coursework/tree/main/CIS-111-SQL",
                             "subject": "Computer Science",
                             "rating": "8"
@@ -191,7 +198,7 @@
                             "image": "",
                             "professorName": "Morgan, R",
                             "rateMyProfessorLink": "https://www.ratemyprofessors.com/ShowRatings.jsp?tid=2230577",
-                            "personalNote": "",
+                            "personalNote": "Pointers, Pointers, and more Pointers",
                             "githubLink": "https://github.com/nickwfarkas/Undergraduate-Coursework/tree/main/CIS-170-C",
                             "subject": "Computer Science",
                             "rating": "8"
@@ -199,7 +206,7 @@
                         {
                             "code": "PHYS 231",
                             "name": "Engineering Physics I",
-                            "description": "Designed to meet the requirements of engineering students and physics majors. Emphasizes relating physical principles to mathematical techniques in problem solving. Covers mechanics, wave motion, and thermodynamics. Four hours of lecture and three hours of laboratory activities per week. NOTE: Recommended co-requisite is MATH-183.",
+                            "description": "Emphasizes relating physical principles to mathematical techniques in problem solving. Covers mechanics, wave motion, and thermodynamics.",
                             "grade": "0",
                             "takenAt": "Henry Ford College",
                             "image": "",
@@ -250,7 +257,7 @@
                         {
                             "code": "ENG 135",
                             "name": "Bus & Tech Writing & Research",
-                            "description": "Designed for students interested in developing professional workplace communication and critical thinking skills, ENG-135 focuses on the Critical Thinking & Information Literacy and the Written Communication Institutional Learning Outcomes. Students design documents such as resumes, letters, memos, instructions, proposals, and an extensive, research-based documented report for the kinds of readers they will address as professionals. This course should be especially valuable for students pursuing careers in business, computer science, automotive technology, allied health, and other technical fields.",
+                            "description": "ENG-135 focuses on the Critical Thinking & Information Literacy and the Written Communication Institutional Learning Outcomes. Students design documents such as resumes, letters, memos, instructions, proposals, and an extensive, research-based documented report for the kinds of readers they will address as professionals. This course should be especially valuable for students pursuing careers in business, computer science, automotive technology, allied health, and other technical fields.",
                             "grade": "0",
                             "takenAt": "Henry Ford College",
                             "image": "",
@@ -264,7 +271,7 @@
                         {
                             "code": "MATH 275",
                             "name": "Discrete Mathematics",
-                            "description": "For students in a computer engineering or computer science program. Covers logic, methods of proof, set theory, algorithms, recursion, correctness, relations, partial orderings, graphs, trees, Boolean algebra, grammars, and finite-state machines. Includes various applications throughout the course. Requires a graphing calculator, with the TI-84 Plus series recommended.",
+                            "description": "Covers logic, methods of proof, set theory, algorithms, recursion, correctness, relations, partial orderings, graphs, trees, Boolean algebra, grammars, and finite-state machines. Includes various applications throughout the course.",
                             "grade": "0",
                             "takenAt": "Henry Ford College",
                             "image": "",
@@ -307,7 +314,7 @@
                             "image": "",
                             "professorName": "Alazzawi, L",
                             "rateMyProfessorLink": "https://www.ratemyprofessors.com/ShowRatings.jsp?tid=1909190",
-                            "personalNote": "",
+                            "personalNote": "The description is not very good for this class. This class covered the basics of microcontrollers using a Ardruino UNO. We used physical componenets as well as simulations. Overall very fun and informative class.",
                             "githubLink": "https://github.com/nickwfarkas/Undergraduate-Coursework/tree/main/BE-1200-Arduino",
                             "subject": "Computer Science",
                             "rating": "8"
@@ -315,13 +322,13 @@
                         {
                             "code": "BE 1600",
                             "name": "Python Programming and Computation",
-                            "description": "An introduction to programming using Python for students with no programming experience. Basic control structures (sequence, selection, repetition) and all core data types using objects. Practice on core data structures (string, list, tuple, dictionary, and set). Design, implementation and testing of programs to solve problems with an emphasis on data manipulation using real world, practical examples.",
+                            "description": "Basic control structures (sequence, selection, repetition) and all core data types using objects. Practice on core data structures (string, list, tuple, dictionary, and set). Design, implementation and testing of programs to solve problems with an emphasis on data manipulation using real world, practical examples.",
                             "grade": "A",
                             "takenAt": "Wayne State University",
                             "image": "",
-                            "professorName": "Jiang, S",
-                            "rateMyProfessorLink": "",
-                            "personalNote": "",
+                            "professorName": "Jayyousi, T",
+                            "rateMyProfessorLink": "https://www.ratemyprofessors.com/ShowRatings.jsp?tid=1833036",
+                            "personalNote": "For a beginner level class this covered a lot of material and overall was a fun experience. Some of my favorite topics included introduction to graphics, handling JSON data and API's, and data clustering using CSV earthquake data.",
                             "githubLink": "https://github.com/nickwfarkas/Undergraduate-Coursework/tree/main/BE-1600-Python_Scripting",
                             "subject": "Computer Science",
                             "rating": "6"
@@ -336,14 +343,14 @@
                             "professorName": "Jayyousi, T",
                             "rateMyProfessorLink": "https://www.ratemyprofessors.com/ShowRatings.jsp?tid=1833036",
                             "personalNote": "",
-                            "githubLink": "",
+                            "githubLink": "https://github.com/nickwfarkas/Undergraduate-Coursework/tree/main/CSC-3020-Java",
                             "subject": "Computer Science",
                             "rating": "8"
                         },
                         {
                             "code": "MATH 2020",
                             "name": "Calculus II",
-                            "description": "Review definition of definite integral and fundamental theorem of calculus. Techniques of integration; approximate integration; improper integrals; applications of integration. Sequences and series. Approximating functions by polynomials and Taylor series. Students in the Emerging Scholars Program must also enroll in the accompanying problem-solving workshop: MAT 2120, for a total of six credits. Prerequisites are subject to specific conditions. Refer to the Mathematics Placement Information page referenced at the top of the Mathematics course listings in the University Bulletin.",
+                            "description": "Review definition of definite integral and fundamental theorem of calculus. Techniques of integration; approximate integration; improper integrals; applications of integration. Sequences and series. Approximating functions by polynomials and Taylor series.",
                             "grade": "A-",
                             "takenAt": "Wayne State University",
                             "image": "",
@@ -372,7 +379,7 @@
                             "image": "",
                             "professorName": "Trewn, J",
                             "rateMyProfessorLink": "https://www.ratemyprofessors.com/ShowRatings.jsp?tid=2149935",
-                            "personalNote": "",
+                            "personalNote": "This class also doesn't have a good description. We covered topics which included Probability, Discrete and Continous Random Variables, Sampling, Hypothesis Testing, Design of Experienments, and a introduction to the MiniTab Software. This class was poorely managed due to a last minute switch of professors and then a switch back meaning their was 3 different versions of the syllabus. Due to these problems this class was switched to PASS/FAIL.",
                             "githubLink": "",
                             "subject": "Math",
                             "rating": "3"
@@ -386,7 +393,7 @@
                             "image": "",
                             "professorName": "Grosu, D",
                             "rateMyProfessorLink": "https://www.ratemyprofessors.com/ShowRatings.jsp?tid=602317",
-                            "personalNote": "",
+                            "personalNote": "This class is a one of the two weeder classes at Wayne State. This class had a heavy course load from designing most of the Data Structures from scratch in C++ (which can be seen on my github) and Mathmatical analysis of these structures.",
                             "githubLink": "https://github.com/nickwfarkas/Undergraduate-Coursework/tree/main/CSC-2200-Computer_Science_2",
                             "subject": "Computer Science",
                             "rating": "7"
@@ -428,7 +435,7 @@
                             "image": "",
                             "professorName": "Raad, N",
                             "rateMyProfessorLink": "",
-                            "personalNote": "",
+                            "personalNote": "This class was a very interesting introduction into data science. Though this class was not mathmatical, it went into the business decisions and engineering politics that goes into a data science project taught by the VP of Data Science at GM Financial.",
                             "githubLink": "",
                             "subject": "Computer Science",
                             "rating": "7"
@@ -452,7 +459,7 @@
                             "professorName": "Castro, A",
                             "rateMyProfessorLink": "https://www.ratemyprofessors.com/ShowRatings.jsp?tid=2728291",
                             "personalNote": "",
-                            "githubLink": "",
+                            "githubLink": "https://github.com/nickwfarkas/Undergraduate-Coursework/tree/main/CSC-3310_Algorithm_Design%26Analysis",
                             "subject": "Computer Science",
                             "rating": "5"
                         },
@@ -465,7 +472,7 @@
                             "image": "",
                             "professorName": "Castro, A",
                             "rateMyProfessorLink": "https://www.ratemyprofessors.com/ShowRatings.jsp?tid=2728291",
-                            "personalNote": "",
+                            "personalNote": "A better title for this class would be Full Stack Deveolpement. We learned the most about databases but we also had extensive work in PHP and Front End Technologies. My group's full stack TODO List app is on my GitHub here https://github.com/nickwfarkas/TODO-List.\n Side note if you want to know what work is mine. I created all the PHP files that ended in the word request and all of the front end.",
                             "githubLink": "https://github.com/nickwfarkas/Undergraduate-Coursework/tree/main/CSC-4710_Database_Systems",
                             "subject": "Computer Science",
                             "rating": "8"
@@ -493,7 +500,7 @@
                             "image": "",
                             "professorName": "Shinki, K",
                             "rateMyProfessorLink": "https://www.ratemyprofessors.com/ShowRatings.jsp?tid=1344025",
-                            "personalNote": "",
+                            "personalNote": "As well as a refresher on itermediate statistical topics. We did all class assignments and analysis using the R language. If you are curious to see my final project on whether there is a relationship between crime rate and state government political party. There is my data, code, and graphs on my GitHub here https://github.com/nickwfarkas/STAT-5030. Along with a video of me presenting my analysis here https://www.youtube.com/watch?v=JU4YucMDLLc&t=53s.",
                             "githubLink": "https://github.com/nickwfarkas/Undergraduate-Coursework/tree/main/STA_5030_Statistical_Computation",
                             "subject": "Math",
                             "rating": "8"
@@ -574,7 +581,7 @@
                             "rateMyProfessorLink": "https://www.ratemyprofessors.com/ShowRatings.jsp?tid=1344025",
                             "personalNote": "",
                             "githubLink": "",
-                            "subject": "Math",
+                            "subject": "Computer Science",
                             "rating": "0"
                         },
                         {
