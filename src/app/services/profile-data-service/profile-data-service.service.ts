@@ -21,7 +21,7 @@ export class ProfileDataService{
         var skillArray: Skill[] = []
         for (let i = 0; i < this.data.Profile._skills.length; i++) 
         {
-            skillArray.push(new Skill(idGenerator, this.data.Profile._skills[i]._skillName,this.data.Profile._skills[i]._skillDescription,this.data.Profile._skills[i]._skillRating,this.data.Profile._skills[i]._industryExperience,this.data.Profile._skills[i]._tags));
+            skillArray.push(new Skill(idGenerator, this.data.Profile._skills[i]._skillName, this.data.Profile._skills[i]._skillLogo, this.data.Profile._skills[i]._skillDescription,this.data.Profile._skills[i]._skillRating,this.data.Profile._skills[i]._industryExperience,this.data.Profile._skills[i]._tags, this.data.Profile._skills[i]._featuredProject));
             idGenerator++;
         }
         

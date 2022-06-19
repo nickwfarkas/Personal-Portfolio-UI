@@ -13,14 +13,6 @@
             ],
             "_summary": [
                 {
-                    "_schoolName": "Henry Ford College",
-                    "_degreeType": "Associates of Arts",
-                    "_degreeName": "Liberal Arts",
-                    "_startDate": "2018/08/01",
-                    "_graduationDate": "2020/08/01",
-                    "_gpa": "3"
-                },
-                {
                     "_schoolName": "Wayne State University",
                     "_degreeType": "Bachelor of Science",
                     "_degreeName": "Computer Science",
@@ -35,6 +27,14 @@
                     "_startDate": "2020/09/01",
                     "_graduationDate": "2022/12/01",
                     "_gpa": "3.83"
+                },
+                {
+                    "_schoolName": "Henry Ford College",
+                    "_degreeType": "Associates of Arts",
+                    "_degreeName": "Liberal Arts",
+                    "_startDate": "2018/08/01",
+                    "_graduationDate": "2020/08/01",
+                    "_gpa": "3"
                 }
             ],
             "_history": [
@@ -446,7 +446,7 @@
                     "ID": "7",
                     "name": "Fall",
                     "year": "2021",
-                    "GPA": "3.6",
+                    "GPA": "3.7",
                     "standing": "Dean's List",
                     "classes": [
                         {
@@ -525,64 +525,166 @@
                     "ID": "8",
                     "name": "Winter",
                     "year": "2022",
-                    "GPA": "0",
-                    "standing": "In Progress",
+                    "GPA": "3.6",
+                    "standing": "Regular",
                     "classes": [
                         {
                             "code": "CSC 3100",
                             "name": "Computer Architecture and Organization",
                             "description": "Organization and architecture of computer systems. Topics include: digital logic and digital systems; machine-level representation of data and programs; assembly level machine organization and programming; register-level description of computer execution and the functional organization of a computer; role and function of programming languages, libraries and operating systems; performance evaluation; systems programming.",
-                            "grade": "0",
+                            "grade": "B-",
                             "takenAt": "Wayne State University",
                             "image": "",
                             "professorName": "Brocanelli, M",
                             "rateMyProfessorLink": "",
                             "personalNote": "",
-                            "githubLink": "",
+                            "githubLink": "https://github.com/nickwfarkas/Undergraduate-Coursework/tree/main/CSC-3100-Computer_Architecture%26Organization",
                             "subject": "Computer Science",
-                            "rating": "0"
+                            "rating": "5"
                         },
                         {
                             "code": "CSC 6580",
                             "name": "Design and Analysis of Algorithms",
                             "description": "Best case, worst case, and expected case complexity analysis; asymptotic approximations; solutions of recurrence equations; probabilistic techniques; divide-and-conquer; the greedy approach; dynamic programming; branch and bound; NP-completeness; parallel algorithms.",
-                            "grade": "0",
+                            "grade": "B+",
                             "takenAt": "Wayne State University",
                             "image": "",
                             "professorName": "Xu, L",
                             "rateMyProfessorLink": "https://www.ratemyprofessors.com/ShowRatings.jsp?tid=1413527",
-                            "personalNote": "",
-                            "githubLink": "",
+                            "personalNote": "First Graduate Level class taken at Wayne State University.",
+                            "githubLink": "https://github.com/nickwfarkas/Undergraduate-Coursework/tree/main/CSC-6580-Design%26Analysis_of_Algorithms",
                             "subject": "Computer Science",
-                            "rating": "0"
+                            "rating": "6"
                         },
                         {
                             "code": "STA 5820",
                             "name": "Introduction to Data Science",
                             "description": "An applied statistical learning course designed for upper level undergraduate students and graduate students in mathematics and other quantitative fields. Topics include: bias-variance trade-off, regression, classification, cross-validation, bootstrap, model selection, regularization, splines, generalized additive models, tree-based methods, support vector machines, principal component analysis and clustering. Computer implementation will be discussed for each of the methods, and students will run their own data analysis projects.",
-                            "grade": "0",
+                            "grade": "A",
                             "takenAt": "Wayne State University",
                             "image": "",
                             "professorName": "Shinki, K",
                             "rateMyProfessorLink": "https://www.ratemyprofessors.com/ShowRatings.jsp?tid=1344025",
-                            "personalNote": "",
-                            "githubLink": "",
+                            "personalNote": "One of my favorite classes of ny college career thus far. We learned many different machine learnning models and validation techniques from the math to the R implementation. We also spent time learning neural networks which wasn't in the class description. For the final project I created a neural network that rated songs like a famous Youtube song critic. My presentation can be seen on Youtube here: https://www.youtube.com/watch?v=FsI3pIgVHeE.",
+                            "githubLink": "https://github.com/nickwfarkas/Undergraduate-Coursework/tree/main/STA-5820-Data_Science",
                             "subject": "Math",
-                            "rating": "0"
+                            "rating": "10"
                         },
                         {
                             "code": "CSC 4110",
                             "name": "Software Engineering",
                             "description": "Software life cycle; software requirement analysis; software system design; software implementation and testing; software maintenance; team programming; ethics and programmers.",
-                            "grade": "0",
+                            "grade": "A",
                             "takenAt": "Wayne State University",
                             "image": "",
                             "professorName": "Myers, Jason",
                             "rateMyProfessorLink": "https://www.ratemyprofessors.com/ShowRatings.jsp?tid=1344025",
+                            "personalNote": "This class acted not only as a software lifecycle class as well as a advanced python class, covering advanced python topics while creating large scale projects for hypothetical companies. Creating projects that utilitzed tKinter desktop development, Pygame game development, and sklearn machine learning.",
+                            "githubLink": "",
+                            "subject": "Computer Science",
+                            "rating": "6"
+                        }
+                    ]
+                },
+                {
+                    "ID": "9",
+                    "name": "Summer",
+                    "year": "2022",
+                    "GPA": "",
+                    "standing": "In Progress",
+                    "classes": [
+                        {
+                            "code": "MAT 2030",
+                            "name": "Calculus III",
+                            "description": "Multivariable calculus with applications. Vectors and vector functions in two and three dimensions; functions of several variables; differentiation; integration; vector calculus.",
+                            "grade": "0",
+                            "takenAt": "Wayne State University",
+                            "image": "",
+                            "professorName": "Nguyen, T",
+                            "rateMyProfessorLink": "",
+                            "personalNote": "",
+                            "githubLink": "",
+                            "subject": "Math",
+                            "rating": ""
+                        },
+                        {
+                            "code": "CSC 4420",
+                            "name": "Computer Operating Systems",
+                            "description": "Operating system services; file systems; CPU scheduling; memory management; virtual memory; disk scheduling; deadlocks; concurrent processes.",
+                            "grade": "0",
+                            "takenAt": "Wayne State University",
+                            "image": "",
+                            "professorName": "Tuly, S",
+                            "rateMyProfessorLink": "https://www.ratemyprofessors.com/ShowRatings.jsp?tid=1413527",
                             "personalNote": "",
                             "githubLink": "",
                             "subject": "Computer Science",
-                            "rating": "0"
+                            "rating": ""
+                        }
+                    ]
+                },
+                {
+                    "ID": "10",
+                    "name": "Fall",
+                    "year": "2022",
+                    "GPA": "3.6",
+                    "standing": "In Progress",
+                    "classes": [
+                        {
+                            "code": "CSC 6860",
+                            "name": "Digital Image Processing and Analysis ",
+                            "description": "Review of image formation and acquisition; image transformation; image enhancement and restoration; image compression; morphological image processing; edge detection and segmentation; architecture for image processing.",
+                            "grade": "",
+                            "takenAt": "Wayne State University",
+                            "image": "",
+                            "professorName": "Dong, M",
+                            "rateMyProfessorLink": "https://www.ratemyprofessors.com/ShowRatings.jsp?tid=653439",
+                            "personalNote": "",
+                            "githubLink": "",
+                            "subject": "Computer Science",
+                            "rating": ""
+                        },
+                        {
+                            "code": "CSC 5800",
+                            "name": "Intelligent Systems: Algorithms and Tools ",
+                            "description": "Introduction to basic algorithms and software tools for intelligent data representation and analysis, including: data pre-processing, data exploration and visualization, model evaluation, predictive modeling, classification methods, association analysis, clustering, anomaly detection, representing extracted patterns as expertise, tools for data mining and intelligent systems such as WEKA, CLIPS, and MATLAB.",
+                            "grade": "",
+                            "takenAt": "Wayne State University",
+                            "image": "",
+                            "professorName": "Arslanturk, S",
+                            "rateMyProfessorLink": "https://www.ratemyprofessors.com/ShowRatings.jsp?tid=2557412",
+                            "personalNote": "",
+                            "githubLink": "",
+                            "subject": "Computer Science",
+                            "rating": ""
+                        },
+                        {
+                            "code": "CSC 5825",
+                            "name": "Introduction to Machine Learning and Applications ",
+                            "description": "Through algorithmic investigation, brainstorming, and case analysis, students develop the skills and strategies that are necessary for effective leaning from data, including Big Data emerging from science and engineering.",
+                            "grade": "",
+                            "takenAt": "Wayne State University",
+                            "image": "",
+                            "professorName": "Zhu, D",
+                            "rateMyProfessorLink": "https://www.ratemyprofessors.com/ShowRatings.jsp?tid=2038972",
+                            "personalNote": "",
+                            "githubLink": "",
+                            "subject": "Computer Science",
+                            "rating": ""
+                        },
+                        {
+                            "code": "CSC 4996",
+                            "name": "Senior Capstone Project ",
+                            "description": "Development of skills for planning, managing, implementing, and documenting complex software projects. Project management techniques; software development teams; data management, privacy, and security.",
+                            "grade": "",
+                            "takenAt": "Wayne State University",
+                            "image": "",
+                            "professorName": "Mousavi Mojab, S",
+                            "rateMyProfessorLink": "https://www.ratemyprofessors.com/ShowRatings.jsp?tid=1922415",
+                            "personalNote": "",
+                            "githubLink": "",
+                            "subject": "Computer Science",
+                            "rating": ""
                         },
                         {
                             "code": "PHYS 2230",
@@ -604,7 +706,19 @@
         },
         "_workExperience": [
             {
-                "_positionName": "Software Engineer Intern",
+                "_positionName": "Full Stack Engineer Intern",
+                "_companyName": "Rocket Central",
+                "_startDate": "2022/05/01",
+                "_endDate": "",
+                "_city": "Detroit",
+                "_attributes": [
+                    "Developed rich UI experiences using Angular and Material design to deliver a simplistic and beautiful solutions for internal business problems.",
+                    "Created backend solutions using NodeJS to improve API performance.",
+                    "Worked on a small internal team to develope smart contracts using Solidity and the Ethereum Blockchain."
+                ]
+            },
+            {
+                "_positionName": "Front End Engineer Intern",
                 "_companyName": "Rocket Mortgage",
                 "_startDate": "2021/05/01",
                 "_endDate": "2021/08/01",
@@ -616,7 +730,7 @@
                 ]
             },
             {
-                "_positionName": "Software Engineer Intern",
+                "_positionName": "Salesforce Engineer Intern",
                 "_companyName": "Quicken Loans/Rocket Mortgage",
                 "_startDate": "2020/06/01",
                 "_endDate": "2020/08/01",
@@ -629,7 +743,7 @@
                 ]
             },
             {
-                "_positionName": "Software Engineer Intern",
+                "_positionName": "Backend Engineer Intern",
                 "_companyName": "Quicken Loans/Rocket Mortgage",
                 "_startDate": "2019/05/01",
                 "_endDate": "2019/08/01",
@@ -679,7 +793,9 @@
         "_skills": [
             {
                 "_skillName": "Angular",
-                "_skillDescription": "Proficent using the Angular framework with Typescript to create beautiful, immersive, and responsive UIs.",
+                "_skillLogo": "./assets/logos/angular.png",
+                "_featuredProject": "https://github.com/nickwfarkas/Personal-Portfolio-UI",
+                "_skillDescription": "Proficent using the Angular framework to create beautiful, immersive, and responsive UIs.",
                 "_skillRating": 8,
                 "_industryExperience": 1,
                 "_tags": [
@@ -690,7 +806,9 @@
             },
             {
                 "_skillName": "TypeScript",
-                "_skillDescription": "Proficent using the TypeScript with Angular Framework to write typeable, testable, scalable code for UIs.",
+                "_skillLogo": "./assets/logos/ts.png",
+                "_featuredProject": "https://github.com/nickwfarkas/Personal-Portfolio-UI",
+                "_skillDescription": "Proficent using the TypeScript with Angular Framework for front end and NodeJS for backend to write typeable, testable, scalable code for UIs.",
                 "_skillRating": 8,
                 "_industryExperience": 1,
                 "_tags": [
@@ -701,8 +819,10 @@
             },
             {
                 "_skillName": "C#",
+                "_skillLogo": "./assets/logos/csharp.png",
+                "_featuredProject": "",
                 "_skillDescription": "Enjoy writting C# when utilizing .Net Core to write APIs.",
-                "_skillRating": 7,
+                "_skillRating": 4,
                 "_industryExperience": 2,
                 "_tags": [
                     "Industry Experience",
@@ -712,7 +832,9 @@
             },
             {
                 "_skillName": "JavaScript",
-                "_skillDescription": "Experienced writing vanilla JavaScript and JQuery to create small scale web applications.",
+                "_skillLogo": "./assets/logos/js.png",
+                "_featuredProject": "https://github.com/nickwfarkas/American-Commercial-Upholstery-And-Cabinet",
+                "_skillDescription": "Experienced writing vanilla JavaScript and JQuery to create small scale web applications but I prefer Typescript to vanilla JavaScript.",
                 "_skillRating": 8,
                 "_industryExperience": 1,
                 "_tags": [
@@ -723,7 +845,9 @@
             },
             {
                 "_skillName": "HTML",
-                "_skillDescription": "Is it a programming language? Is it not? Either way there is no escaping writing it. I am proficent using it with Angular and vanilla JavaScript.",
+                "_skillLogo": "./assets/logos/html.png",
+                "_featuredProject": "https://github.com/nickwfarkas/Personal-Portfolio-UI", 
+                "_skillDescription": "Is it a programming language? Is it not?",
                 "_skillRating": 8,
                 "_industryExperience": 2,
                 "_tags": [
@@ -734,7 +858,9 @@
             },
             {
                 "_skillName": "CSS",
-                "_skillDescription": "Just like HTML there is no escaping CSS. Even when I try to escape and use tailwind I always end up writing more than I would like. I am proficent using it with HTML, Angular and vanilla JavaScript.",
+                "_skillLogo": "./assets/logos/css.png",
+                "_featuredProject": "https://github.com/nickwfarkas/Personal-Portfolio-UI",
+                "_skillDescription": "Just like HTML there is no escaping CSS. Even when I try to escape and use tailwind I always end up writing more than I would like.",
                 "_skillRating": 7,
                 "_industryExperience": 2,
                 "_tags": [
@@ -745,7 +871,9 @@
             },
             {
                 "_skillName": "SQL",
-                "_skillDescription": "I am a big fan of the relational model and thus a fan of SQL. I have written a lot of SQL from MySQL, AWS RDS, Access, to Salesforce Marketing Cloud.",
+                "_skillLogo": "./assets/logos/sql.png",
+                "_featuredProject": "https://github.com/nickwfarkas/TODO-List/tree/main/api",
+                "_skillDescription": "I have written a lot of SQL from MySQL, AWS RDS, Access, to Salesforce Marketing Cloud.",
                 "_skillRating": 8,
                 "_industryExperience": 3,
                 "_tags": [
@@ -758,8 +886,10 @@
             },
             {
                 "_skillName": "C++",
+                "_skillLogo": "./assets/logos/cpp.png",
+                "_featuredProject": "https://github.com/nickwfarkas/Undergraduate-Coursework/tree/main/CSC-6580-Design%26Analysis_of_Algorithms/Huffman_File_Compression",
                 "_skillDescription": "Though I have never worked with C++ on a industry application. C++ is my language of choice when solving academic computer science problems from data structures, algorithms, to even a little microcontroller programming.",
-                "_skillRating": 7,
+                "_skillRating": 6,
                 "_industryExperience": 0,
                 "_tags": [
                     "Academic Experience",
@@ -768,8 +898,10 @@
             },
             {
                 "_skillName": "Java",
+                "_skillLogo": "./assets/logos/java.png",
+                "_featuredProject": "https://github.com/nickwfarkas/Undergraduate-Coursework/tree/main/CSC-3020-Java/Projects/Ciphers",
                 "_skillDescription": "I have done a lot of school projects in Java and even some high school robotics but have no idustry experience yet.",
-                "_skillRating": 7,
+                "_skillRating": 5,
                 "_industryExperience": 0,
                 "_tags": [
                     "Academic Experience",
@@ -778,8 +910,10 @@
             },
             {
                 "_skillName": "Python",
-                "_skillDescription": "Just like everyone else I have a very special place in my heart for python and have created countless scripts to working with Django to programming IoT lamndas",
-                "_skillRating": 6,
+                "_skillLogo": "./assets/logos/python.png",
+                "_featuredProject": "https://github.com/nickwfarkas/Undergraduate-Coursework/tree/main/CSC-4110-Software_Engineering/Twins-Game",
+                "_skillDescription": "Out of all the programming languages I have utilized, I have the most academic and personal experience with Python. I have mastered utilizing many of Pythons popular libraies such as sklearn for data modeling, pandas for data processing, tKinter for desktop development and pygame for game development.",
+                "_skillRating": 7,
                 "_industryExperience": 0,
                 "_tags": [
                     "Academic Experience",
@@ -790,8 +924,10 @@
             },
             {
                 "_skillName": "R",
-                "_skillDescription": "I have a love for statistical data analysis and how R handles matricies and large data sets with only a few lines of code.",
-                "_skillRating": 5,
+                "_skillLogo": "./assets/logos/r.png",
+                "_featuredProject": "https://github.com/nickwfarkas/Undergraduate-Coursework/tree/main/STA-5820-Data_Science/NeedleDropAI",
+                "_skillDescription": "I have academic experience utilizing a lot of the tools that R has to offer from basic statistical analysis to Neural Networks. When creating Machine Learning models I perfer to use R over Python.",
+                "_skillRating": 7,
                 "_industryExperience": 0,
                 "_tags": [
                     "Academic Experience",
@@ -800,7 +936,9 @@
             },
             {
                 "_skillName": "Git/GitHub",
-                "_skillDescription": "I have a love for statistical data analysis and how R handles matricies and large data sets with only a few lines of code.",
+                "_skillLogo": "./assets/github-logo.png",
+                "_featuredProject": "https://github.com/nickwfarkas",
+                "_skillDescription": "1% Coding, 99% Merge Conflicts",
                 "_skillRating": 8,
                 "_industryExperience": 3,
                 "_tags": [
@@ -811,7 +949,9 @@
             },
             {
                 "_skillName": "Postman",
-                "_skillDescription": "Postman is a must have for testing APIs in the backend.",
+                "_skillLogo": "./assets/logos/postman.png",
+                "_featuredProject": "",
+                "_skillDescription": "I have experience testing APIs with Postman as well as creating collections that other Team Members can utilize when testing APIs.",
                 "_skillRating": 8,
                 "_industryExperience": 3,
                 "_tags": [
@@ -821,7 +961,9 @@
             },
             {
                 "_skillName": "Excel",
-                "_skillDescription": "From my first job to my last job I have been working in Excel for years. From bookkeeping to data analysis to creating CSVs I know my way around Excel. Even have earned a Microsoft Specialist Certification.",
+                "_skillLogo": "./assets/logos/excel.png",
+                "_featuredProject": "",
+                "_skillDescription": "From my first job to my last job I have been working in Excel for years. From bookkeeping to data analysis, I know my way around Excel. I have earned a Microsoft Specialist Certification in Excel as well.",
                 "_skillRating": 8,
                 "_industryExperience": 5,
                 "_tags": [
@@ -833,6 +975,8 @@
             },
             {
                 "_skillName": "Agile Methodology",
+                "_skillLogo": "./assets/logos/agile.png",
+                "_featuredProject": "",
                 "_skillDescription": "When I learned of the Agile way of looking at projects it changed my whole perspective. Even on my personal projects I always find time for a work board and cutting my tasks into verticle slices.",
                 "_skillRating": 7,
                 "_industryExperience": 3,
@@ -844,6 +988,8 @@
             }, 
             {
                 "_skillName": "Data Structures",
+                "_skillLogo": "",
+                "_featuredProject": "https://github.com/nickwfarkas/Undergraduate-Coursework/tree/main/CSC-6580-Design%26Analysis_of_Algorithms/Huffman_File_Compression",
                 "_skillDescription": "There was a lot of sweat and even more tears when learning to master Linked Lists, Stacks, Queues, Binary Search Trees, AVL Trees, Hash Tables, Heaps, and Graphs",
                 "_skillRating": 7,
                 "_industryExperience": 2,
@@ -855,6 +1001,8 @@
             },
             {
                 "_skillName": "Algorithms",
+                "_skillLogo": "",
+                "_featuredProject": "https://github.com/nickwfarkas/Undergraduate-Coursework/tree/main/CSC-6580-Design%26Analysis_of_Algorithms/Huffman_File_Compression",
                 "_skillDescription": "I understand that the definition of algorithm is just a process or a set of rules which is fair but I have spent a lot of time learning and implementing complex algorithms academicly and in the industry. So I would like to think it's more complicated.",
                 "_skillRating": 7,
                 "_industryExperience": 4,
@@ -866,7 +1014,9 @@
             },
             {
                 "_skillName": "Infrastructure Diagramming",
-                "_skillDescription": "I love creating software and implementing my thoughts but I have always loved seeing my big picture thoughts on paper in the form of Flowcharts, Class Diagrams, Entity Relationship Diagrams, UML, or Network Diagrams.",
+                "_skillLogo": "",
+                "_featuredProject": "",
+                "_skillDescription": "I enjoy creating software and implementing my thoughts but I have always loved seeing my big picture thoughts on paper in the form of Flowcharts, Class Diagrams, Entity Relationship Diagrams, UML, or Network Diagrams.",
                 "_skillRating": 8,
                 "_industryExperience": 3,
                 "_tags": [
@@ -874,10 +1024,35 @@
                     "Academic Experience",
                     "Developer Tools"
                 ]
+            },
+            {
+                "_skillName": "Machine Learning",
+                "_skillLogo": "",
+                "_featuredProject": "https://github.com/nickwfarkas/Undergraduate-Coursework/tree/main/STA-5820-Data_Science/NeedleDropAI",
+                "_skillDescription": "I have recently started my dive into data science with a minor in statistics. I can properly clean and pre-process data for many machine learning models. Through my coursework I can understand and effectively implement many machine learning algorithms and validate the results.",
+                "_skillRating": 5,
+                "_industryExperience": 1,
+                "_tags": [
+                    "Data Science",
+                    "Academic Experience"
+                ]
+            },
+            {
+                "_skillName": "NodeJS",
+                "_skillLogo": "./assets/logos/nodejs.png",
+                "_featuredProject": "",
+                "_skillDescription": "I first experienced Node using Angular and NPM. I have industry experience across several domains writing and testing server side code with NodeJS using Typescript.",
+                "_skillRating": 5,
+                "_industryExperience": 1,
+                "_tags": [
+                    "Industry Experience",
+                    "Back End",
+                    "Web Development"
+                ]
             }
         ],
         "_gitHubUrl": "https://github.com/nickwfarkas",
         "_instagramUrl": "https://www.instagram.com/nickfarkas_9/",
-        "_linkedInUrl": "https://www.linkedin.com/in/nicholas/farkas/097a6b157/"
+        "_linkedInUrl": "https://www.linkedin.com/in/nicholas-farkas-097a6b157/"
     }
 } 

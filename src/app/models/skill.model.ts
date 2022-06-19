@@ -1,19 +1,23 @@
 export class Skill {
     private _skillId: number;
     private _skillName: string;
+    private _skillLogo: string;
     private _skillDescription: string;
     private _skillRating: number;
     private _industryExperience: number;
     private _tags: string[];
+    private _featuredProject: string;
 
-    constructor(skillId: number, skillName: string, skillDescription: string,
-        skillRating: number, industryExperience: number,
-        tags: string[]){
+    constructor(skillId: number, skillName: string, skillLogo: string, 
+        skillDescription: string, skillRating: number, industryExperience: number,
+        tags: string[], featuredProject: string){
             this._skillId = skillId;
             this._skillName = skillName;
+            this._skillLogo = skillLogo;
             this._skillDescription = skillDescription;
             this._industryExperience = industryExperience;
             this._tags = tags;
+            this._featuredProject = featuredProject;
             if(skillRating <= 1) this._skillRating = 1;
             else if(skillRating >= 3) this._skillRating = 3;
             else this._skillRating = 2;
@@ -34,6 +38,14 @@ export class Skill {
 
     setSkillName(skillName: string): void{
         this._skillName = skillName;
+    }
+
+    getSkillLogo(): string{
+        return this._skillLogo;
+    }
+
+    setSkillLogo(skillLogo: string): void{
+        this._skillLogo = skillLogo;
     }
 
     getSkillDescription(): string{
@@ -77,5 +89,13 @@ export class Skill {
 
     setTags(tags: string[]): void{
         this._tags = tags;
+    }
+
+    getfeaturedProject(): string{
+        return this._featuredProject;
+    }
+
+    setfeaturedProject(featuredProject: string): void{
+        this._featuredProject = featuredProject;
     }
 }

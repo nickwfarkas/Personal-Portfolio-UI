@@ -1,5 +1,8 @@
 <mat-drawer-container class="bg-gray-800 text-justify" [hasBackdrop]="false">
     <mat-drawer #drawer mode="over" position="end" class="text-white p-5 bg-gray-800 border-l-8 border-gray-900">
+        <div *ngIf="skillLogo != ''" class="w-full flex justify-center pb-5">
+            <img src="{{skillLogo}}" class="w-1/2 block m-0">
+        </div>
         <div cdkFocus class="labelFont text-center whitespace-normal">
             {{skillName}}
             <mat-divider></mat-divider>
@@ -20,8 +23,12 @@
             [append]="'/10'">
             </ngx-gauge>
         </div>
+        <div class="text-center w-full">
+            <span>{{getRatingTitle(getRate())}}</span>
+        </div>
         <br>
-        <div class="text-center">
+        <div class="flex space-x-1">
+            <button [disabled]="isDisabled" tabindex="-1" mat-stroked-button (click)="goToProject(featuredProject)" class="bg-gray-700 rounded-md closeFont p-3">Featured Project</button>
             <button tabindex="-1" mat-stroked-button (click)="drawer.close()" class="bg-gray-700 rounded-md closeFont p-3">Close Skill</button>
         </div>
 
