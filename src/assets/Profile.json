@@ -17,8 +17,8 @@
                     "_degreeType": "Bachelor of Science",
                     "_degreeName": "Computer Science",
                     "_startDate": "2020/09/01",
-                    "_graduationDate": "2022/12/01",
-                    "_gpa": "3.72"
+                    "_graduationDate": "2023/05/01",
+                    "_gpa": "3.61"
                 },
                 {
                     "_schoolName": "Wayne State University",
@@ -34,7 +34,7 @@
                     "_degreeName": "Liberal Arts",
                     "_startDate": "2018/08/01",
                     "_graduationDate": "2020/08/01",
-                    "_gpa": "3"
+                    "_gpa": "3.0"
                 }
             ],
             "_history": [
@@ -580,7 +580,7 @@
                             "professorName": "Myers, Jason",
                             "rateMyProfessorLink": "https://www.ratemyprofessors.com/ShowRatings.jsp?tid=1344025",
                             "personalNote": "This class acted not only as a software lifecycle class as well as a advanced python class, covering advanced python topics while creating large scale projects for hypothetical companies. Creating projects that utilitzed tKinter desktop development, Pygame game development, and sklearn machine learning.",
-                            "githubLink": "",
+                            "githubLink": "https://github.com/nickwfarkas/Undergraduate-Coursework/tree/main/CSC-4110-Software_Engineering",
                             "subject": "Computer Science",
                             "rating": "6"
                         }
@@ -597,7 +597,7 @@
                             "code": "MAT 2030",
                             "name": "Calculus III",
                             "description": "Multivariable calculus with applications. Vectors and vector functions in two and three dimensions; functions of several variables; differentiation; integration; vector calculus.",
-                            "grade": "0",
+                            "grade": "B",
                             "takenAt": "Wayne State University",
                             "image": "",
                             "professorName": "Nguyen, T",
@@ -611,7 +611,7 @@
                             "code": "CSC 4420",
                             "name": "Computer Operating Systems",
                             "description": "Operating system services; file systems; CPU scheduling; memory management; virtual memory; disk scheduling; deadlocks; concurrent processes.",
-                            "grade": "0",
+                            "grade": "A-",
                             "takenAt": "Wayne State University",
                             "image": "",
                             "professorName": "Tuly, S",
@@ -673,17 +673,17 @@
                             "rating": ""
                         },
                         {
-                            "code": "CSC 4996",
-                            "name": "Senior Capstone Project ",
-                            "description": "Development of skills for planning, managing, implementing, and documenting complex software projects. Project management techniques; software development teams; data management, privacy, and security.",
+                            "code": "STA 6840",
+                            "name": "Applied Regression Analysis",
+                            "description": "Multiple linear regression; generalized linear models; random effect models; repeated measurements; mixed effect models; non-parametric additive models. Computer implementation using statistical software R; student project on real data analysis.",
                             "grade": "",
                             "takenAt": "Wayne State University",
                             "image": "",
-                            "professorName": "Mousavi Mojab, S",
-                            "rateMyProfessorLink": "https://www.ratemyprofessors.com/ShowRatings.jsp?tid=1922415",
+                            "professorName": "Shinki, K",
+                            "rateMyProfessorLink": "https://www.ratemyprofessors.com/ShowRatings.jsp?tid=1344025",
                             "personalNote": "",
                             "githubLink": "",
-                            "subject": "Computer Science",
+                            "subject": "Math",
                             "rating": ""
                         },
                         {
@@ -706,10 +706,22 @@
         },
         "_workExperience": [
             {
+                "_positionName": "Database Administration Intern",
+                "_companyName": "Rocket Central",
+                "_startDate": "2022/09/01",
+                "_endDate": "",
+                "_city": "Detroit",
+                "_attributes": [
+                    "Creating VBA automations to streamline Cherwell ticket processing.",
+                    "Creation of SQL scripts for database reporting and analytics to monitor server health.",
+                    "Carrying out team member database infrastructure enablement through SQL on prod databases."
+                ]
+            },
+            {
                 "_positionName": "Full Stack Engineer Intern",
                 "_companyName": "Rocket Central",
                 "_startDate": "2022/05/01",
-                "_endDate": "",
+                "_endDate": "2022/09/01",
                 "_city": "Detroit",
                 "_attributes": [
                     "Developed rich UI experiences using Angular and Material design to deliver a simplistic and beautiful solutions for internal business problems.",
@@ -759,7 +771,7 @@
                 "_positionName": "Sortation Associate",
                 "_companyName": "Amazon",
                 "_startDate": "2019/10/01",
-                "_endDate": "",
+                "_endDate": "2022/09/01",
                 "_city": "Brownstown",
                 "_attributes": [ 
                     "Unloaded incoming trucks and properly staged inventory for processing.",
