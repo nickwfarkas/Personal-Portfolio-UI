@@ -590,8 +590,8 @@
                     "ID": "9",
                     "name": "Summer",
                     "year": "2022",
-                    "GPA": "",
-                    "standing": "In Progress",
+                    "GPA": "3.61",
+                    "standing": "Regular",
                     "classes": [
                         {
                             "code": "MAT 2030",
@@ -627,7 +627,7 @@
                     "ID": "10",
                     "name": "Fall",
                     "year": "2022",
-                    "GPA": "3.6",
+                    "GPA": "",
                     "standing": "In Progress",
                     "classes": [
                         {
@@ -1065,6 +1065,7 @@
         ],
         "_gitHubUrl": "https://github.com/nickwfarkas",
         "_instagramUrl": "https://www.instagram.com/nickfarkas_9/",
-        "_linkedInUrl": "https://www.linkedin.com/in/nicholas-farkas-097a6b157/"
+        "_linkedInUrl": "https://www.linkedin.com/in/nicholas-farkas-097a6b157/",
+        "_resumePath": "./assets/Farkas-Resume-2022.pdf"
     }
 } 
