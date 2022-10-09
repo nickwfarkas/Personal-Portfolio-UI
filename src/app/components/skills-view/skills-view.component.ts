@@ -17,6 +17,7 @@ export class SkillsViewComponent implements OnInit{
   sortedDataSource: Skill[] = [];
   gitHubUrl: string = "";
   linkedInUrl: string = "";
+  resumePath: string = "";
   instagramUrl: string = "";
   select: FormGroup;
   selectedControl = new FormControl('None');
@@ -32,6 +33,7 @@ export class SkillsViewComponent implements OnInit{
     this.gitHubUrl = this.p.getGitHubUrl();
     this.linkedInUrl = this.p.getLinkedInUrl();
     this.instagramUrl = this.p.getInstagramUrl();
+    this.resumePath = this.p.getResumePath();
   }
 
   getSortedSkills(category: string): Skill[]{

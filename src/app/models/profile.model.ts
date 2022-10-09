@@ -13,11 +13,13 @@ export class Profile {
     private _gitHubUrl: string;
     private _instagramUrl: string;
     private _linkedInUrl: string;
+    private _resumePath: string;
 
     constructor(name: string, email: string, phoneNumber: string,
         education: Education, workExperience: WorkExperience[], skillCategories: string[], 
         classCategories: string[], skills: Skill[], 
-        gitHubUrl: string, instagramUrl: string, linkedInUrl: string){
+        gitHubUrl: string, instagramUrl: string, linkedInUrl: string,
+        resumePath: string){
         this._name = name;
         this._email = email;
         this._phoneNumber = phoneNumber;
@@ -29,6 +31,7 @@ export class Profile {
         this._gitHubUrl = gitHubUrl;
         this._instagramUrl = instagramUrl;
         this._linkedInUrl = linkedInUrl;
+        this._resumePath = resumePath;
     }
 
     getName(): string{
@@ -130,5 +133,13 @@ export class Profile {
 
     getClassCategories(): string[]{
         return this._classCategories;
+    }
+
+    getResumePath(): string{
+        return this._resumePath;
+    }
+
+    setResumePath(resumePath: string): void{
+        this._resumePath = resumePath;
     }
 }

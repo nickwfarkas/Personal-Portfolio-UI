@@ -105,7 +105,8 @@ export class ProfileDataService{
             this.deserializeSkills(),
             this.data.Profile._gitHubUrl,
             this.data.Profile._instagramUrl,
-            this.data.Profile._linkedInUrl
+            this.data.Profile._linkedInUrl,
+            this.data.Profile._resumePath
         )
     }
 }
