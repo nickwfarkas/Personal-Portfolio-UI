@@ -51,7 +51,7 @@
 <div class="flex flex-col text-center items-center">
   <mat-accordion #a="matAccordion" class="w-11/12" multi="True">
     <div *ngFor="let term of educationDataSource" class="whitespace-normal">
-      <mat-expansion-panel class="text-gray-200 bg-gray-700">
+      <mat-expansion-panel class="text-gray-200 bg-gray-700" [expanded]="true">
         <mat-expansion-panel-header>
           <mat-panel-title class="text-gray-200">
             {{term.getName()+" "+term.getYear()}}
