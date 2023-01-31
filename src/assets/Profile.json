@@ -646,7 +646,7 @@
                         },
                         {
                             "code": "CSC 5825",
-                            "name": "Introduction to Machine Learning and Applications ",
+                            "name": "Introduction to Machine Learning and Applications",
                             "description": "Through algorithmic investigation, brainstorming, and case analysis, students develop the skills and strategies that are necessary for effective leaning from data, including Big Data emerging from science and engineering.",
                             "grade": "0",
                             "takenAt": "Wayne State University",
@@ -673,6 +673,57 @@
                             "rating": ""
                         }
                     ]
+                },
+                {
+                    "ID": "11",
+                    "name": "Winter",
+                    "year": "2023",
+                    "GPA": "0",
+                    "standing": "",
+                    "classes": [
+                        {
+                            "code": "CSC 4996",
+                            "name": "Senior Capstone Project",
+                            "description": "Development of skills for planning, managing, implementing, and documenting complex software projects. Project management techniques; software development teams; data management, privacy, and security.",
+                            "grade": "0",
+                            "takenAt": "Wayne State University",
+                            "image": "",
+                            "professorName": "Mousavi Mojab, S",
+                            "rateMyProfessorLink": "https://www.ratemyprofessors.com/professor?tid=1922415",
+                            "personalNote": "I was assigned to a small startup named PoGo that aims to provide unbiased political information for young voters.",
+                            "githubLink": "",
+                            "subject": "Computer Science",
+                            "rating": ""
+                        },
+                        {
+                            "code": "CSC 7810",
+                            "name": "Data Mining: Algorithms and Applications",
+                            "description": "Application of various basic/advanced data mining techniques to real-world problems.",
+                            "grade": "0",
+                            "takenAt": "Wayne State University",
+                            "image": "",
+                            "professorName": "Arslanturk, S",
+                            "rateMyProfessorLink": "https://www.ratemyprofessors.com/ShowRatings.jsp?tid=2557412",
+                            "personalNote": "",
+                            "githubLink": "",
+                            "subject": "Computer Science",
+                            "rating": ""
+                        },
+                        {
+                            "code": "PHYS 288",
+                            "name": "College Physics II",
+                            "description": "To develop a thought process which enables students to systematically solve problems no matter how difficult they appear. To create confidence and competency to solve problems involving Electricity and Magnetism. ",
+                            "grade": "0",
+                            "takenAt": "Mott Community College",
+                            "image": "",
+                            "professorName": "DeGroot, F",
+                            "rateMyProfessorLink": "https://www.ratemyprofessors.com/professor?tid=173089",
+                            "personalNote": "",
+                            "githubLink": "",
+                            "subject": "Physical Science",
+                            "rating": ""
+                        }
+                    ]
                 }
             ]
         },
@@ -684,9 +735,9 @@
                 "_endDate": "",
                 "_city": "Detroit",
                 "_attributes": [
-                    "Creating VBA automations to streamline Cherwell ticket processing.",
-                    "Creation of SQL scripts for database reporting and analytics to monitor server health.",
-                    "Carrying out team member database infrastructure enablement through SQL on prod databases."
+                    "Creation of SQL scripts and SSRS reports for database reporting and analytics to monitor server health.",
+                    "Data Mined SQL Databases to identify end of life ETLs to improve health and performance.",
+                    "Carrying out team member database infrastructure enablement through SQL on production databases."
                 ]
             },
             {
@@ -779,9 +830,9 @@
                 "_skillName": "Angular",
                 "_skillLogo": "./assets/logos/angular.png",
                 "_featuredProject": "https://github.com/nickwfarkas/Personal-Portfolio-UI",
-                "_skillDescription": "Proficent using the Angular framework to create beautiful, immersive, and responsive UIs.",
+                "_skillDescription": "Proficent using Angular to create responsive UIs.",
                 "_skillRating": 8,
-                "_industryExperience": 1,
+                "_industryExperience": 2,
                 "_tags": [
                     "Industry Experience",
                     "Front End",
@@ -794,7 +845,7 @@
                 "_featuredProject": "https://github.com/nickwfarkas/Personal-Portfolio-UI",
                 "_skillDescription": "Proficent using the TypeScript with Angular Framework for front end and NodeJS for backend to write typeable, testable, scalable code for UIs.",
                 "_skillRating": 8,
-                "_industryExperience": 1,
+                "_industryExperience": 2,
                 "_tags": [
                     "Industry Experience",
                     "Front End",
@@ -805,7 +856,7 @@
                 "_skillName": "C#",
                 "_skillLogo": "./assets/logos/csharp.png",
                 "_featuredProject": "",
-                "_skillDescription": "Enjoy writting C# when utilizing .Net Core to write APIs.",
+                "_skillDescription": "Utilize C# when integrating into other Microsoft products like SQL Server and Microsoft Teams.",
                 "_skillRating": 4,
                 "_industryExperience": 2,
                 "_tags": [
@@ -831,7 +882,7 @@
                 "_skillName": "HTML",
                 "_skillLogo": "./assets/logos/html.png",
                 "_featuredProject": "https://github.com/nickwfarkas/Personal-Portfolio-UI", 
-                "_skillDescription": "Is it a programming language? Is it not?",
+                "_skillDescription": "It is a structured markup language and yes it is also a programming language in some cases.",
                 "_skillRating": 8,
                 "_industryExperience": 2,
                 "_tags": [
@@ -844,8 +895,8 @@
                 "_skillName": "CSS",
                 "_skillLogo": "./assets/logos/css.png",
                 "_featuredProject": "https://github.com/nickwfarkas/Personal-Portfolio-UI",
-                "_skillDescription": "Just like HTML there is no escaping CSS. Even when I try to escape and use tailwind I always end up writing more than I would like.",
-                "_skillRating": 7,
+                "_skillDescription": "There is no escaping CSS. Even when I try to escape and use tailwind I always end up writing more than I would like.",
+                "_skillRating": 8,
                 "_industryExperience": 2,
                 "_tags": [
                     "Industry Experience",
@@ -857,7 +908,7 @@
                 "_skillName": "SQL",
                 "_skillLogo": "./assets/logos/sql.png",
                 "_featuredProject": "https://github.com/nickwfarkas/TODO-List/tree/main/api",
-                "_skillDescription": "I have written a lot of SQL from MySQL, AWS RDS, Access, to Salesforce Marketing Cloud.",
+                "_skillDescription": "Working on Rocket Mortgages Data Warehouse had me writting stored procedures, ETLs, and queries all day.",
                 "_skillRating": 8,
                 "_industryExperience": 3,
                 "_tags": [
@@ -873,7 +924,7 @@
                 "_skillLogo": "./assets/logos/cpp.png",
                 "_featuredProject": "https://github.com/nickwfarkas/Undergraduate-Coursework/tree/main/CSC-6580-Design%26Analysis_of_Algorithms/Huffman_File_Compression",
                 "_skillDescription": "Though I have never worked with C++ on a industry application. C++ is my language of choice when solving academic computer science problems from data structures, algorithms, to even a little microcontroller programming.",
-                "_skillRating": 6,
+                "_skillRating": 5,
                 "_industryExperience": 0,
                 "_tags": [
                     "Academic Experience",
@@ -896,9 +947,9 @@
                 "_skillName": "Python",
                 "_skillLogo": "./assets/logos/python.png",
                 "_featuredProject": "https://github.com/nickwfarkas/Undergraduate-Coursework/tree/main/CSC-4110-Software_Engineering/Twins-Game",
-                "_skillDescription": "Out of all the programming languages I have utilized, I have the most academic and personal experience with Python. I have mastered utilizing many of Pythons popular libraies such as sklearn for data modeling, pandas for data processing, tKinter for desktop development and pygame for game development.",
-                "_skillRating": 7,
-                "_industryExperience": 0,
+                "_skillDescription": "From building APIs, text mining SQL XML, to deep learning I work with python daily for data science and engineering.",
+                "_skillRating": 8,
+                "_industryExperience": 1,
                 "_tags": [
                     "Academic Experience",
                     "Back End",
@@ -910,7 +961,7 @@
                 "_skillName": "R",
                 "_skillLogo": "./assets/logos/r.png",
                 "_featuredProject": "https://github.com/nickwfarkas/Undergraduate-Coursework/tree/main/STA-5820-Data_Science/NeedleDropAI",
-                "_skillDescription": "I have academic experience utilizing a lot of the tools that R has to offer from basic statistical analysis to Neural Networks. When creating Machine Learning models I perfer to use R over Python.",
+                "_skillDescription": "I have academic experience utilizing a lot of the tools that R has to offer from basic statistical analysis to Neural Networks.",
                 "_skillRating": 7,
                 "_industryExperience": 0,
                 "_tags": [
@@ -922,7 +973,7 @@
                 "_skillName": "Git/GitHub",
                 "_skillLogo": "./assets/github-logo.png",
                 "_featuredProject": "https://github.com/nickwfarkas",
-                "_skillDescription": "1% Coding, 99% Merge Conflicts",
+                "_skillDescription": "Can I get some eyes on my pull request",
                 "_skillRating": 8,
                 "_industryExperience": 3,
                 "_tags": [
@@ -971,32 +1022,6 @@
                 ]
             }, 
             {
-                "_skillName": "Data Structures",
-                "_skillLogo": "",
-                "_featuredProject": "https://github.com/nickwfarkas/Undergraduate-Coursework/tree/main/CSC-6580-Design%26Analysis_of_Algorithms/Huffman_File_Compression",
-                "_skillDescription": "There was a lot of sweat and even more tears when learning to master Linked Lists, Stacks, Queues, Binary Search Trees, AVL Trees, Hash Tables, Heaps, and Graphs",
-                "_skillRating": 7,
-                "_industryExperience": 2,
-                "_tags": [
-                    "Industry Experience",
-                    "Academic Experience",
-                    "Soft Skill"
-                ]
-            },
-            {
-                "_skillName": "Algorithms",
-                "_skillLogo": "",
-                "_featuredProject": "https://github.com/nickwfarkas/Undergraduate-Coursework/tree/main/CSC-6580-Design%26Analysis_of_Algorithms/Huffman_File_Compression",
-                "_skillDescription": "I understand that the definition of algorithm is just a process or a set of rules which is fair but I have spent a lot of time learning and implementing complex algorithms academicly and in the industry. So I would like to think it's more complicated.",
-                "_skillRating": 7,
-                "_industryExperience": 4,
-                "_tags": [
-                    "Industry Experience",
-                    "Academic Experience",
-                    "Soft Skill"
-                ]
-            },
-            {
                 "_skillName": "Infrastructure Diagramming",
                 "_skillLogo": "",
                 "_featuredProject": "",
@@ -1013,9 +1038,9 @@
                 "_skillName": "Machine Learning",
                 "_skillLogo": "",
                 "_featuredProject": "https://github.com/nickwfarkas/Undergraduate-Coursework/tree/main/STA-5820-Data_Science/NeedleDropAI",
-                "_skillDescription": "I have recently started my dive into data science with a minor in statistics. I can properly clean and pre-process data for many machine learning models. Through my coursework I can understand and effectively implement many machine learning algorithms and validate the results.",
-                "_skillRating": 5,
-                "_industryExperience": 1,
+                "_skillDescription": "I am actively studying machine learning agorithms and implementing them on my side projects (see my GitHub). I have intermediate knowlege on both supervised, unsupervised learning, and most recently been learning more about MLOps to deploy models.",
+                "_skillRating": 7,
+                "_industryExperience": 0,
                 "_tags": [
                     "Data Science",
                     "Academic Experience"
@@ -1033,11 +1058,24 @@
                     "Back End",
                     "Web Development"
                 ]
+            },
+            {
+                "_skillName": "Amazon Web Services",
+                "_skillLogo": "",
+                "_featuredProject": "",
+                "_skillDescription": "I am slowly familiarizing myself with AWS. I have personal and industry experience utilizing tools such as Lambda, Dynamo, S3, RDS, CloudWatch, ect.",
+                "_skillRating": 6,
+                "_industryExperience": 3,
+                "_tags": [
+                    "Industry Experience",
+                    "Back End",
+                    "Web Development"
+                ]
             }
         ],
         "_gitHubUrl": "https://github.com/nickwfarkas",
         "_instagramUrl": "https://www.instagram.com/nickfarkas_9/",
         "_linkedInUrl": "https://www.linkedin.com/in/nicholas-farkas-097a6b157/",
-        "_resumePath": "./assets/Farkas-Resume-2022.pdf"
+        "_resumePath": "./assets/Farkas-Resume-2023.pdf"
     }
 } 
