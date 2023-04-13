@@ -1,8 +1,8 @@
 {
     "Profile": {
-        "profileName": "Nicholas Farkas",
-        "_email": "nicholaswfarkas@gmail.com",
-        "_phoneNumber": "313-969-3310",
+        "profileName": "Skyler Voran",
+        "_email": "skyler.voran@gmail.com",
+        "_phoneNumber": "313-588-0093",
         "_education": {
             "_classCategories":[
                 "Math", 
@@ -13,7 +13,7 @@
             ],
             "_summary": [
                 {
-                    "_schoolName": "Wayne State University",
+                    "_schoolName": "University of Michigan Dearborn",
                     "_degreeType": "Bachelor of Science",
                     "_degreeName": "Computer Science",
                     "_startDate": "2020/09/01",
@@ -21,9 +21,9 @@
                     "_gpa": "0"
                 },
                 {
-                    "_schoolName": "Wayne State University",
-                    "_degreeType": "Minor",
-                    "_degreeName": "Mathematical Statistics",
+                    "_schoolName": "University of Michigan Dearborn",
+                    "_degreeType": "Bachelor of Science",
+                    "_degreeName": "CIS Math",
                     "_startDate": "2020/09/01",
                     "_graduationDate": "2022/12/01",
                     "_gpa": "0"
@@ -33,7 +33,7 @@
                     "_degreeType": "Associates of Arts",
                     "_degreeName": "Liberal Arts",
                     "_startDate": "2018/08/01",
-                    "_graduationDate": "2020/08/01",
+                    "_graduationDate": "2020/05/01",
                     "_gpa": "0"
                 }
             ],
@@ -52,8 +52,8 @@
                             "grade": "0",
                             "takenAt": "Henry Ford College",
                             "image": "",
-                            "professorName": "Kroll, M",
-                            "rateMyProfessorLink": "https://www.ratemyprofessors.com/ShowRatings.jsp?tid=1591766",
+                            "professorName": "McIlroy, G",
+                            "rateMyProfessorLink": "https://www.ratemyprofessors.com/professor?tid=2566273",
                             "personalNote": "",
                             "githubLink": "",
                             "subject": "English",
@@ -63,7 +63,7 @@
                             "code": "PSY 131",
                             "name": "Introduction to Psychology",
                             "description": "Introduces elementary concepts and principles related to the scientific study of behavior and of the mental processes of cognition and affective states. Variables examined include the history of psychology, the scientific method, theory, biological foundations, psychological processes related to cognition and affective states, developmental changes over time, and applications related to healthy and unhealthy personalities.",
-                            "grade": "0",
+                            "grade": "A",
                             "takenAt": "Henry Ford College",
                             "image": "",
                             "professorName": "Sepulveda, M",
@@ -83,34 +83,20 @@
                             "professorName": "Trohimczyk, M",
                             "rateMyProfessorLink": "https://www.ratemyprofessors.com/ShowRatings.jsp?tid=2274387",
                             "personalNote": "",
-                            "githubLink": "https://github.com/nickwfarkas/Undergraduate-Coursework/tree/main/CIS-100_Microsoft_Access_Database",
+                            "githubLink": "",
                             "subject": "Computer Science",
                             "rating": "3"
-                        },
-                        {
-                            "code": "MATH 175",
-                            "name": "Precalculus",
-                            "description": "Topics include algebraic, graphical and numerical representations of functions, including composition and inverses of functions. Focuses on the study of rational functions, exponential and logarithmic functions, and trigonometric functions of real numbers and angles. Also includes analytic trigonometry and solutions of triangles. Techniques of problem solving and applications are included throughout the course requiring the frequent usage of graphing calculators.",
-                            "grade": "0",
-                            "takenAt": "Henry Ford College",
-                            "image": "",
-                            "professorName": "Rayhall, M",
-                            "rateMyProfessorLink": "https://www.ratemyprofessors.com/ShowRatings.jsp?tid=378045",
-                            "personalNote": "",
-                            "githubLink": "",
-                            "subject": "Math",
-                            "rating": "7"
                         },
                         {
                             "code": "SOC 131",
                             "name": "Intro to Sociology",
                             "description": "Introduces the sociological approach to understanding culture and society. Examines human behavior in a group context, focusing on the prominent influence of culture and social structure on individuals. Connections between individuals and a variety of social institutions, such as the economy, government, and mass media, are examined and compared in U.S. society and on a global scale. Focuses on cultural diversity and social inequalities, such as those related to class, race, ethnicity and gender.",
-                            "grade": "0",
+                            "grade": "A",
                             "takenAt": "Henry Ford College",
                             "image": "",
-                            "professorName": "Norris, W",
-                            "rateMyProfessorLink": "https://www.ratemyprofessors.com/ShowRatings.jsp?tid=2392980",
-                            "personalNote": "This is one of my favorite courses I have ever taken. It almost convinced me to change my major from computer science to sociology. I realized I could do more good being a computer science major with a basic knowledge of sociology than a sociology major with a basic knowledge of computer science. I hope to see my skills work in the sociology study space.",
+                            "professorName": "Smith, B",
+                            "rateMyProfessorLink": "https://www.ratemyprofessors.com/professor?tid=238024",
+                            "personalNote": "",
                             "githubLink": "",
                             "subject": "Social Science",
                             "rating": "9"
@@ -126,45 +112,45 @@
                     "classes": [
                         {
                             "code": "CIS 125",
-                            "name": "Principles of Programming Logic",
+                            "name": "Prin of Programming Logic",
                             "description": "An introductory-level course presenting programming logic concepts and skills. Emphasizes structured methods of programming. Covers input, output, selection/decisions, loops, arrays, data validation, functions, and modules. A computer lab is used for debugging, compilation and testing.",
-                            "grade": "0",
+                            "grade": "A",
                             "takenAt": "Henry Ford College",
                             "image": "",
-                            "professorName": "Conner, M",
-                            "rateMyProfessorLink": "https://www.ratemyprofessors.com/ShowRatings.jsp?tid=1561325",
-                            "personalNote": "This course was very basic. I had a background in everything that was taught due to some high school computer science classes. Was offered to skip the class but had scheduling conflicts.",
-                            "githubLink": "",
-                            "subject": "Computer Science",
-                            "rating": "7"
-                        },
-                        {
-                            "code": "WR 130",
-                            "name": "Intro to the Study of Religion",
-                            "description": "",
-                            "grade": "0",
-                            "takenAt": "Henry Ford College",
-                            "image": "",
-                            "professorName": "Geffen, J",
-                            "rateMyProfessorLink": "https://www.ratemyprofessors.com/ShowRatings.jsp?tid=1784769",
+                            "professorName": "Ingesoulian, S",
+                            "rateMyProfessorLink": "https://www.ratemyprofessors.com/professor?tid=1845465",
                             "personalNote": "",
                             "githubLink": "",
-                            "subject": "Social Science",
-                            "rating": "9"
+                            "subject": "Computer Science",
+                            "rating": "8"
                         },
                         {
-                            "code": "MATH 180",
-                            "name": "Calculus I",
-                            "description": "Topics include limits, continuity, the derivative, differentiation of algebraic, exponential, logarithmic, trigonometric and inverse trigonometric functions, applications of the derivative, antidifferentiation, and the definite integral. Numerical, graphical and algebraic approaches are used whenever possible.",
-                            "grade": "0",
+                            "code": "MATH 280",
+                            "name": "Calculus III",
+                            "description": "Covers topics such as the calculus of vector-valued functions, the differential calculus of functions of more than one variable, directional derivatives, gradients, partial derivatives, multiple integration, vector fields, and line integrals. Various applications are covered throughout the course. Utilizes numerical, graphical, and algebraic approaches whenever possible. Requires a graphing calculator, with the TI-84 Plus series recommended, and access to an online homework management system.",
+                            "grade": "A",
                             "takenAt": "Henry Ford College",
                             "image": "",
-                            "professorName": "Dubaisi, H",
-                            "rateMyProfessorLink": "https://www.ratemyprofessors.com/ShowRatings.jsp?tid=1799151",
+                            "professorName": "Bazzi, Y",
+                            "rateMyProfessorLink": "https://www.ratemyprofessors.com/professor?tid=2070465",
                             "personalNote": "",
                             "githubLink": "",
                             "subject": "Math",
-                            "rating": "8"
+                            "rating": "9"
+                        },
+                        {
+                            "code": "WR 131",
+                            "name": "Relig Traditions in the World",
+                            "description": "Introduces the beliefs, practices, and experiences of the major world religious traditions. In addition to examining the particulars of each faith, this course emphasizes current perspectives in religious studies that serve to clarify the nature and functions of religion as a force shaping, and being shaped by, the increasingly pluralistic contemporary world. Religion will be treated seriously as an important part of people's identity and a crucial prerequisite for understanding and appreciating others and selves",
+                            "grade": "A-",
+                            "takenAt": "Henry Ford College",
+                            "image": "",
+                            "professorName": "Butler, S",
+                            "rateMyProfessorLink": "https://www.ratemyprofessors.com/professor?tid=2442610",
+                            "personalNote": "",
+                            "githubLink": "",
+                            "subject": "Social Science",
+                            "rating": "3"
                         }
                     ]
                 },
@@ -179,39 +165,53 @@
                             "code": "CIS 111",
                             "name": "SQL for Database Development",
                             "description": "An intermediate-level course familiarizing the student with the SQL language used to retrieve and modify tables and data within a SQL Server database management system. Covers outer joins, summary queries, and subqueries. Also discusses using normalization techniques to design and create database structures, views, scripts, stored procedures, scalar functions, and triggers.",
-                            "grade": "0",
+                            "grade": "A",
                             "takenAt": "Henry Ford College",
                             "image": "",
                             "professorName": "Conti, A",
-                            "rateMyProfessorLink": "https://www.ratemyprofessors.com/ShowRatings.jsp?tid=426459",
-                            "personalNote": "For a 100 level CIS course this was very in depth. This class made my 4000 level university course feel like review. This course also gave me a lot of SQL knowledge which has been very prevalent in my internship experience",
-                            "githubLink": "https://github.com/nickwfarkas/Undergraduate-Coursework/tree/main/CIS-111-SQL",
+                            "rateMyProfessorLink": "https://www.ratemyprofessors.com/professor?tid=426459",
+                            "personalNote": "",
+                            "githubLink": "",
                             "subject": "Computer Science",
-                            "rating": "8"
+                            "rating": "10"
                         },
                         {
-                            "code": "CIS 170",
-                            "name": "C Programming",
-                            "description": "An intermediate-level course which familiarizes the student with the C programming language. Covers designing, coding, testing, and debugging programs. Emphasizes program and coding efficiency.",
-                            "grade": "0",
+                            "code": "ENG 132",
+                            "name": "College Writing and Research",
+                            "description": "ENG-132 is the second college-level composition course in a two-semester sequence. Students will continue to write, read, think critically, and use information at the college level. In particular, students will be exposed to a range of literary texts and will be instructed in ethical, effective research writing.",
+                            "grade": "A",
                             "takenAt": "Henry Ford College",
                             "image": "",
-                            "professorName": "Morgan, R",
-                            "rateMyProfessorLink": "https://www.ratemyprofessors.com/ShowRatings.jsp?tid=2230577",
-                            "personalNote": "Pointers, Pointers, and more Pointers",
-                            "githubLink": "https://github.com/nickwfarkas/Undergraduate-Coursework/tree/main/CIS-170-C",
-                            "subject": "Computer Science",
+                            "professorName": "Nelson, N",
+                            "rateMyProfessorLink": "https://www.ratemyprofessors.com/professor?tid=1527561",
+                            "personalNote": "",
+                            "githubLink": "",
+                            "subject": "English",
                             "rating": "8"
                         },
                         {
-                            "code": "PHYS 231",
+                            "code": "PHIL 130",
+                            "name": "Introduction to Philosophy",
+                            "description": "An introduction to the perennial problems that have occupied philosophers primarily in the Western tradition, including appearance vs. reality, the mind/body problem, free will vs. determinism, the nature of morality, the existence of God, and the justification of political power.",
+                            "grade": "A",
+                            "takenAt": "Henry Ford College",
+                            "image": "",
+                            "professorName": "Matzke, D",
+                            "rateMyProfessorLink": "https://www.ratemyprofessors.com/professor?tid=2129018",
+                            "personalNote": "",
+                            "githubLink": "",
+                            "subject": "Social Science",
+                            "rating": "8"
+                        },
+                        {
+                            "code": "PHYS-231",
                             "name": "Engineering Physics I",
-                            "description": "Emphasizes relating physical principles to mathematical techniques in problem solving. Covers mechanics, wave motion, and thermodynamics.",
-                            "grade": "0",
+                            "description": "Designed to meet the requirements of engineering students and physics majors. Emphasizes relating physical principles to mathematical techniques in problem solving. Covers mechanics, wave motion, and thermodynamics. Four hours of lecture and three hours of laboratory activities per week.",
+                            "grade": "B+",
                             "takenAt": "Henry Ford College",
                             "image": "",
                             "professorName": "Smith, J",
-                            "rateMyProfessorLink": "https://www.ratemyprofessors.com/ShowRatings.jsp?tid=1799151",
+                            "rateMyProfessorLink": "https://www.ratemyprofessors.com/professor?tid=466959",
                             "personalNote": "",
                             "githubLink": "",
                             "subject": "Physical Science",
@@ -227,74 +227,60 @@
                     "standing": "Regular",
                     "classes": [
                         {
-                            "code": "ASTR 131",
-                            "name": "Descriptive Astronomy",
-                            "description": "Consists of a non-mathematical introduction to elements of the astronomical universe by means of lecture and planetarium demonstrations. Covers the major units of the universe and their interrelation. Scientific background not necessary.",
-                            "grade": "0",
+                            "code": "BEC 151",
+                            "name": "Prin Macro Economics",
+                            "description": "Examines the theoretical operation of the economy as a whole. Covers the elements of a free market system, the measurement of macroeconomic performance, the creation and control of money, alternative models of government intervention to impact business cycles, economic growth, and international trade.",
+                            "grade": "A",
                             "takenAt": "Henry Ford College",
                             "image": "",
-                            "professorName": "Wullaert, G",
-                            "rateMyProfessorLink": "https://www.ratemyprofessors.com/ShowRatings.jsp?tid=2453256",
-                            "personalNote": "",
-                            "githubLink": "",
-                            "subject": "Physical Science",
-                            "rating": "5"
-                        },
-                        {
-                            "code": "CIS 230",
-                            "name": "C++ Programming",
-                            "description": "An advanced-level course expanding upon arrays, pointers, structures, templates, and file I/O. Test Driven Development (TDD), refactoring, and UML diagrams concepts are applied. Covers theory and application in areas such as the standard template libraries including vectors, lists, stacks, queues, sets, and maps. Object oriented principles of classes, data, inheritance and dynamic binding are covered.",
-                            "grade": "0",
-                            "takenAt": "Henry Ford College",
-                            "image": "",
-                            "professorName": "Moscardelli, K",
-                            "rateMyProfessorLink": "https://www.ratemyprofessors.com/ShowRatings.jsp?tid=116235",
-                            "personalNote": "",
-                            "githubLink": "https://github.com/nickwfarkas/Undergraduate-Coursework/tree/main/CIS-230-C%2B%2B:Computer_Science_1",
-                            "subject": "Computer Science",
-                            "rating": "8"
-                        },
-                        {
-                            "code": "ENG 135",
-                            "name": "Bus & Tech Writing & Research",
-                            "description": "ENG-135 focuses on the Critical Thinking & Information Literacy and the Written Communication Institutional Learning Outcomes. Students design documents such as resumes, letters, memos, instructions, proposals, and an extensive, research-based documented report for the kinds of readers they will address as professionals. This course should be especially valuable for students pursuing careers in business, computer science, automotive technology, allied health, and other technical fields.",
-                            "grade": "0",
-                            "takenAt": "Henry Ford College",
-                            "image": "",
-                            "professorName": "Cohn, E",
-                            "rateMyProfessorLink": "https://www.ratemyprofessors.com/ShowRatings.jsp?tid=2276550",
-                            "personalNote": "",
-                            "githubLink": "",
-                            "subject": "English",
-                            "rating": "6"
-                        },
-                        {
-                            "code": "MATH 275",
-                            "name": "Discrete Mathematics",
-                            "description": "Covers logic, methods of proof, set theory, algorithms, recursion, correctness, relations, partial orderings, graphs, trees, Boolean algebra, grammars, and finite-state machines. Includes various applications throughout the course.",
-                            "grade": "0",
-                            "takenAt": "Henry Ford College",
-                            "image": "",
-                            "professorName": "Zalzali, M",
-                            "rateMyProfessorLink": "https://www.ratemyprofessors.com/ShowRatings.jsp?tid=1917569",
-                            "personalNote": "",
-                            "githubLink": "",
-                            "subject": "Math",
-                            "rating": "7"
-                        },
-                        {
-                            "code": "WR 131",
-                            "name": "Religious Traditions in the World",
-                            "description": "Introduces the beliefs, practices, and experiences of the major world religious traditions. In addition to examining the particulars of each faith, this course emphasizes current perspectives in religious studies that serve to clarify the nature and functions of religion as a force shaping, and being shaped by, the increasingly pluralistic contemporary world. Religion will be treated seriously as an important part of people's identity and a crucial prerequisite for understanding and appreciating others and selves.",
-                            "grade": "0",
-                            "takenAt": "Henry Ford College",
-                            "image": "",
-                            "professorName": "Geffen, J",
-                            "rateMyProfessorLink": "https://www.ratemyprofessors.com/ShowRatings.jsp?tid=1784769",
+                            "professorName": "Luke, J",
+                            "rateMyProfessorLink": "https://www.ratemyprofessors.com/professor?tid=475984",
                             "personalNote": "",
                             "githubLink": "",
                             "subject": "Social Science",
-                            "rating": "8"
+                            "rating": "10"
+                        },
+                        {
+                            "code": "BIO 130",
+                            "name": "Evolution and Behavior",
+                            "description": "Introduces principles of evolution and animal behavior (including human). Considers genetic, physiological, and evolutionary explanations of behaviors. Topics include evolution and natural selection, genetic inheritance, DNA structure and function, basic cell structure and function, innate behaviors, learning, motivation, communication, aggression, sexual behavior, territoriality, play, vestigial behaviors, selfishness, and altruism.",
+                            "grade": "A",
+                            "takenAt": "Henry Ford College",
+                            "image": "",
+                            "professorName": "Brandt, L",
+                            "rateMyProfessorLink": "https://www.ratemyprofessors.com/professor?tid=188302",
+                            "personalNote": "",
+                            "githubLink": "",
+                            "subject": "Physical Science",
+                            "rating": "10"
+                        },
+                        {
+                            "code": "MATH 283",
+                            "name": "Linear Algebra",
+                            "description": "Introduces matrix and linear algebra. Covers systems of linear equations, matrix operations and properties of matrices, determinants, the n-dimensional real vector space, general vector spaces, inner product spaces, linear transformations, and eigenvalues and eigenvectors. Presents various applications. Requires a graphing calculator with the TI-84 Plus series recommended.",
+                            "grade": "A",
+                            "takenAt": "Henry Ford College",
+                            "image": "",
+                            "professorName": "Bazzi, A",
+                            "rateMyProfessorLink": "https://www.ratemyprofessors.com/professor?tid=938039",
+                            "personalNote": "",
+                            "githubLink": "",
+                            "subject": "Math",
+                            "rating": "10"
+                        },
+                        {
+                            "code": "PHYS 232",
+                            "name": "Engineering Physics II",
+                            "description": "Designed to meet the requirements of engineering students and physics majors. Emphasizes how to relate physical principles to mathematical techniques in problem solving. Covers electromagnetism, including the study of fields, circuits, and optical systems. Four hours of lecture and three hours of laboratory activities per week.",
+                            "grade": "A",
+                            "takenAt": "Henry Ford College",
+                            "image": "",
+                            "professorName": "Connie, A",
+                            "rateMyProfessorLink": "https://www.ratemyprofessors.com/professor?tid=2419215",
+                            "personalNote": "",
+                            "githubLink": "",
+                            "subject": "Physical Science",
+                            "rating": "10"
                         }
                     ]
                 },
@@ -303,63 +289,63 @@
                     "name": "Fall",
                     "year": "2020",
                     "GPA": "0",
-                    "standing": "Dean's List",
+                    "standing": "Regular",
                     "classes": [
                         {
-                            "code": "BE 1200",
-                            "name": "Arduino Microcontroller",
-                            "description": "Core principles of engineering practice: design, teamwork, professional ethics.",
-                            "grade": "0",
-                            "takenAt": "Wayne State University",
+                            "code": "CIS 150",
+                            "name": "Computer Science I",
+                            "description": "This course provides a foundation for further studies in computer and information science and emphasizes a structured approach to problem solving and algorithm development. Topics include principles of program design, coding, debugging, testing, and documentation. Students are introduced to the Unified Modeling Language for requirements analysis using use-cases and activity diagrams, an object oriented programming language, and the fundamentals of computer hardware, system software, and components. The course will consist of three lecture hours and one two-hour laboratory.",
+                            "grade": "A",
+                            "takenAt": "University of Michigan Dearborn",
                             "image": "",
-                            "professorName": "Alazzawi, L",
-                            "rateMyProfessorLink": "https://www.ratemyprofessors.com/ShowRatings.jsp?tid=1909190",
-                            "personalNote": "The description is not very good for this class. This class covered the basics of microcontrollers using a Ardruino UNO. We used physical components as well as simulations. Overall very fun and informative class.",
-                            "githubLink": "https://github.com/nickwfarkas/Undergraduate-Coursework/tree/main/BE-1200-Arduino",
-                            "subject": "Computer Science",
-                            "rating": "8"
-                        },
-                        {
-                            "code": "BE 1600",
-                            "name": "Python Programming and Computation",
-                            "description": "Basic control structures (sequence, selection, repetition) and all core data types using objects. Practice on core data structures (string, list, tuple, dictionary, and set). Design, implementation and testing of programs to solve problems with an emphasis on data manipulation using real world, practical examples.",
-                            "grade": "0",
-                            "takenAt": "Wayne State University",
-                            "image": "",
-                            "professorName": "Jayyousi, T",
-                            "rateMyProfessorLink": "https://www.ratemyprofessors.com/ShowRatings.jsp?tid=1833036",
-                            "personalNote": "For a beginner level class this covered a lot of material and overall was a fun experience. Some of my favorite topics included introduction to graphics, handling JSON data and API's, and data clustering using CSV earthquake data.",
-                            "githubLink": "https://github.com/nickwfarkas/Undergraduate-Coursework/tree/main/BE-1600-Python_Scripting",
-                            "subject": "Computer Science",
-                            "rating": "6"
-                        },
-                        {
-                            "code": "CSC 3020",
-                            "name": "Java Programming",
-                            "description": "Introduction to the fundamentals of programming using Java. Topics include: object-oriented programming, classes, constructors, flow control statements, data types, methods, inheritance, data hiding, abstraction, exceptions, file I/O, Java GUI, and Java packages.",
-                            "grade": "0",
-                            "takenAt": "Wayne State University",
-                            "image": "",
-                            "professorName": "Jayyousi, T",
-                            "rateMyProfessorLink": "https://www.ratemyprofessors.com/ShowRatings.jsp?tid=1833036",
+                            "professorName": "Mann II, Robert ",
+                            "rateMyProfessorLink": "https://www.ratemyprofessors.com/professor/1976685",
                             "personalNote": "",
-                            "githubLink": "https://github.com/nickwfarkas/Undergraduate-Coursework/tree/main/CSC-3020-Java",
+                            "githubLink": "",
                             "subject": "Computer Science",
-                            "rating": "8"
+                            "rating": "10"
                         },
                         {
-                            "code": "MATH 2020",
-                            "name": "Calculus II",
-                            "description": "Review definition of definite integral and fundamental theorem of calculus. Techniques of integration; approximate integration; improper integrals; applications of integration. Sequences and series. Approximating functions by polynomials and Taylor series.",
-                            "grade": "0",
-                            "takenAt": "Wayne State University",
+                            "code": "GEOL 118",
+                            "name": "Physical Geology",
+                            "description": "An introduction to the study of geologic processes at work in the earth's interior and on its surface. Rocks and minerals, the origin and evolution of the continents, and the gradual and catastrophic processes that shape surface and bedrock features.",
+                            "grade": "A-",
+                            "takenAt": "University of Michigan Dearborn",
                             "image": "",
-                            "professorName": "Wang, P",
-                            "rateMyProfessorLink": "https://www.ratemyprofessors.com/ShowRatings.jsp?tid=584758",
+                            "professorName": "Nalepa, Nick",
+                            "rateMyProfessorLink": "https://www.ratemyprofessors.com/professor/2207224",
+                            "personalNote": "",
+                            "githubLink": "",
+                            "subject": "Physical Science",
+                            "rating": "10"
+                        },
+                        {
+                            "code": "MATH 395",
+                            "name": "Elementary Number Theory",
+                            "description": "Introduces matrix and linear algebra. Covers systems of linear equations, matrix operations and properties of matrices, determinants, the n-dimensional real vector space, general vector spaces, inner product spaces, linear transformations, and eigenvalues and eigenvectors. Presents various applications. Requires a graphing calculator with the TI-84 Plus series recommended.",
+                            "grade": "B",
+                            "takenAt": "University of Michigan Dearborn",
+                            "image": "",
+                            "professorName": "Jabbusch, Kelly ",
+                            "rateMyProfessorLink": "https://www.ratemyprofessors.com/professor/1741917",
                             "personalNote": "",
                             "githubLink": "",
                             "subject": "Math",
-                            "rating": "8"
+                            "rating": "7"
+                        },
+                        {
+                            "code": "IMSE 317",
+                            "name": "Eng Probability and Statistics",
+                            "description": "Set theory, combinatorial analysis, probability and axioms, random variables, continuous and discrete distribution functions, expectations, Chebychev's inequity, weak law of large numbers, central limit theorem, sampling statistics and distributions, point and interval estimation and linear regression.",
+                            "grade": "A",
+                            "takenAt": "University of Michigan Dearborn",
+                            "image": "",
+                            "professorName": "Zhou, Feng",
+                            "rateMyProfessorLink": "https://www.ratemyprofessors.com/professor/2336622",
+                            "personalNote": "",
+                            "githubLink": "",
+                            "subject": "Math",
+                            "rating": "7"
                         }
                     ]
                 },
@@ -371,71 +357,71 @@
                     "standing": "Regular",
                     "classes": [
                         {
-                            "code": "BE 2100",
-                            "name": "Probability and Statistics",
-                            "description": "Core principles of engineering practice: design, teamwork, professional ethics.",
-                            "grade": "0",
-                            "takenAt": "Wayne State University",
-                            "image": "",
-                            "professorName": "Trewn, J",
-                            "rateMyProfessorLink": "https://www.ratemyprofessors.com/ShowRatings.jsp?tid=2149935",
-                            "personalNote": "This class also doesn't have a good description. We covered topics which included Probability, Discrete and Continuos Random Variables, Sampling, Hypothesis Testing, Design of Experiments, and a introduction to the MiniTab Software. This class was poorly managed due to a last minute switch of professors and then a switch back meaning their was 3 different versions of the syllabus. Due to these problems this class was switched to PASS/FAIL.",
-                            "githubLink": "",
-                            "subject": "Math",
-                            "rating": "3"
-                        },
-                        {
-                            "code": "CSC 2200",
+                            "code": "CIS 200",
                             "name": "Computer Science II",
-                            "description": "Design and implementation of fundamental abstract data types of computer science (such as stacks, queues, trees, lists, hashing, and graphs), using an object-oriented language. Programming requirements include the implementation of abstract data types using arrays and dynamic links; recursion; sorting and searching; hashing; and string processing. Introduction to algorithm analysis.",
-                            "grade": "0",
-                            "takenAt": "Wayne State University",
+                            "description": "This course presents techniques for the design, writing, testing, and debugging of medium-sized programs, and an introduction to data structures (stacks, queues, linked lists) using an object-orientated programming language. Topics covered include pointers, templates, and inheritance. The principles of UML modeling are continued.",
+                            "grade": "A",
+                            "takenAt": "University of Michigan Dearborn",
                             "image": "",
-                            "professorName": "Grosu, D",
-                            "rateMyProfessorLink": "https://www.ratemyprofessors.com/ShowRatings.jsp?tid=602317",
-                            "personalNote": "This class is a one of the two weeder classes at Wayne State. This class had a heavy course load from designing most of the Data Structures from scratch in C++ (which can be seen on my github) and Mathematical analysis of these structures.",
-                            "githubLink": "https://github.com/nickwfarkas/Undergraduate-Coursework/tree/main/CSC-2200-Computer_Science_2",
+                            "professorName": "Steiner, Thomas",
+                            "rateMyProfessorLink": "https://www.ratemyprofessors.com/professor/2400866",
+                            "personalNote": "",
+                            "githubLink": "",
                             "subject": "Computer Science",
-                            "rating": "7"
+                            "rating": "10"
                         },
                         {
-                            "code": "PHIL 1100",
-                            "name": "Contemporary Moral Issues",
-                            "description": "Critical discussion of contemporary moral issues including pornography, adultery, same-sex marriage, abortion, preferential treatment, obligations to the poor, capital punishment, terrorism, and others.",
-                            "grade": "0",
-                            "takenAt": "Wayne State University",
+                            "code": "CIS 285",
+                            "name": "Software Engineering Tools",
+                            "description": "This course will cover various CASE tools, such as UML modeling and code generation tools, configuration management tools, defect management tools, an integrated development environment for coding and debugging, unit and testing tools, and build tools. Students will learn these tools in a laboratory environment.",
+                            "grade": "A-",
+                            "takenAt": "University of Michigan Dearborn",
                             "image": "",
-                            "professorName": "Briggs, R",
-                            "rateMyProfessorLink": "https://www.ratemyprofessors.com/ShowRatings.jsp?tid=2623306",
+                            "professorName": "Xu, Zhiwei",
+                            "rateMyProfessorLink": "https://www.ratemyprofessors.com/professor/1022028",
+                            "personalNote": "",
+                            "githubLink": "",
+                            "subject": "Computer Science",
+                            "rating": "10"
+                        },
+                        {
+                            "code": "ENT 400",
+                            "name": "Entrepreneurial Thinking&Behav",
+                            "description": "This course introduces entrepreneurship as an approach to one’s life and career advancement. It explores how entrepreneurial thought can create change and opportunities in many organizations, including large corporations, small business, and communities. The course will focus on how the entrepreneurial mindset is a toolkit that can be taught and how entrepreneurial skills empower individuals to bring about change. Students will be challenged to push the boundaries to identify unmet customer needs that are demanded by various demographics. Important aspects of the course include a careful analysis of the following: opportunity recognition, design thinking, market assessment, effective communication, operational partners, strategic management, and financial planning. Students will be exposed to resources from urban areas including speakers with experience and expertise in the entrepreneurial community.",
+                            "grade": "B",
+                            "takenAt": "University of Michigan Dearborn",
+                            "image": "",
+                            "professorName": "Harris, Marcus",
+                            "rateMyProfessorLink": "https://www.ratemyprofessors.com/professor/2441556",
                             "personalNote": "",
                             "githubLink": "",
                             "subject": "Social Science",
                             "rating": "7"
                         },
                         {
-                            "code": "CSC 3010",
-                            "name": "Ethics in Computer Science",
-                            "description": "Students will study the ethical and legal issues that arise with the usage and development of computing technology. Students will learn the responsibilities of the computer professionals and how to make appropriate decisions when faced with legal and ethical issues in computing.",
-                            "grade": "0",
-                            "takenAt": "Wayne State University",
+                            "code": "MATH 396",
+                            "name": "Introduction to Cryptography",
+                            "description": "This course discusses ways of encrypting information, a function which is vital to economics, defense and the empowerment of society. It is more crucial now than ever before to be able to securely transfer information in this age of electronic communication. After discussing primitive ways of encrypting information and explaining the need for more sophisticated encoding methods, this course explores the mathematics (number theory, finite fields and probability) behind both historic and more recent cryptosystems that have been developed for the secure transmission of data along non secure channels. This course continues with symmetric and public key cryptosystems, elliptic curves, digital signatures, zero knowledge protocols and other more advanced methods.",
+                            "grade": "A",
+                            "takenAt": "University of Michigan Dearborn",
                             "image": "",
-                            "professorName": "Myers, J",
-                            "rateMyProfessorLink": "https://www.ratemyprofessors.com/ShowRatings.jsp?tid=2393605",
+                            "professorName": "Agarwal, Mahesh",
+                            "rateMyProfessorLink": "https://www.ratemyprofessors.com/professor/1367130",
                             "personalNote": "",
                             "githubLink": "",
-                            "subject": "Computer Science",
-                            "rating": "4"
+                            "subject": "Math",
+                            "rating": "7"
                         },
                         {
-                            "code": "ENGR 5995",
-                            "name": "Data Science Life Cycle",
-                            "description": "State of the art research, development and practice topics from across the fields of engineering; emphasis on interdisciplinary topics.",
-                            "grade": "0",
-                            "takenAt": "Wayne State University",
+                            "code": "CIS 275",
+                            "name": "Discrete Structures I",
+                            "description": "This course introduces students to various topics in discrete mathematics, such as set theory, mathematical logic, trees, and graph theory. Applications to relational databases, modeling reactive systems and program verification are also discussed.",
+                            "grade": "A",
+                            "takenAt": "University of Michigan Dearborn",
                             "image": "",
-                            "professorName": "Raad, N",
-                            "rateMyProfessorLink": "",
-                            "personalNote": "This class was a very interesting introduction into data science. Though this class was not mathematical, it went into the business decisions and engineering politics that goes into a data science project taught by the VP of Data Science at GM Financial.",
+                            "professorName": "Neji, Sana",
+                            "rateMyProfessorLink": "https://www.ratemyprofessors.com/professor/2122226",
+                            "personalNote": "",
                             "githubLink": "",
                             "subject": "Computer Science",
                             "rating": "7"
@@ -447,77 +433,77 @@
                     "name": "Fall",
                     "year": "2021",
                     "GPA": "0",
-                    "standing": "Dean's List",
+                    "standing": "Regular",
                     "classes": [
                         {
-                            "code": "CSC 3110",
-                            "name": "Algorithm Design and Analysis",
-                            "description": "Formal techniques to support design and analysis of algorithms: underlying mathematical theory and practical considerations of efficiency. Topics include asymptotic complexity bounds, techniques of analysis, algorithmic strategies, advanced data and file structures, and introduction to automata theory and its application to language translation.",
-                            "grade": "0",
-                            "takenAt": "Wayne State University",
+                            "code": "CIS 316",
+                            "name": "Practical Aspects of Computer Security",
+                            "description": "This course provides a practical introduction to a broad range of security topics including legal, ethical and professional issues in information security. Covered topics include: practical computer security principles; firewalls, malware, and intrusion detection; cryptography basics and its applications; mobile devices and related security issues; network technologies and their vulnerabilities",
+                            "grade": "A",
+                            "takenAt": "University of Michigan Dearborn",
                             "image": "",
-                            "professorName": "Castro, A",
-                            "rateMyProfessorLink": "https://www.ratemyprofessors.com/ShowRatings.jsp?tid=2728291",
-                            "personalNote": "",
-                            "githubLink": "https://github.com/nickwfarkas/Undergraduate-Coursework/tree/main/CSC-3310_Algorithm_Design%26Analysis",
-                            "subject": "Computer Science",
-                            "rating": "5"
-                        },
-                        {
-                            "code": "CSC 4710",
-                            "name": "Introduction to Database Management Systems",
-                            "description": "Topics include: database concepts, ER modeling, schemas and constraints, SQL and relational algebra, web-based database applications, triggers and views, physical organization and indexing, query processing, query optimization, NoSQL databases.",
-                            "grade": "0",
-                            "takenAt": "Wayne State University",
-                            "image": "",
-                            "professorName": "Castro, A",
-                            "rateMyProfessorLink": "https://www.ratemyprofessors.com/ShowRatings.jsp?tid=2728291",
-                            "personalNote": "A better title for this class would be Full Stack Development. We learned the most about databases but we also had extensive work in PHP and Front End Technologies. My group's full stack TODO List app is on my GitHub here https://github.com/nickwfarkas/TODO-List.",
-                            "githubLink": "https://github.com/nickwfarkas/Undergraduate-Coursework/tree/main/CSC-4710_Database_Systems",
-                            "subject": "Computer Science",
-                            "rating": "8"
-                        },
-                        {
-                            "code": "CSC 4500",
-                            "name": "Introduction to Theoretical Computer Science",
-                            "description": "Finite automata and regular expressions; context-free grammars; pushdown automata; Turing machines; hierarchy of formal languages and automata; computability and decidability.",
-                            "grade": "0",
-                            "takenAt": "Wayne State University",
-                            "image": "",
-                            "professorName": "Goel, N",
-                            "rateMyProfessorLink": "https://www.ratemyprofessors.com/ShowRatings.jsp?tid=534959",
+                            "professorName": "Ma, Di",
+                            "rateMyProfessorLink": "https://www.ratemyprofessors.com/professor/1405365",
                             "personalNote": "",
                             "githubLink": "",
                             "subject": "Computer Science",
-                            "rating": "5"
+                            "rating": "10"
                         },
                         {
-                            "code": "STA 5030",
-                            "name": "Statistical Computing and Data Analysis",
-                            "description": "Computational aspect of statistics and data analysis for advanced undergraduate and beginning graduate students. Topics include descriptive statistics, probability distributions, hypothesis testing, ANOVA, linear regression and logistic regression. Data analysis by use of statistical packages such as R, SAS, Python, SPSS or Minitab.",
-                            "grade": "0",
-                            "takenAt": "Wayne State University",
+                            "code": "CIS 296",
+                            "name": "Java Programming",
+                            "description": "Course covers Java Programming language, focusing on GUI development, distributed computing and network applications.",
+                            "grade": "A-",
+                            "takenAt": "University of Michigan Dearborn",
                             "image": "",
-                            "professorName": "Shinki, K",
-                            "rateMyProfessorLink": "https://www.ratemyprofessors.com/ShowRatings.jsp?tid=1344025",
-                            "personalNote": "As well as a refresher on intermediate statistical topics. We did all class assignments and analysis using the R language. If you are curious to see my final project on whether there is a relationship between crime rate and state government political party. There is my data, code, and graphs on my GitHub here https://github.com/nickwfarkas/STAT-5030. Along with a video of me presenting my analysis here https://www.youtube.com/watch?v=JU4YucMDLLc&t=53s.",
-                            "githubLink": "https://github.com/nickwfarkas/Undergraduate-Coursework/tree/main/STA_5030_Statistical_Computation",
-                            "subject": "Math",
-                            "rating": "8"
-                        },
-                        {
-                            "code": "ENG 3060",
-                            "name": "Technical Communication II: Presentations",
-                            "description": "Instruction in basic technical presentation skills. Requirements include informative presentations, oral briefings, needs assessments, progress reports, and formal proposals. Topics include collaborative teamwork, audience and purpose analysis, textual and visual aspects of presentation design, and formatting.",
-                            "grade": "0",
-                            "takenAt": "Wayne State University",
-                            "image": "",
-                            "professorName": "Mayer, D",
-                            "rateMyProfessorLink": "https://www.ratemyprofessors.com/ShowRatings.jsp?tid=1594948",
+                            "professorName": "Baugh, John",
+                            "rateMyProfessorLink": "https://www.ratemyprofessors.com/professor/613426",
                             "personalNote": "",
                             "githubLink": "",
-                            "subject": "English",
-                            "rating": "4"
+                            "subject": "Computer Science",
+                            "rating": "10"
+                        },
+                        {
+                            "code": "CIS 306",
+                            "name": "Discrete Structures II",
+                            "description": "This course introduces students to further topics in discrete mathematics, including theory of computation, more complexity theory, coding theory, and game theory.",
+                            "grade": "B",
+                            "takenAt": "University of Michigan Dearborn",
+                            "image": "",
+                            "professorName": "Neji, Sana",
+                            "rateMyProfessorLink": "https://www.ratemyprofessors.com/professor/2122226",
+                            "personalNote": "",
+                            "githubLink": "",
+                            "subject": "Computer Science",
+                            "rating": "7"
+                        },
+                        {
+                            "code": "CIS 350",
+                            "name": "Data Struc and Algorithm Anlys",
+                            "description": "This course focuses on data design and algorithm design. Data design topics include object-oriented discussions of hashing, advanced tree structures, graphs, and sets. Algorithm design topics include the greedy, divide-and-conquer, dynamic programming, backtracking and branch-and-bound techniques. A significant discussion of algorithm complexity theory, including time and space trade-offs and elementary computability theory, is included.",
+                            "grade": "A",
+                            "takenAt": "University of Michigan Dearborn",
+                            "image": "",
+                            "professorName": "Almomani, Raed",
+                            "rateMyProfessorLink": "https://www.ratemyprofessors.com/professor/2585608",
+                            "personalNote": "",
+                            "githubLink": "",
+                            "subject": "Computer Science",
+                            "rating": "7"
+                        },
+                        {
+                            "code": "CIS 310",
+                            "name": "Computer Org and Assembly Lang",
+                            "description": "The architecture of computer systems and associated software. Topics include digital logic circuits, computer interfacing, interrupt systems, input/output systems, memory systems, assemblers and assembly language programming, and computer networks.",
+                            "grade": "A",
+                            "takenAt": "University of Michigan Dearborn",
+                            "image": "",
+                            "professorName": "Roy, Probir",
+                            "rateMyProfessorLink": "https://www.ratemyprofessors.com/professor/2578794",
+                            "personalNote": "",
+                            "githubLink": "",
+                            "subject": "Computer Science",
+                            "rating": "7"
                         }
                     ]
                 },
@@ -529,199 +515,204 @@
                     "standing": "Regular",
                     "classes": [
                         {
-                            "code": "CSC 3100",
-                            "name": "Computer Architecture and Organization",
-                            "description": "Organization and architecture of computer systems. Topics include: digital logic and digital systems; machine-level representation of data and programs; assembly level machine organization and programming; register-level description of computer execution and the functional organization of a computer; role and function of programming languages, libraries and operating systems; performance evaluation; systems programming.",
-                            "grade": "0",
-                            "takenAt": "Wayne State University",
+                            "code": "CIS 446",
+                            "name": "Wireless & Mobi Comp Security",
+                            "description": "The course focuses on security and privacy issues in the area of wireless networks and mobile computing such as cellular networks, wireless LANs, connected vehicles, smart and mobile devices, sensors and sensor networks, IoT, etc. The course will first present on overview of wireless communication and wireless systems, then focus on attacks, discuss proposed solutions and their limitations. Topics of this course include:(1) introduction to security primitives and wireless networks; (2) security issues in single-hop wireless networks that include cellular networks, RFID, modern vehicle, smartphone security; (3) security issues in multi-hop wireless network that include Mobile Ad Hoc network, wireless sensor network and vehicular network security.",
+                            "grade": "A",
+                            "takenAt": "University of Michigan Dearborn",
                             "image": "",
-                            "professorName": "Brocanelli, M",
-                            "rateMyProfessorLink": "",
+                            "professorName": "Ma, Di",
+                            "rateMyProfessorLink": "https://www.ratemyprofessors.com/professor/1405365",
                             "personalNote": "",
-                            "githubLink": "https://github.com/nickwfarkas/Undergraduate-Coursework/tree/main/CSC-3100-Computer_Architecture%26Organization",
+                            "githubLink": "",
                             "subject": "Computer Science",
-                            "rating": "5"
-                        },
-                        {
-                            "code": "CSC 6580",
-                            "name": "Design and Analysis of Algorithms",
-                            "description": "Best case, worst case, and expected case complexity analysis; asymptotic approximations; solutions of recurrence equations; probabilistic techniques; divide-and-conquer; the greedy approach; dynamic programming; branch and bound; NP-completeness; parallel algorithms.",
-                            "grade": "0",
-                            "takenAt": "Wayne State University",
-                            "image": "",
-                            "professorName": "Xu, L",
-                            "rateMyProfessorLink": "https://www.ratemyprofessors.com/ShowRatings.jsp?tid=1413527",
-                            "personalNote": "First Graduate Level class taken at Wayne State University.",
-                            "githubLink": "https://github.com/nickwfarkas/Undergraduate-Coursework/tree/main/CSC-6580-Design%26Analysis_of_Algorithms",
-                            "subject": "Computer Science",
-                            "rating": "6"
-                        },
-                        {
-                            "code": "STA 5820",
-                            "name": "Introduction to Data Science",
-                            "description": "An applied statistical learning course designed for upper level undergraduate students and graduate students in mathematics and other quantitative fields. Topics include: bias-variance trade-off, regression, classification, cross-validation, bootstrap, model selection, regularization, splines, generalized additive models, tree-based methods, support vector machines, principal component analysis and clustering. Computer implementation will be discussed for each of the methods, and students will run their own data analysis projects.",
-                            "grade": "0",
-                            "takenAt": "Wayne State University",
-                            "image": "",
-                            "professorName": "Shinki, K",
-                            "rateMyProfessorLink": "https://www.ratemyprofessors.com/ShowRatings.jsp?tid=1344025",
-                            "personalNote": "One of my favorite classes of my college career thus far. We learned many different machine learning models and validation techniques from the math to the R implementation. We also spent time learning neural networks which wasn't in the class description. For the final project I created a neural network that rated songs like a famous Youtube song critic. My presentation can be seen on Youtube here: https://www.youtube.com/watch?v=FsI3pIgVHeE.",
-                            "githubLink": "https://github.com/nickwfarkas/Undergraduate-Coursework/tree/main/STA-5820-Data_Science",
-                            "subject": "Math",
                             "rating": "10"
                         },
                         {
-                            "code": "CSC 4110",
-                            "name": "Software Engineering",
-                            "description": "Software life cycle; software requirement analysis; software system design; software implementation and testing; software maintenance; team programming; ethics and programmers.",
-                            "grade": "0",
-                            "takenAt": "Wayne State University",
+                            "code": "CIS 375",
+                            "name": "Software Engineering I",
+                            "description": "This course presents an in-depth treatment of the following software engineering topics: software engineering paradigms, requirements, specification, functional design, object-oriented design, user interface design, software verification and validation, and the maintenance and management of software engineering artifacts, as well as an introductory discussion of software reliability. Various phases of the software engineering process will be modeled using UML.",
+                            "grade": "A-",
+                            "takenAt": "University of Michigan Dearborn",
                             "image": "",
-                            "professorName": "Myers, Jason",
-                            "rateMyProfessorLink": "https://www.ratemyprofessors.com/ShowRatings.jsp?tid=1344025",
-                            "personalNote": "This class acted not only as a software lifecycle class as well as a advanced python class, covering advanced python topics while creating large scale projects for hypothetical companies. Creating projects that utilitzed tKinter desktop development, Pygame game development, and sklearn machine learning.",
-                            "githubLink": "https://github.com/nickwfarkas/Undergraduate-Coursework/tree/main/CSC-4110-Software_Engineering",
+                            "professorName": "Neji, Sana ",
+                            "rateMyProfessorLink": "https://www.ratemyprofessors.com/professor/2122226",
+                            "personalNote": "",
+                            "githubLink": "",
                             "subject": "Computer Science",
-                            "rating": "6"
+                            "rating": "10"
+                        },
+                        {
+                            "code": "CIS 450",
+                            "name": "Operating Systems",
+                            "description": "Introduction to computer operating systems. Process management, CPU scheduling, memory management, file systems and I/O devices. Advanced topics, e.g., multiprogramming and multitasking, virtual memory, deadlock, I/O, job scheduling, and performance analysis using queueing models, will be introduced. Case studies of modern operating systems. A design project is required.",
+                            "grade": "B",
+                            "takenAt": "University of Michigan Dearborn",
+                            "image": "",
+                            "professorName": "Wang, Shengquan",
+                            "rateMyProfessorLink": "https://www.ratemyprofessors.com/professor/1119383",
+                            "personalNote": "",
+                            "githubLink": "",
+                            "subject": "Computer Science",
+                            "rating": "7"
+                        },
+                        {
+                            "code": "CIS 497",
+                            "name": "Intro to Artificial Intel",
+                            "description": "This course introduces students to basic concepts and methods of artificial intelligence from a computer science perspective. Emphasis of the course will be on the selection of data representations and algorithms useful in the design and implementation of intelligent systems. The course will contain an overview of one AI language and some discussion of important applications of artificial intelligence methodology.",
+                            "grade": "A",
+                            "takenAt": "University of Michigan Dearborn",
+                            "image": "",
+                            "professorName": "Wang, Shengquan",
+                            "rateMyProfessorLink": "https://www.ratemyprofessors.com/professor/1119383",
+                            "personalNote": "",
+                            "githubLink": "",
+                            "subject": "Computer Science",
+                            "rating": "7"
+                        },
+                        {
+                            "code": "CIS 427",
+                            "name": "Comp Networks and Dis Process",
+                            "description": "Study of the management aspects of computing networks and distributed systems. Topics include network architectures (ISO/OSI, TCP/IP, ATM), communication hardware (transmission media, network adaptors, switches), encoding, framing, error detection and correction, reliable transmission, data link control and LAN technology, internetworking, routing/congestion control, network design/management.",
+                            "grade": "A",
+                            "takenAt": "University of Michigan Dearborn",
+                            "image": "",
+                            "professorName": "John Baugh",
+                            "rateMyProfessorLink": "https://www.ratemyprofessors.com/professor/613426",
+                            "personalNote": "",
+                            "githubLink": "",
+                            "subject": "Computer Science",
+                            "rating": "7"
                         }
                     ]
                 },
                 {
                     "ID": "9",
-                    "name": "Summer",
+                    "name": "Fall",
                     "year": "2022",
                     "GPA": "0",
                     "standing": "Regular",
                     "classes": [
                         {
-                            "code": "MAT 2030",
-                            "name": "Calculus III",
-                            "description": "Multivariable calculus with applications. Vectors and vector functions in two and three dimensions; functions of several variables; differentiation; integration; vector calculus.",
-                            "grade": "0",
-                            "takenAt": "Wayne State University",
+                            "code": "MATH 335",
+                            "name": "Mathematical Interest Theory",
+                            "description": "This course will cover introductory topics in the mathematical theory of interest with a focus on types of interest rates, annuities, bonds and loans. These topics will be studied deterministically by applying of a variety of finite and infinite sum formulae. Theoretical derivations of topics, including duration, portfolio immunization and interest rate swaps will be studied. Financial derivatives and stochastic methods will be introduced.",
+                            "grade": "A",
+                            "takenAt": "University of Michigan Dearborn",
                             "image": "",
-                            "professorName": "Nguyen, T",
-                            "rateMyProfessorLink": "",
+                            "professorName": "Agarwal, Mahesh",
+                            "rateMyProfessorLink": "https://www.ratemyprofessors.com/professor/1367130",
                             "personalNote": "",
                             "githubLink": "",
                             "subject": "Math",
-                            "rating": ""
+                            "rating": "10"
                         },
                         {
-                            "code": "CSC 4420",
-                            "name": "Computer Operating Systems",
-                            "description": "Operating system services; file systems; CPU scheduling; memory management; virtual memory; disk scheduling; deadlocks; concurrent processes.",
-                            "grade": "0",
-                            "takenAt": "Wayne State University",
+                            "code": "MATH 300",
+                            "name": "Math Lang Proof & Struct",
+                            "description": "The course focuses on developing the following: an understanding of, and facility with, the logic and syntax of mathematical statements; and ability to recognize and propose appropriate strategies and outlines for proving given statements; facility in writing mathematical proofs; a knowledge base/toolbox of foundational material including basic concepts and terminology related to naïve set theory.",
+                            "grade": "A-",
+                            "takenAt": "University of Michigan Dearborn",
                             "image": "",
-                            "professorName": "Tuly, S",
-                            "rateMyProfessorLink": "https://www.ratemyprofessors.com/ShowRatings.jsp?tid=1413527",
+                            "professorName": "Jabbusch, Kelly",
+                            "rateMyProfessorLink": "https://www.ratemyprofessors.com/professor/1741917",
                             "personalNote": "",
-                            "githubLink": "https://github.com/nickwfarkas/Undergraduate-Coursework/tree/main/CSC-4420-Computer_Operating_Systems",
+                            "githubLink": "",
+                            "subject": "Math",
+                            "rating": "10"
+                        },
+                        {
+                            "code": "CIS 422",
+                            "name": "Massive Data Management",
+                            "description": "An introduction to database systems, concepts, and techniques for big data. The course discusses classical relational technologies, and then covers the more current approaches to managing massive amounts of data for analytics purposes. Topics include database environments, database design, the relational data model, normalization, SQL, query processing, parallel databases and query processing, in-database analytics, data warehousing, key-value and column stores, NoSQL and NewSQL approaches for managing massive data.",
+                            "grade": "B",
+                            "takenAt": "University of Michigan Dearborn",
+                            "image": "",
+                            "professorName": "Meneghetti, Niccolo",
+                            "rateMyProfessorLink": "https://www.ratemyprofessors.com/professor/1907062",
+                            "personalNote": "",
+                            "githubLink": "",
                             "subject": "Computer Science",
-                            "rating": ""
+                            "rating": "7"
+                        },
+                        {
+                            "code": "CIS 421",
+                            "name": "Database Mgmt Systems",
+                            "description": "An introduction to database systems, concepts, and techniques. Topics covered include: database environments, ER modeling, relational data model, object-oriented databases, database design theory and methodology, database languages, query processing and optimization, concurrency control, database recovery, and database security.",
+                            "grade": "A",
+                            "takenAt": "University of Michigan Dearborn",
+                            "image": "",
+                            "professorName": "Zhu, Qiang",
+                            "rateMyProfessorLink": "https://www.ratemyprofessors.com/professor/232035",
+                            "personalNote": "",
+                            "githubLink": "",
+                            "subject": "Computer Science",
+                            "rating": "7"
+                        },
+                        {
+                            "code": "CIS 4951",
+                            "name": "Design Seminar I",
+                            "description": "Students participate in the design and implementation of a major software project. Seminar topics discussed include: computing ethics and professional practice.",
+                            "grade": "A",
+                            "takenAt": "University of Michigan Dearborn",
+                            "image": "",
+                            "professorName": "Medjahed, Brahim",
+                            "rateMyProfessorLink": "https://www.ratemyprofessors.com/professor/507591",
+                            "personalNote": "",
+                            "githubLink": "",
+                            "subject": "Computer Science",
+                            "rating": "7"
                         }
                     ]
                 },
                 {
                     "ID": "10",
-                    "name": "Fall",
-                    "year": "2022",
-                    "GPA": "0",
-                    "standing": "",
-                    "classes": [
-                        {
-                            "code": "CSC 5800",
-                            "name": "Intelligent Systems: Algorithms and Tools ",
-                            "description": "Introduction to basic algorithms and software tools for intelligent data representation and analysis, including: data pre-processing, data exploration and visualization, model evaluation, predictive modeling, classification methods, association analysis, clustering, anomaly detection, representing extracted patterns as expertise, tools for data mining and intelligent systems such as WEKA, CLIPS, and MATLAB.",
-                            "grade": "0",
-                            "takenAt": "Wayne State University",
-                            "image": "",
-                            "professorName": "Arslanturk, S",
-                            "rateMyProfessorLink": "https://www.ratemyprofessors.com/ShowRatings.jsp?tid=2557412",
-                            "personalNote": "",
-                            "githubLink": "https://github.com/nickwfarkas/Undergraduate-Coursework/tree/main/CSC-5800-Intelligent_Systems",
-                            "subject": "Computer Science",
-                            "rating": ""
-                        },
-                        {
-                            "code": "CSC 5825",
-                            "name": "Introduction to Machine Learning and Applications",
-                            "description": "Through algorithmic investigation, brainstorming, and case analysis, students develop the skills and strategies that are necessary for effective leaning from data, including Big Data emerging from science and engineering.",
-                            "grade": "0",
-                            "takenAt": "Wayne State University",
-                            "image": "",
-                            "professorName": "Zhu, D",
-                            "rateMyProfessorLink": "https://www.ratemyprofessors.com/ShowRatings.jsp?tid=2038972",
-                            "personalNote": "",
-                            "githubLink": "https://github.com/nickwfarkas/Undergraduate-Coursework/tree/main/CSC-5825-Machine_Learning",
-                            "subject": "Computer Science",
-                            "rating": ""
-                        },
-                        {
-                            "code": "STA 6840",
-                            "name": "Applied Regression Analysis",
-                            "description": "Multiple linear regression; generalized linear models; random effect models; repeated measurements; mixed effect models; non-parametric additive models. Computer implementation using statistical software R; student project on real data analysis.",
-                            "grade": "0",
-                            "takenAt": "Wayne State University",
-                            "image": "",
-                            "professorName": "Shinki, K",
-                            "rateMyProfessorLink": "https://www.ratemyprofessors.com/ShowRatings.jsp?tid=1344025",
-                            "personalNote": "",
-                            "githubLink": "https://github.com/nickwfarkas/Undergraduate-Coursework/tree/main/STA-6840-Applied_Regression_Analysis",
-                            "subject": "Math",
-                            "rating": ""
-                        }
-                    ]
-                },
-                {
-                    "ID": "11",
                     "name": "Winter",
                     "year": "2023",
                     "GPA": "0",
-                    "standing": "",
+                    "standing": "Regular",
                     "classes": [
                         {
-                            "code": "CSC 4996",
-                            "name": "Senior Capstone Project",
-                            "description": "Development of skills for planning, managing, implementing, and documenting complex software projects. Project management techniques; software development teams; data management, privacy, and security.",
-                            "grade": "0",
-                            "takenAt": "Wayne State University",
+                            "code": "CIS 436",
+                            "name": "Mobile App Des & Impl",
+                            "description": "This course introduces students to the development of software applications for programmable mobile and wireless intelligent hand-held devises. Topics covered include the different mobile development platforms, best practices in mobile user interaction design, software quality assurance in mobile environment, security and privacy issues, and context-aware computing. Students will participate in a final project.",
+                            "grade": "A",
+                            "takenAt": "University of Michigan Dearborn",
                             "image": "",
-                            "professorName": "Mousavi Mojab, S",
-                            "rateMyProfessorLink": "https://www.ratemyprofessors.com/professor?tid=1922415",
-                            "personalNote": "I was assigned to a small startup named PoGo that aims to provide unbiased political information for young voters.",
-                            "githubLink": "",
-                            "subject": "Computer Science",
-                            "rating": ""
-                        },
-                        {
-                            "code": "CSC 7810",
-                            "name": "Data Mining: Algorithms and Applications",
-                            "description": "Application of various basic/advanced data mining techniques to real-world problems.",
-                            "grade": "0",
-                            "takenAt": "Wayne State University",
-                            "image": "",
-                            "professorName": "Arslanturk, S",
-                            "rateMyProfessorLink": "https://www.ratemyprofessors.com/ShowRatings.jsp?tid=2557412",
+                            "professorName": "Baugh, John",
+                            "rateMyProfessorLink": "https://www.ratemyprofessors.com/professor/613426",
                             "personalNote": "",
                             "githubLink": "",
                             "subject": "Computer Science",
-                            "rating": ""
+                            "rating": "10"
                         },
                         {
-                            "code": "PHYS 288",
-                            "name": "College Physics II",
-                            "description": "To develop a thought process which enables students to systematically solve problems no matter how difficult they appear. To create confidence and competency to solve problems involving Electricity and Magnetism. ",
-                            "grade": "0",
-                            "takenAt": "Mott Community College",
+                            "code": "ENGR 493",
+                            "name": "Experiential Honors Directed Design",
+                            "description": "The Experiential Honors Directed Design project involves the design, analysis, building and testing of software (a computer-based system, process, component, or program) or hardware (a component, assembly, device or system) to meet desired needs. A design project report and an oral presentation are expected at the end of the semester.",
+                            "grade": "A-",
+                            "takenAt": "University of Michigan Dearborn",
                             "image": "",
-                            "professorName": "DeGroot, F",
-                            "rateMyProfessorLink": "https://www.ratemyprofessors.com/professor?tid=173089",
+                            "professorName": "Maxim, Bruce",
+                            "rateMyProfessorLink": "https://www.ratemyprofessors.com/professor/138279",
                             "personalNote": "",
                             "githubLink": "",
-                            "subject": "Physical Science",
-                            "rating": ""
+                            "subject": "Computer Science",
+                            "rating": "10"
+                        },
+                        {
+                            "code": "CIS  4952",
+                            "name": "Design Seminar II",
+                            "description": "Students continue to participate in the design and implementation of a major software project. Seminar topics discussed include: computing ethics and professional practice.",
+                            "grade": "B",
+                            "takenAt": "University of Michigan Dearborn",
+                            "image": "",
+                            "professorName": "Maxim, Bruce",
+                            "rateMyProfessorLink": "https://www.ratemyprofessors.com/professor/138279",
+                            "personalNote": "",
+                            "githubLink": "",
+                            "subject": "Computer Science",
+                            "rating": "7"
                         }
                     ]
                 }
@@ -729,90 +720,52 @@
         },
         "_workExperience": [
             {
-                "_positionName": "Database Administration Intern",
-                "_companyName": "Rocket Central",
-                "_startDate": "2022/09/01",
+                "_positionName": "Associate Software Development Engineer",
+                "_companyName": "Maxar Technologies",
+                "_startDate": "2023/04/17",
                 "_endDate": "",
-                "_city": "Detroit",
+                "_city": "Ypsilanti",
                 "_attributes": [
-                    "Creation of SQL scripts and SSRS reports for database reporting and analytics to monitor server health.",
-                    "Data Mined SQL Databases to identify end of life ETLs to improve health and performance.",
-                    "Carrying out team member database infrastructure enablement through SQL on production databases."
+                    "Designing and developing software solutions, which includes coding, testing, debugging, and maintaining software applications.",
+                    "Wrote clear and concise documentation that is essential to ensure that other developers can easily understand my code.",
+                    "Collaborating with cross-functional teams to ensure that software products meet user requirements and are delivered on time."
                 ]
             },
             {
-                "_positionName": "Full Stack Engineer Intern",
-                "_companyName": "Rocket Central",
+                "_positionName": "Entry Level Security Analyst",
+                "_companyName": "Naya Group LLC",
+                "_startDate": "2022/09/01",
+                "_endDate": "",
+                "_city": "Remote",
+                "_attributes": [
+                    "Conducted comprehensive Tenable Nessus scans and analyzed results to identify and remediate vulnerabilities, ensuring optimal system security",
+                    "Maintained effective communication with clients to ensure timely and accurate completion of all security tasks and deliverables.",
+                    "Created and managed our company website and social media accounts, and regularly curated and posted high-quality content."
+                ]
+            },
+            {
+                "_positionName": "Assistant Manager",
+                "_companyName": "MJR Southgate Digital Cinema 20",
+                "_startDate": "2018/09/01",
+                "_endDate": "2023/04/14",
+                "_city": "Southgate",
+                "_attributes": [
+                    "Ran and reviewed Tenable Nessus scans to identify and correct Vulnerabilities.",
+                    "Communicated with clients to ensure Security task are being completed correctly and in a timely manner.",
+                    "Created and managed Company website and social medias, and posted content regularly."
+                ]
+            },
+            {
+                "_positionName": "Telecommunications Intern",
+                "_companyName": "Little Caesars Enterprises",
                 "_startDate": "2022/05/01",
                 "_endDate": "2022/09/01",
                 "_city": "Detroit",
                 "_attributes": [
-                    "Developed rich UI experiences using Angular and Material design to deliver a simplistic and beautiful solutions for internal business problems.",
-                    "Created backend solutions using NodeJS to improve API performance.",
-                    "Worked on a small internal team to develope smart contracts using Solidity and the Ethereum Blockchain."
-                ]
-            },
-            {
-                "_positionName": "Front End Engineer Intern",
-                "_companyName": "Rocket Mortgage",
-                "_startDate": "2021/05/01",
-                "_endDate": "2021/08/01",
-                "_city": "Detroit",
-                "_attributes": [
-                    "Developed rich UI experiences using Angular and Material design to deliver a simplistic and beautiful solutions for internal business problems.",
-                    "Created backend solutions to plug into UI using C# .Net Core, Entity Framework, and SQL.",
-                    "Worked with team of interns to create a Microsoft Teams bot utilizing C# and Microsoft Developer tools."
-                ]
-            },
-            {
-                "_positionName": "Salesforce Engineer Intern",
-                "_companyName": "Quicken Loans/Rocket Mortgage",
-                "_startDate": "2020/06/01",
-                "_endDate": "2020/08/01",
-                "_city": "Detroit",
-                "_attributes": [
-                    "Querying, modifying and creating data tables in Salesforce Marketing Cloud using SQL.",
-                    "Salesforce Marketing Cloud email testing and template creation using Postman.",
-                    "Assisted marketing team with technical challenges in Salesforce Marketing Cloud.",
-                    "Assisted in creating Salesforce Marketing Cloud Automations and MuleSoft flows."
-                ]
-            },
-            {
-                "_positionName": "Backend Engineer Intern",
-                "_companyName": "Quicken Loans/Rocket Mortgage",
-                "_startDate": "2019/05/01",
-                "_endDate": "2019/08/01",
-                "_city": "Detroit",
-                "_attributes": [
-                    "C# .Net Core backend development for many different internal applications.",
-                    "Head of UX design with a team of interns to create an internal education tool for new team members.",
-                    "Presented iteration recaps that showed our business partners and higher management what features my team have deployed and what they can be expecting to see deployed",
-                    "Created infrastructure diagrams and code documentation to show how code has been implemented and how infrastructure has been structured to support said code so there can be a seamless transition when a team or team member takes over work on an application."
-                ]
-            },
-            {
-                "_positionName": "Sortation Associate",
-                "_companyName": "Amazon",
-                "_startDate": "2019/10/01",
-                "_endDate": "2022/09/01",
-                "_city": "Brownstown",
-                "_attributes": [ 
-                    "Unloaded incoming trucks and properly staged inventory for processing.",
-                    "Loaded outbound trucks by hand or by pallet jacking whole pallets in a safe and efficent manner.",                   
-                    "Assisting Associate Product Check In, making sure associates have everything they need to be successful. Clearing conveyor jams and packages that are sent to the wrong location while handling damaged packages safely.",
-                    "Problem Solving if there was a damaged package or package in incorrect building, I would assess the problem and take care it. Whether I had to re/box, do spill cleanup in which I was hazmat trained, or send a request for a new product for the customer."
-                ]
-            },
-            {
-                "_positionName": "Administrative Assistant",
-                "_companyName": "ATS Advisors",
-                "_startDate": "2017/06/01",
-                "_endDate": "2019/05/01",
-                "_city": "Allen Park",
-                "_attributes": [
-                    "Updated filing system by digitizing tax forms and bookkeeping records so the whole company has to rely less on paper filings with more secure, scalable, and reliable digital pdf format.",
-                    "Corporate QuickBooks bookkeeping throughout year/ending so I could create payroll, income, and other financial analytics for quarterly, semiannual, and annual taxes.",
-                    "Completed front desk duties such as checking in and out clients, taking payment and handling money, call reception, aid in understanding their tax return and customer service resulting in a seamless tax process for our clients."
+                    "Created and ran Powershell commands to create phone extensions for Microsoft Teams users.",
+                    "Used Cisco Unified Communications Manager to program phone lines for new hires.",
+                    "Handled tickets sent in from different Illitch Companies (ex Comerica Park, Little Caesars Arena, Little Caesars Enterprises, etc).",
+                    "Terminated all phone wires on punch blocks at the Fox Theatre and Little Caesars Headquarters."
                 ]
             }
         ],
@@ -829,12 +782,12 @@
             {
                 "_skillName": "Angular",
                 "_skillLogo": "./assets/logos/angular.png",
-                "_featuredProject": "https://github.com/nickwfarkas/Personal-Portfolio-UI",
+                "_featuredProject": "",
                 "_skillDescription": "Proficent using Angular to create responsive UIs.",
-                "_skillRating": 8,
-                "_industryExperience": 2,
+                "_skillRating": 5,
+                "_industryExperience": 1,
                 "_tags": [
-                    "Industry Experience",
+                    "Academic Experience",
                     "Front End",
                     "Web Development"
                 ]
@@ -842,12 +795,12 @@
             {
                 "_skillName": "TypeScript",
                 "_skillLogo": "./assets/logos/ts.png",
-                "_featuredProject": "https://github.com/nickwfarkas/Personal-Portfolio-UI",
+                "_featuredProject": "https://www.speedlegame.com/",
                 "_skillDescription": "Proficent using the TypeScript with Angular Framework for front end and NodeJS for backend to write typeable, testable, scalable code for UIs.",
-                "_skillRating": 8,
-                "_industryExperience": 2,
+                "_skillRating": 5,
+                "_industryExperience": 1,
                 "_tags": [
-                    "Industry Experience",
+                    "Academic Experience",
                     "Front End",
                     "Web Development"
                 ]
@@ -860,7 +813,7 @@
                 "_skillRating": 4,
                 "_industryExperience": 2,
                 "_tags": [
-                    "Industry Experience",
+                    "Academic Experience",
                     "Back End",
                     "Web Development"
                 ]
@@ -868,12 +821,12 @@
             {
                 "_skillName": "JavaScript",
                 "_skillLogo": "./assets/logos/js.png",
-                "_featuredProject": "https://github.com/nickwfarkas/American-Commercial-Upholstery-And-Cabinet",
-                "_skillDescription": "Experienced writing vanilla JavaScript and JQuery to create small scale web applications but I prefer Typescript to vanilla JavaScript.",
-                "_skillRating": 8,
+                "_featuredProject": "https://www.speedlegame.com/",
+                "_skillDescription": "",
+                "_skillRating": 4,
                 "_industryExperience": 1,
                 "_tags": [
-                    "Industry Experience",
+                    "Academic Experience",
                     "Front End",
                     "Web Development"
                 ]
@@ -881,12 +834,12 @@
             {
                 "_skillName": "HTML",
                 "_skillLogo": "./assets/logos/html.png",
-                "_featuredProject": "https://github.com/nickwfarkas/Personal-Portfolio-UI", 
+                "_featuredProject": "", 
                 "_skillDescription": "It is a structured markup language and yes it is also a programming language in some cases.",
-                "_skillRating": 8,
+                "_skillRating": 7,
                 "_industryExperience": 2,
                 "_tags": [
-                    "Industry Experience",
+                    "Academic Experience",
                     "Front End",
                     "Web Development"
                 ]
@@ -899,7 +852,7 @@
                 "_skillRating": 8,
                 "_industryExperience": 2,
                 "_tags": [
-                    "Industry Experience",
+                    "Academic Experience",
                     "Front End",
                     "Web Development"
                 ]
@@ -907,13 +860,12 @@
             {
                 "_skillName": "SQL",
                 "_skillLogo": "./assets/logos/sql.png",
-                "_featuredProject": "https://github.com/nickwfarkas/TODO-List/tree/main/api",
-                "_skillDescription": "Working on Rocket Mortgages Data Warehouse had me writting stored procedures, ETLs, and queries all day.",
-                "_skillRating": 8,
+                "_featuredProject": "",
+                "_skillDescription": "I have taken three different classes on SQL in college, ranging in different difficulties. From intro to massive data, I have a great grasp of SQL Databases.",
+                "_skillRating": 6,
                 "_industryExperience": 3,
                 "_tags": [
                     "Academic Experience",
-                    "Industry Experience ",
                     "Back End",
                     "Web Development",
                     "Database"
@@ -922,9 +874,9 @@
             {
                 "_skillName": "C++",
                 "_skillLogo": "./assets/logos/cpp.png",
-                "_featuredProject": "https://github.com/nickwfarkas/Undergraduate-Coursework/tree/main/CSC-6580-Design%26Analysis_of_Algorithms/Huffman_File_Compression",
-                "_skillDescription": "Though I have never worked with C++ on a industry application. C++ is my language of choice when solving academic computer science problems from data structures, algorithms, to even a little microcontroller programming.",
-                "_skillRating": 5,
+                "_featuredProject": "",
+                "_skillDescription": "C++ was the first language I learned in highschool and college. Most of my school projects are in C++.",
+                "_skillRating": 8,
                 "_industryExperience": 0,
                 "_tags": [
                     "Academic Experience",
@@ -934,9 +886,9 @@
             {
                 "_skillName": "Java",
                 "_skillLogo": "./assets/logos/java.png",
-                "_featuredProject": "https://github.com/nickwfarkas/Undergraduate-Coursework/tree/main/CSC-3020-Java/Projects/Ciphers",
-                "_skillDescription": "I have done a lot of school projects in Java and even some high school robotics but have no idustry experience yet.",
-                "_skillRating": 5,
+                "_featuredProject": "",
+                "_skillDescription": "Java was the second language I learned in college. From basic programs to client/server programs, I have gained a ton of experience.",
+                "_skillRating": 7,
                 "_industryExperience": 0,
                 "_tags": [
                     "Academic Experience",
@@ -946,9 +898,9 @@
             {
                 "_skillName": "Python",
                 "_skillLogo": "./assets/logos/python.png",
-                "_featuredProject": "https://github.com/nickwfarkas/Undergraduate-Coursework/tree/main/CSC-4110-Software_Engineering/Twins-Game",
-                "_skillDescription": "From building APIs, text mining SQL XML, to deep learning I work with python daily for data science and engineering.",
-                "_skillRating": 8,
+                "_featuredProject": "",
+                "_skillDescription": "I was first exposed to Python my senior year of highschool. Python has been my go to for my big school projects.",
+                "_skillRating": 6,
                 "_industryExperience": 1,
                 "_tags": [
                     "Academic Experience",
@@ -958,39 +910,14 @@
                 ]
             },
             {
-                "_skillName": "R",
-                "_skillLogo": "./assets/logos/r.png",
-                "_featuredProject": "https://github.com/nickwfarkas/Undergraduate-Coursework/tree/main/STA-5820-Data_Science/NeedleDropAI",
-                "_skillDescription": "I have academic experience utilizing a lot of the tools that R has to offer from basic statistical analysis to Neural Networks.",
-                "_skillRating": 7,
-                "_industryExperience": 0,
-                "_tags": [
-                    "Academic Experience",
-                    "Data Science"
-                ]
-            },
-            {
                 "_skillName": "Git/GitHub",
                 "_skillLogo": "./assets/github-logo.png",
-                "_featuredProject": "https://github.com/nickwfarkas",
-                "_skillDescription": "Can I get some eyes on my pull request",
-                "_skillRating": 8,
+                "_featuredProject": "",
+                "_skillDescription": "",
+                "_skillRating": 5,
                 "_industryExperience": 3,
                 "_tags": [
                     "Academic Experience",
-                    "Industry Experience",
-                    "Developer Tools"
-                ]
-            },
-            {
-                "_skillName": "Postman",
-                "_skillLogo": "./assets/logos/postman.png",
-                "_featuredProject": "",
-                "_skillDescription": "I have experience testing APIs with Postman as well as creating collections that other Team Members can utilize when testing APIs.",
-                "_skillRating": 8,
-                "_industryExperience": 3,
-                "_tags": [
-                    "Industry Experience",
                     "Developer Tools"
                 ]
             },
@@ -998,9 +925,9 @@
                 "_skillName": "Excel",
                 "_skillLogo": "./assets/logos/excel.png",
                 "_featuredProject": "",
-                "_skillDescription": "From my first job to my last job I have been working in Excel for years. From bookkeeping to data analysis, I know my way around Excel. I have earned a Microsoft Specialist Certification in Excel as well.",
-                "_skillRating": 8,
-                "_industryExperience": 5,
+                "_skillDescription": "From my first job to my current job I have been working in Excel for years. From bookkeeping to data analysis, I know my way around Excel.",
+                "_skillRating": 9,
+                "_industryExperience": 7,
                 "_tags": [
                     "Academic Experience",
                     "Industry Experience",
@@ -1016,45 +943,21 @@
                 "_skillRating": 7,
                 "_industryExperience": 3,
                 "_tags": [
+                    "Academic Experience",
                     "Industry Experience",
                     "Developer Tools",
                     "Soft Skill"
                 ]
             }, 
             {
-                "_skillName": "Infrastructure Diagramming",
-                "_skillLogo": "",
-                "_featuredProject": "",
-                "_skillDescription": "I enjoy creating software and implementing my thoughts but I have always loved seeing my big picture thoughts on paper in the form of Flowcharts, Class Diagrams, Entity Relationship Diagrams, UML, or Network Diagrams.",
-                "_skillRating": 8,
-                "_industryExperience": 3,
-                "_tags": [
-                    "Industry Experience",
-                    "Academic Experience",
-                    "Developer Tools"
-                ]
-            },
-            {
-                "_skillName": "Machine Learning",
-                "_skillLogo": "",
-                "_featuredProject": "https://github.com/nickwfarkas/Undergraduate-Coursework/tree/main/STA-5820-Data_Science/NeedleDropAI",
-                "_skillDescription": "I am actively studying machine learning agorithms and implementing them on my side projects (see my GitHub). I have intermediate knowlege on both supervised, unsupervised learning, and most recently been learning more about MLOps to deploy models.",
-                "_skillRating": 7,
-                "_industryExperience": 0,
-                "_tags": [
-                    "Data Science",
-                    "Academic Experience"
-                ]
-            },
-            {
                 "_skillName": "NodeJS",
                 "_skillLogo": "./assets/logos/nodejs.png",
                 "_featuredProject": "",
-                "_skillDescription": "I first experienced Node using Angular and NPM. I have industry experience across several domains writing and testing server side code with NodeJS using Typescript.",
+                "_skillDescription": "I first experienced Node using Angular and NPM.",
                 "_skillRating": 5,
                 "_industryExperience": 1,
                 "_tags": [
-                    "Industry Experience",
+                    "Academic Experience",
                     "Back End",
                     "Web Development"
                 ]
@@ -1063,19 +966,19 @@
                 "_skillName": "Amazon Web Services",
                 "_skillLogo": "",
                 "_featuredProject": "",
-                "_skillDescription": "I am slowly familiarizing myself with AWS. I have personal and industry experience utilizing tools such as Lambda, Dynamo, S3, RDS, CloudWatch, ect.",
-                "_skillRating": 6,
-                "_industryExperience": 3,
+                "_skillDescription": "I am slowly familiarizing myself with AWS. I have personal experience utilizing tools such as Amplify and S3.",
+                "_skillRating": 4,
+                "_industryExperience": 0,
                 "_tags": [
-                    "Industry Experience",
+                    "Academic Experience",
                     "Back End",
                     "Web Development"
                 ]
             }
         ],
-        "_gitHubUrl": "https://github.com/nickwfarkas",
-        "_instagramUrl": "https://www.instagram.com/nickfarkas_9/",
-        "_linkedInUrl": "https://www.linkedin.com/in/nicholas-farkas-097a6b157/",
-        "_resumePath": "./assets/Farkas-Resume-2023.pdf"
+        "_gitHubUrl": "https://github.com/svoranumd",
+        "_instagramUrl": "https://www.instagram.com/skyler_voran/",
+        "_linkedInUrl": "https://www.linkedin.com/in/skyler-voran-927147206/",
+        "_resumePath": "./assets/Skyler-Voran-Resume.pdf"
     }
 } 

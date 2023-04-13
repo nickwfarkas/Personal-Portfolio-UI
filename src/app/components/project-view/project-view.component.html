@@ -1,18 +1,30 @@
-<div class="p-20 flex flex-row flex-wrap justify-around">
-    <div class="flex p-10 whitespace-normal" *ngFor="let repo of repository">
-        <mat-card class="example-card justify-evenly bg-grey-800">
+<div class="p-5 flex flex-row flex-wrap justify-around">
+    <div class="flex flex-row w-full">
+        <div class="p-10 flex justify-center">
+            <img class="w-7/12" src="{{repository[1].owner.avatar_url}}">
+        </div>
+        <div class="flex flex-row w-full items-center headerTxt">
+            <span class="text-gray-200 text">{{repository[1].owner.login}}</span>
+        </div>
+    </div>
+    <div class="p-5 flex whitespace-normal" *ngFor="let repo of repository.reverse()">
+        <mat-card class="text-gray-200 example-card justify-evenly bg-gray-700">
             <mat-card-header>
               <mat-card-title>{{repo.name}}</mat-card-title>
-              <mat-card-subtitle>Last push {{repo.pushed_at}}</mat-card-subtitle>
+              <mat-card-subtitle class="text-gray-300">Last push {{convertDate(repo.pushed_at)}}</mat-card-subtitle>
             </mat-card-header>
             <mat-card-content>
                 <p class="font-light">{{repo.description}}</p>
                 <p>Top Language: {{repo.language}}</p>
-                <p>Created: {{repo.created_at}}</p>
-                <p>Private Repository: {{repo.private}}</p>
+                <p>Created: {{convertDate(repo.created_at)}}</p>
+                <div *ngIf="repo.private">
+                    Private Repository
+                </div>
             </mat-card-content>
             <mat-card-actions>
-              <button mat-button>Go to Github</button>
+                <div *ngIf="!repo.private">
+                    <button (click)="goToUrl(repo.html_url)" mat-button>Go to Github</button>
+                </div>
             </mat-card-actions>
           </mat-card>
         <br>
