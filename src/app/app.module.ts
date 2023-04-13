@@ -28,6 +28,8 @@ import { MatTabsModule } from '@angular/material/tabs';
 import { MatDialogModule } from '@angular/material/dialog';
 import { ClassDialogComponent } from './components/class-dialog/class-dialog.component';
 import { MatButtonModule } from '@angular/material/button';
+import { ProjectViewComponent } from './components/project-view/project-view.component';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -36,7 +38,8 @@ import { MatButtonModule } from '@angular/material/button';
     WorkExperienceViewComponent,
     EducationViewComponent,
     SkillsDrawerComponent,
-    ClassDialogComponent
+    ClassDialogComponent,
+    ProjectViewComponent
   ],
   imports: [
     BrowserModule,
@@ -61,7 +64,8 @@ import { MatButtonModule } from '@angular/material/button';
     NgxGaugeModule,
     MatTabsModule,
     MatDialogModule,
-    MatButtonModule
+    MatButtonModule,
+    HttpClientModule
   ],
   providers: [
     DrawerService
